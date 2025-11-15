@@ -1,8 +1,6 @@
 name: Update TV Channels
 
 on:
-  schedule:
-    - cron: '0 0,12 * * *'  # 每天 UTC 时间 0 点和 12 点运行
   workflow_dispatch:  # 允许手动触发
 
 permissions:
