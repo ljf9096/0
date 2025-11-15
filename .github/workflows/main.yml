@@ -1,4 +1,4 @@
-name: Daily Update
+name: Daily Update1
 
 on:
   schedule:
@@ -33,7 +33,7 @@ jobs:
         pip install requests
 
     - name: Run Python script
-      run: python main.py
+      run: python 1.py
 
     - name: Commit and push if changed
       run: |
