@@ -1,4 +1,4 @@
-name: 1.py
+name: 2.py
 
 on:
   workflow_dispatch:  # 允许手动触发
