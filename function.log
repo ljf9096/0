@@ -1,43 +1,225 @@
-2025-11-15 15:00:32,211 - INFO - 模板文件 'demo.txt' 解析成功，共 4 个分类
-2025-11-15 15:00:42,223 - ERROR - URL: http://175.178.251.183:6689/aktvlive.txt 获取失败❌, 错误: HTTPConnectionPool(host='175.178.251.183', port=6689): Max retries exceeded with url: /aktvlive.txt (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fbe1168b340>, 'Connection to 175.178.251.183 timed out. (connect timeout=10)'))
-2025-11-15 15:00:42,425 - INFO - URL: https://live.fanmingming.com/tv/m3u/ipv6.m3u 获取成功，格式: m3u
-2025-11-15 15:00:42,425 - INFO - URL: https://live.fanmingming.com/tv/m3u/ipv6.m3u 解析成功✅，分类: 央视频道, 卫视频道, 浙江频道, 内蒙频道
-2025-11-15 15:00:42,501 - INFO - URL: https://raw.githubusercontent.com/yuanzl77/IPTV/main/直播/央视频道.txt 获取成功，格式: txt
-2025-11-15 15:00:42,502 - INFO - URL: https://raw.githubusercontent.com/yuanzl77/IPTV/main/直播/央视频道.txt 解析成功✅，分类: 央视频道
-2025-11-15 15:00:52,514 - ERROR - URL: http://120.79.4.185/new/mdlive.txt 获取失败❌, 错误: HTTPConnectionPool(host='120.79.4.185', port=80): Max retries exceeded with url: /new/mdlive.txt (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fbe1168bd60>, 'Connection to 120.79.4.185 timed out. (connect timeout=10)'))
-2025-11-15 15:00:52,575 - ERROR - URL: https://raw.githubusercontent.com/Fairy8o/IPTV/main/PDX-V4.txt 获取失败❌, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/Fairy8o/IPTV/main/PDX-V4.txt
-2025-11-15 15:00:52,641 - ERROR - URL: https://raw.githubusercontent.com/Fairy8o/IPTV/main/PDX-V6.txt 获取失败❌, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/Fairy8o/IPTV/main/PDX-V6.txt
-2025-11-15 15:00:53,310 - INFO - URL: https://live.zhoujie218.top/tv/iptv6.txt 获取成功，格式: txt
-2025-11-15 15:00:53,310 - INFO - URL: https://live.zhoujie218.top/tv/iptv6.txt 解析成功✅，分类: 更新时间
-2025-11-15 15:00:53,639 - INFO - URL: https://live.zhoujie218.top/tv/iptv4.txt 获取成功，格式: txt
-2025-11-15 15:00:53,641 - INFO - URL: https://live.zhoujie218.top/tv/iptv4.txt 解析成功✅，分类: 央视频道, 卫视频道, 电影频道, 数字频道, 儿童频道, 地方频道, 纪录频道, 体育频道, 解说频道, 音乐频道, 春晚频道, 直播中国, 更新时间
-2025-11-15 15:00:53,668 - ERROR - URL: https://www.mytvsuper.xyz/m3u/Live.m3u 获取失败❌, 错误: HTTPSConnectionPool(host='www.mytvsuper.xyz', port=443): Max retries exceeded with url: /m3u/Live.m3u (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fbe1168a440>: Failed to resolve 'www.mytvsuper.xyz' ([Errno -2] Name or service not known)"))
-2025-11-15 15:00:54,802 - ERROR - URL: https://tv.youdu.fan:666/live/ 获取失败❌, 错误: 403 Client Error: Forbidden for url: https://tv.youdu.fan:666/live/
-2025-11-15 15:00:55,626 - INFO - URL: http://ww.weidonglong.com/dsj.txt 获取成功，格式: txt
-2025-11-15 15:00:55,626 - INFO - URL: http://ww.weidonglong.com/dsj.txt 解析成功✅，分类: 本版本停服, 央视, 卫视, 影视, 体育, 👉下载地址
-2025-11-15 15:00:55,943 - ERROR - URL: http://xhztv.top/zbc.txt 获取失败❌, 错误: 404 Client Error: Not Found for url: http://xhztv.top/zbc.txt
-2025-11-15 15:00:56,117 - INFO - URL: https://raw.githubusercontent.com/qingwen07/awesome-iptv/main/tvbox_live_all.txt 获取成功，格式: txt
-2025-11-15 15:00:56,124 - INFO - URL: https://raw.githubusercontent.com/qingwen07/awesome-iptv/main/tvbox_live_all.txt 解析成功✅，分类: 央视, 新闻, 卫视台, 地方台, 港澳台, 埋堆堆, 影视, 体育, 音乐, 小品, 咪咕, 斗鱼, 少儿, 国外, IPV6, 
-2025-11-15 15:00:56,205 - INFO - URL: https://raw.githubusercontent.com/Guovin/TV/gd/output/result.txt 获取成功，格式: txt
-2025-11-15 15:00:56,208 - INFO - URL: https://raw.githubusercontent.com/Guovin/TV/gd/output/result.txt 解析成功✅，分类: 🕘️更新时间, 📺央视频道, 💰央视付费频道, 📡卫视频道, ☘️广东频道, ☘️浙江频道, ☘️北京频道, ☘️上海频道, ☘️重庆频道, ☘️江苏频道, ☘️辽宁频道, ☘️湖南频道, ☘️湖北频道, ☘️广西频道, ☘️天津频道, ☘️四川频道, ☘️陕西频道, ☘️福建频道, ☘️海南频道, ☘️河南频道, ☘️河北频道, ☘️贵州频道, ☘️甘肃频道, ☘️新疆频道, ☘️山东频道, ☘️山西频道, ☘️安徽频道, ☘️宁夏频道, ☘️吉林频道, ☘️内蒙古频道, ☘️云南频道, ☘️青海频道, ☘️黑龙江频道, 🌊港·澳·台, 🎬电影频道, 🎥咪咕直播, 🏀体育频道, 🪁动画频道, 🎮游戏频道, 🎵音乐频道, 🏛经典剧场
-2025-11-15 15:00:58,572 - ERROR - URL: http://home.jundie.top:81/Cat/tv/live.txt 获取失败❌, 错误: 404 Client Error: Not Found for url: http://home.jundie.top:81/Cat/tv/live.txt
-2025-11-15 15:00:58,636 - ERROR - URL: https://raw.githubusercontent.com/vbskycn/iptv/master/tv/hd.txt 获取失败❌, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/vbskycn/iptv/master/tv/hd.txt
-2025-11-15 15:00:59,152 - INFO - URL: https://cdn.jsdelivr.net/gh/YueChan/live@main/IPTV.m3u 获取成功，格式: m3u
-2025-11-15 15:00:59,153 - INFO - URL: https://cdn.jsdelivr.net/gh/YueChan/live@main/IPTV.m3u 解析成功✅，分类: 央视, 卫视, 地方, 数字
-2025-11-15 15:00:59,225 - INFO - URL: https://raw.githubusercontent.com/cymz6/AutoIPTV-Hotel/main/lives.txt 获取成功，格式: txt
-2025-11-15 15:00:59,225 - INFO - URL: https://raw.githubusercontent.com/cymz6/AutoIPTV-Hotel/main/lives.txt 解析成功✅，分类: 央视频道, 卫视频道, 其他频道
-2025-11-15 15:00:59,293 - INFO - URL: https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/live.txt 获取成功，格式: txt
-2025-11-15 15:00:59,293 - INFO - URL: https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/live.txt 解析成功✅，分类: 央视
-2025-11-15 15:01:00,272 - INFO - URL: https://fm1077.serv00.net/SmartTV.m3u 获取成功，格式: m3u
-2025-11-15 15:01:00,273 - INFO - URL: https://fm1077.serv00.net/SmartTV.m3u 解析成功✅，分类: 臺灣 Taiwan, 馬來西亞 Malaysia, 新加坡 Singapore, 印尼 Indonesia, 香港 Hongkong, 中國 China, 體育 Sports, 印度 Indian, 電影 Movie, 紀錄 Documentary, 新聞 News, 兒童 Kids, 泰國 Thailand, 英國 United Kingdom, 越南 Vietnam, 韓國 Korea, 日本 Japan
-2025-11-15 15:01:00,346 - INFO - URL: https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt 获取成功，格式: txt
-2025-11-15 15:01:00,346 - INFO - URL: https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt 解析成功✅，分类: 央视频道, 卫视频道, 其他频道
-2025-11-15 15:01:00,418 - INFO - URL: https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt 获取成功，格式: txt
-2025-11-15 15:01:00,418 - INFO - URL: https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt 解析成功✅，分类: 更新时间
-2025-11-15 15:01:00,427 - INFO - 分类 '央视频道': 模板频道 18 个, 匹配成功 18 个
-2025-11-15 15:01:00,441 - INFO - 分类 '卫视频道': 模板频道 30 个, 匹配成功 30 个
-2025-11-15 15:01:00,444 - INFO - 分类 '港·澳·台': 模板频道 8 个, 匹配成功 7 个
-2025-11-15 15:01:00,447 - INFO - 分类 '影视频道': 模板频道 7 个, 匹配成功 7 个
-2025-11-15 15:01:00,475 - WARNING - 频道未找到: TVBS欢乐 (分类: 港·澳·台)
-2025-11-15 15:01:00,476 - INFO - 频道文件生成成功: live.m3u, live.txt
-2025-11-15 15:01:00,476 - INFO - 频道处理完成
+2025-11-15 15:03:08,427 - INFO - 模板文件 'demo.txt' 解析成功，共 4 个分类
+2025-11-15 15:03:18,439 - ERROR - URL: http://175.178.251.183:6689/aktvlive.txt 获取失败❌, 错误: HTTPConnectionPool(host='175.178.251.183', port=6689): Max retries exceeded with url: /aktvlive.txt (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f24fd41ee60>, 'Connection to 175.178.251.183 timed out. (connect timeout=10)'))
+2025-11-15 15:03:18,530 - INFO - URL: https://live.fanmingming.com/tv/m3u/ipv6.m3u 获取成功，格式: m3u
+2025-11-15 15:03:18,530 - INFO - URL: https://live.fanmingming.com/tv/m3u/ipv6.m3u 解析成功✅，分类: 央视频道, 卫视频道, 浙江频道, 内蒙频道
+2025-11-15 15:03:18,680 - INFO - URL: https://raw.githubusercontent.com/yuanzl77/IPTV/main/直播/央视频道.txt 获取成功，格式: txt
+2025-11-15 15:03:18,680 - INFO - URL: https://raw.githubusercontent.com/yuanzl77/IPTV/main/直播/央视频道.txt 解析成功✅，分类: 央视频道
+2025-11-15 15:03:28,692 - ERROR - URL: http://120.79.4.185/new/mdlive.txt 获取失败❌, 错误: HTTPConnectionPool(host='120.79.4.185', port=80): Max retries exceeded with url: /new/mdlive.txt (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f24fd41dff0>, 'Connection to 120.79.4.185 timed out. (connect timeout=10)'))
+2025-11-15 15:03:28,807 - ERROR - URL: https://raw.githubusercontent.com/Fairy8o/IPTV/main/PDX-V4.txt 获取失败❌, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/Fairy8o/IPTV/main/PDX-V4.txt
+2025-11-15 15:03:28,948 - ERROR - URL: https://raw.githubusercontent.com/Fairy8o/IPTV/main/PDX-V6.txt 获取失败❌, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/Fairy8o/IPTV/main/PDX-V6.txt
+2025-11-15 15:03:29,382 - INFO - URL: https://live.zhoujie218.top/tv/iptv6.txt 获取成功，格式: txt
+2025-11-15 15:03:29,382 - INFO - URL: https://live.zhoujie218.top/tv/iptv6.txt 解析成功✅，分类: 更新时间
+2025-11-15 15:03:29,517 - INFO - URL: https://live.zhoujie218.top/tv/iptv4.txt 获取成功，格式: txt
+2025-11-15 15:03:29,518 - INFO - URL: https://live.zhoujie218.top/tv/iptv4.txt 解析成功✅，分类: 央视频道, 卫视频道, 电影频道, 数字频道, 儿童频道, 地方频道, 纪录频道, 体育频道, 解说频道, 音乐频道, 春晚频道, 直播中国, 更新时间
+2025-11-15 15:03:29,556 - ERROR - URL: https://www.mytvsuper.xyz/m3u/Live.m3u 获取失败❌, 错误: HTTPSConnectionPool(host='www.mytvsuper.xyz', port=443): Max retries exceeded with url: /m3u/Live.m3u (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f24fd41d6c0>: Failed to resolve 'www.mytvsuper.xyz' ([Errno -2] Name or service not known)"))
+2025-11-15 15:03:30,488 - ERROR - URL: https://tv.youdu.fan:666/live/ 获取失败❌, 错误: 403 Client Error: Forbidden for url: https://tv.youdu.fan:666/live/
+2025-11-15 15:03:31,118 - INFO - URL: http://ww.weidonglong.com/dsj.txt 获取成功，格式: txt
+2025-11-15 15:03:31,118 - INFO - URL: http://ww.weidonglong.com/dsj.txt 解析成功✅，分类: 本版本停服, 央视, 卫视, 影视, 体育, 👉下载地址
+2025-11-15 15:03:31,303 - ERROR - URL: http://xhztv.top/zbc.txt 获取失败❌, 错误: 404 Client Error: Not Found for url: http://xhztv.top/zbc.txt
+2025-11-15 15:03:31,653 - INFO - URL: https://raw.githubusercontent.com/qingwen07/awesome-iptv/main/tvbox_live_all.txt 获取成功，格式: txt
+2025-11-15 15:03:31,660 - INFO - URL: https://raw.githubusercontent.com/qingwen07/awesome-iptv/main/tvbox_live_all.txt 解析成功✅，分类: 央视, 新闻, 卫视台, 地方台, 港澳台, 埋堆堆, 影视, 体育, 音乐, 小品, 咪咕, 斗鱼, 少儿, 国外, IPV6, 
+2025-11-15 15:03:31,857 - INFO - URL: https://raw.githubusercontent.com/Guovin/TV/gd/output/result.txt 获取成功，格式: txt
+2025-11-15 15:03:31,860 - INFO - URL: https://raw.githubusercontent.com/Guovin/TV/gd/output/result.txt 解析成功✅，分类: 🕘️更新时间, 📺央视频道, 💰央视付费频道, 📡卫视频道, ☘️广东频道, ☘️浙江频道, ☘️北京频道, ☘️上海频道, ☘️重庆频道, ☘️江苏频道, ☘️辽宁频道, ☘️湖南频道, ☘️湖北频道, ☘️广西频道, ☘️天津频道, ☘️四川频道, ☘️陕西频道, ☘️福建频道, ☘️海南频道, ☘️河南频道, ☘️河北频道, ☘️贵州频道, ☘️甘肃频道, ☘️新疆频道, ☘️山东频道, ☘️山西频道, ☘️安徽频道, ☘️宁夏频道, ☘️吉林频道, ☘️内蒙古频道, ☘️云南频道, ☘️青海频道, ☘️黑龙江频道, 🌊港·澳·台, 🎬电影频道, 🎥咪咕直播, 🏀体育频道, 🪁动画频道, 🎮游戏频道, 🎵音乐频道, 🏛经典剧场
+2025-11-15 15:03:32,673 - ERROR - URL: http://home.jundie.top:81/Cat/tv/live.txt 获取失败❌, 错误: 404 Client Error: Not Found for url: http://home.jundie.top:81/Cat/tv/live.txt
+2025-11-15 15:03:32,797 - ERROR - URL: https://raw.githubusercontent.com/vbskycn/iptv/master/tv/hd.txt 获取失败❌, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/vbskycn/iptv/master/tv/hd.txt
+2025-11-15 15:03:32,979 - INFO - URL: https://cdn.jsdelivr.net/gh/YueChan/live@main/IPTV.m3u 获取成功，格式: m3u
+2025-11-15 15:03:32,979 - INFO - URL: https://cdn.jsdelivr.net/gh/YueChan/live@main/IPTV.m3u 解析成功✅，分类: 央视, 卫视, 地方, 数字
+2025-11-15 15:03:33,122 - INFO - URL: https://raw.githubusercontent.com/cymz6/AutoIPTV-Hotel/main/lives.txt 获取成功，格式: txt
+2025-11-15 15:03:33,122 - INFO - URL: https://raw.githubusercontent.com/cymz6/AutoIPTV-Hotel/main/lives.txt 解析成功✅，分类: 央视频道, 卫视频道, 其他频道
+2025-11-15 15:03:33,249 - INFO - URL: https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/live.txt 获取成功，格式: txt
+2025-11-15 15:03:33,249 - INFO - URL: https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/live.txt 解析成功✅，分类: 央视
+2025-11-15 15:03:34,466 - INFO - URL: https://fm1077.serv00.net/SmartTV.m3u 获取成功，格式: m3u
+2025-11-15 15:03:34,467 - INFO - URL: https://fm1077.serv00.net/SmartTV.m3u 解析成功✅，分类: 臺灣 Taiwan, 馬來西亞 Malaysia, 新加坡 Singapore, 印尼 Indonesia, 香港 Hongkong, 中國 China, 體育 Sports, 印度 Indian, 電影 Movie, 紀錄 Documentary, 新聞 News, 兒童 Kids, 泰國 Thailand, 英國 United Kingdom, 越南 Vietnam, 韓國 Korea, 日本 Japan
+2025-11-15 15:03:34,595 - INFO - URL: https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt 获取成功，格式: txt
+2025-11-15 15:03:34,595 - INFO - URL: https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt 解析成功✅，分类: 央视频道, 卫视频道, 其他频道
+2025-11-15 15:03:34,720 - INFO - URL: https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt 获取成功，格式: txt
+2025-11-15 15:03:34,720 - INFO - URL: https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt 解析成功✅，分类: 更新时间
+2025-11-15 15:03:34,728 - INFO - 分类 '央视频道': 模板频道 18 个, 匹配成功 18 个
+2025-11-15 15:03:34,741 - INFO - 分类 '卫视频道': 模板频道 30 个, 匹配成功 30 个
+2025-11-15 15:03:34,744 - INFO - 分类 '港·澳·台': 模板频道 8 个, 匹配成功 7 个
+2025-11-15 15:03:34,747 - INFO - 分类 '影视频道': 模板频道 7 个, 匹配成功 7 个
+2025-11-15 15:03:34,747 - INFO - 测试 104 个URL的速度，保留最快的 3 个
+2025-11-15 15:03:55,920 - INFO - 速度最快的 3 个URL: https://api.olelive.com/dis/live/CCTV1HD/hls.m3u8(0.41s), http://8.138.7.223/【公众号：榴芒电视】/cctv1.m3u8(0.43s), http://112.123.206.32:808/hls/1/index.m3u8(0.43s)
+2025-11-15 15:03:55,920 - INFO - 频道 'CCTV1' 保留 3 个最快URL
+2025-11-15 15:03:55,921 - INFO - 测试 104 个URL的速度，保留最快的 3 个
+2025-11-15 15:04:16,778 - INFO - 速度最快的 3 个URL: http://39.164.160.249:9901/tsfile/live/0002_1.m3u8(0.36s), http://183.11.239.36:808/hls/20/index.m3u8(0.39s), http://112.123.206.32:808/hls/2/index.m3u8(0.40s)
+2025-11-15 15:04:16,779 - INFO - 频道 'CCTV2' 保留 3 个最快URL
+2025-11-15 15:04:16,779 - INFO - 测试 94 个URL的速度，保留最快的 3 个
+2025-11-15 15:04:39,642 - INFO - 速度最快的 3 个URL: http://183.11.239.36:808/hls/91/index.m3u8(0.39s), http://120.76.248.139/live/bfgd/4200000062.m3u8(0.42s), http://119.163.60.243:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0(0.45s)
+2025-11-15 15:04:39,642 - INFO - 频道 'CCTV3' 保留 3 个最快URL
+2025-11-15 15:04:39,642 - INFO - 测试 102 个URL的速度，保留最快的 3 个
+2025-11-15 15:04:59,796 - INFO - 速度最快的 3 个URL: http://183.11.239.36:808/hls/22/index.m3u8(0.39s), http://183.11.239.36:808/hls/67/index.m3u8(0.39s), http://183.11.239.36:808/hls/77/index.m3u8(0.40s)
+2025-11-15 15:04:59,797 - INFO - 频道 'CCTV4' 保留 3 个最快URL
+2025-11-15 15:04:59,797 - INFO - 测试 128 个URL的速度，保留最快的 3 个
+2025-11-15 15:05:27,191 - INFO - 速度最快的 3 个URL: https://api.olelive.com/dis/live/CCTV5HD/hls.m3u8(0.40s), http://112.46.85.60:8009/hls/503/index.m3u8(0.42s), http://120.76.248.139/live/bfgd/4200000064.m3u8(0.42s)
+2025-11-15 15:05:27,192 - INFO - 频道 'CCTV5' 保留 3 个最快URL
+2025-11-15 15:05:27,192 - INFO - 测试 48 个URL的速度，保留最快的 3 个
+2025-11-15 15:05:33,829 - INFO - 速度最快的 3 个URL: http://120.76.248.139/live/bfgd/4200000246.m3u8(0.42s), https://api.olelive.com/dis/live/CCTV5PHD/hls.m3u8(0.43s), http://119.163.60.243:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0(0.45s)
+2025-11-15 15:05:33,829 - INFO - 频道 'CCTV5+' 保留 3 个最快URL
+2025-11-15 15:05:33,830 - INFO - 测试 95 个URL的速度，保留最快的 3 个
+2025-11-15 15:05:56,290 - INFO - 速度最快的 3 个URL: https://api.olelive.com/dis/live/CCTV6HD/hls.m3u8(0.27s), http://119.163.60.243:9901/tsfile/live/0006_2.m3u8?key=txiptv&playlive=1&authid=0(0.42s), http://182.150.23.74:808/hls/6/index.m3u8(0.45s)
+2025-11-15 15:05:56,290 - INFO - 频道 'CCTV6' 保留 3 个最快URL
+2025-11-15 15:05:56,291 - INFO - 测试 97 个URL的速度，保留最快的 3 个
+2025-11-15 15:06:13,832 - INFO - 速度最快的 3 个URL: http://8.138.7.223/【公众号：榴芒电视】/cctv7.m3u8(0.37s), http://120.76.248.139/live/bfgd/4200000127.m3u8(0.42s), http://8.138.7.223/tv/cctv7.m3u8(0.43s)
+2025-11-15 15:06:13,832 - INFO - 频道 'CCTV7' 保留 3 个最快URL
+2025-11-15 15:06:13,832 - INFO - 测试 85 个URL的速度，保留最快的 3 个
+2025-11-15 15:06:33,860 - INFO - 速度最快的 3 个URL: http://183.11.239.36:808/hls/96/index.m3u8(0.40s), https://api.olelive.com/dis/live/CCTV8HD/hls.m3u8(0.41s), http://120.76.248.139/live/bfgd/4200000066.m3u8(0.42s)
+2025-11-15 15:06:33,861 - INFO - 频道 'CCTV8' 保留 3 个最快URL
+2025-11-15 15:06:33,861 - INFO - 测试 103 个URL的速度，保留最快的 3 个
+2025-11-15 15:06:54,885 - INFO - 速度最快的 3 个URL: https://api.olelive.com/dis/live/CCTV9HD/hls.m3u8(0.32s), http://39.164.160.249:9901/tsfile/live/0009_1.m3u8(0.37s), http://183.11.239.36:808/hls/27/index.m3u8(0.40s)
+2025-11-15 15:06:54,886 - INFO - 频道 'CCTV9' 保留 3 个最快URL
+2025-11-15 15:06:54,886 - INFO - 测试 100 个URL的速度，保留最快的 3 个
+2025-11-15 15:07:13,175 - INFO - 速度最快的 3 个URL: https://api.olelive.com/dis/live/CCTV10HD/hls.m3u8(0.28s), http://39.164.160.249:9901/tsfile/live/0010_1.m3u8(0.35s), http://183.11.239.36:808/hls/28/index.m3u8(0.40s)
+2025-11-15 15:07:13,176 - INFO - 频道 'CCTV10' 保留 3 个最快URL
+2025-11-15 15:07:13,176 - INFO - 测试 102 个URL的速度，保留最快的 3 个
+2025-11-15 15:07:29,019 - INFO - 速度最快的 3 个URL: https://api.olelive.com/dis/live/CCTV11HD/hls.m3u8(0.33s), http://183.11.239.36:808/hls/29/index.m3u8(0.40s), http://119.163.60.243:9901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0(0.42s)
+2025-11-15 15:07:29,019 - INFO - 频道 'CCTV11' 保留 3 个最快URL
+2025-11-15 15:07:29,019 - INFO - 测试 110 个URL的速度，保留最快的 3 个
+2025-11-15 15:07:50,658 - INFO - 速度最快的 3 个URL: http://112.46.85.60:8009/hls/507/index.m3u8(0.42s), http://119.163.60.243:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0(0.42s), http://101.66.199.43:9901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=0&authid=0(0.45s)
+2025-11-15 15:07:50,659 - INFO - 频道 'CCTV12' 保留 3 个最快URL
+2025-11-15 15:07:50,659 - INFO - 测试 106 个URL的速度，保留最快的 3 个
+2025-11-15 15:08:08,722 - INFO - 速度最快的 3 个URL: https://api.olelive.com/dis/live/CCTV13HD/hls.m3u8(0.33s), http://101.66.199.43:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=0&authid=0(0.40s), http://119.163.60.243:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0(0.45s)
+2025-11-15 15:08:08,722 - INFO - 频道 'CCTV13' 保留 3 个最快URL
+2025-11-15 15:08:08,722 - INFO - 测试 105 个URL的速度，保留最快的 3 个
+2025-11-15 15:08:28,823 - INFO - 速度最快的 3 个URL: https://api.olelive.com/dis/live/CCTV14HD/hls.m3u8(0.33s), http://58.57.40.22:9901/tsfile/live/1014_1.m3u8(0.46s), http://182.150.23.74:808/hls/14/index.m3u8(0.46s)
+2025-11-15 15:08:28,823 - INFO - 频道 'CCTV14' 保留 3 个最快URL
+2025-11-15 15:08:28,823 - INFO - 测试 100 个URL的速度，保留最快的 3 个
+2025-11-15 15:08:45,664 - INFO - 速度最快的 3 个URL: https://api.olelive.com/dis/live/CCTV15HD/hls.m3u8(0.31s), http://183.11.239.36:808/hls/102/index.m3u8(0.40s), http://124.128.73.58:9901/tsfile/live/0015_1.m3u8?key=txiptv(0.45s)
+2025-11-15 15:08:45,664 - INFO - 频道 'CCTV15' 保留 3 个最快URL
+2025-11-15 15:08:45,664 - INFO - 测试 49 个URL的速度，保留最快的 3 个
+2025-11-15 15:08:57,140 - INFO - 速度最快的 3 个URL: https://api.olelive.com/dis/live/CCTV16HD/hls.m3u8(0.31s), http://183.11.239.36:808/hls/169/index.m3u8(0.39s), http://gmxw.7766.org:808/hls/169/index.m3u8(0.40s)
+2025-11-15 15:08:57,140 - INFO - 频道 'CCTV16' 保留 3 个最快URL
+2025-11-15 15:08:57,141 - INFO - 测试 73 个URL的速度，保留最快的 3 个
+2025-11-15 15:09:12,397 - INFO - 速度最快的 3 个URL: https://api.olelive.com/dis/live/CCTV17HD/hls.m3u8(0.39s), http://183.11.239.36:808/hls/35/index.m3u8(0.45s), http://119.163.60.243:9901/tsfile/live/0017_1.m3u8?key=txiptv&playlive=1&authid=0(0.45s)
+2025-11-15 15:09:12,398 - INFO - 频道 'CCTV17' 保留 3 个最快URL
+2025-11-15 15:09:12,398 - INFO - 测试 114 个URL的速度，保留最快的 3 个
+2025-11-15 15:09:35,601 - INFO - 速度最快的 3 个URL: http://satellitepull.cnr.cn/live/wx32hunws/playlist.m3u8(0.11s), http://39.164.160.249:9901/tsfile/live/0128_1.m3u8(0.41s), http://124.128.73.58:9901/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0(0.45s)
+2025-11-15 15:09:35,601 - INFO - 频道 '湖南卫视' 保留 3 个最快URL
+2025-11-15 15:09:35,601 - INFO - 测试 115 个URL的速度，保留最快的 3 个
+2025-11-15 15:10:02,201 - INFO - 速度最快的 3 个URL: http://119.163.60.243:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0(0.45s), http://124.128.73.58:9901/tsfile/live/0124_1.m3u8?key=txiptv(0.46s), http://l.cztvcloud.com/channels/lantian/SXpinghu3/720p.m3u8(0.59s)
+2025-11-15 15:10:02,202 - INFO - 频道 '浙江卫视' 保留 3 个最快URL
+2025-11-15 15:10:02,202 - INFO - 测试 106 个URL的速度，保留最快的 3 个
+2025-11-15 15:10:20,559 - INFO - 速度最快的 3 个URL: http://119.163.60.243:9901/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0(0.42s), http://58.57.40.22:9901/tsfile/live/1030_1.m3u8(0.45s), http://218.3.138.25:1111/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&authid=0(0.46s)
+2025-11-15 15:10:20,559 - INFO - 频道 '东方卫视' 保留 3 个最快URL
+2025-11-15 15:10:20,559 - INFO - 测试 113 个URL的速度，保留最快的 3 个
+2025-11-15 15:10:43,748 - INFO - 速度最快的 3 个URL: http://satellitepull.cnr.cn/live/wxbtv/playlist.m3u8(0.10s), http://183.11.239.36:808/hls/41/index.m3u8(0.40s), http://120.76.248.139/live/bfgd/4200000083.m3u8(0.42s)
+2025-11-15 15:10:43,748 - INFO - 频道 '北京卫视' 保留 3 个最快URL
+2025-11-15 15:10:43,748 - INFO - 测试 105 个URL的速度，保留最快的 3 个
+2025-11-15 15:11:04,482 - INFO - 速度最快的 3 个URL: http://183.11.239.36:808/hls/38/index.m3u8(0.40s), http://112.46.85.60:8009/hls/33/index.m3u8(0.41s), http://58.57.40.22:9901/tsfile/live/1031_1.m3u8(0.45s)
+2025-11-15 15:11:04,482 - INFO - 频道 '江苏卫视' 保留 3 个最快URL
+2025-11-15 15:11:04,482 - INFO - 测试 99 个URL的速度，保留最快的 3 个
+2025-11-15 15:11:18,235 - INFO - 速度最快的 3 个URL: http://j.x.bkpcp.top/jx/ANHUIHD(0.22s), http://183.11.239.36:808/hls/40/index.m3u8(0.42s), http://120.76.248.139/live/bfgd/4200000096.m3u8(0.42s)
+2025-11-15 15:11:18,236 - INFO - 频道 '安徽卫视' 保留 3 个最快URL
+2025-11-15 15:11:18,236 - INFO - 测试 103 个URL的速度，保留最快的 3 个
+2025-11-15 15:11:36,204 - INFO - 速度最快的 3 个URL: http://j.x.bkpcp.top/jx/CHONGQHD(0.22s), http://120.76.248.139/live/bfgd/4200000107.m3u8(0.42s), http://101.66.199.43:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=0&authid=0(0.43s)
+2025-11-15 15:11:36,204 - INFO - 频道 '重庆卫视' 保留 3 个最快URL
+2025-11-15 15:11:36,204 - INFO - 测试 94 个URL的速度，保留最快的 3 个
+2025-11-15 15:11:53,342 - INFO - 速度最快的 3 个URL: http://j.x.bkpcp.top/jx/SICHD(0.21s), http://171.116.216.113:10010/rtp/226.0.1.250:2126(0.41s), http://183.184.47.145:8001/rtp/226.0.1.250:2126(0.43s)
+2025-11-15 15:11:53,342 - INFO - 频道 '四川卫视' 保留 3 个最快URL
+2025-11-15 15:11:53,343 - INFO - 测试 96 个URL的速度，保留最快的 3 个
+2025-11-15 15:12:10,331 - INFO - 速度最快的 3 个URL: http://j.x.bkpcp.top/jx/DONGNHD(0.41s), http://61.136.172.236:9901/tsfile/live/0137_1.m3u8(0.44s), http://58.57.40.22:9901/tsfile/live/1037_1.m3u8(0.45s)
+2025-11-15 15:12:10,332 - INFO - 频道 '东南卫视' 保留 3 个最快URL
+2025-11-15 15:12:10,332 - INFO - 测试 88 个URL的速度，保留最快的 3 个
+2025-11-15 15:12:31,361 - INFO - 速度最快的 3 个URL: http://38.64.72.148:80/hls/modn/list/4007/playlist.m3u8(0.03s), https://smart.pendy.dpdns.org/Smart.php?id=shenzhen(0.24s), http://183.11.239.36:808/hls/45/index.m3u8(0.40s)
+2025-11-15 15:12:31,362 - INFO - 频道 '深圳卫视' 保留 3 个最快URL
+2025-11-15 15:12:31,362 - INFO - 测试 126 个URL的速度，保留最快的 3 个
+2025-11-15 15:13:02,181 - INFO - 速度最快的 3 个URL: http://j.x.bkpcp.top/jx/GUANGDHD(0.41s), http://58.57.40.22:9901/tsfile/live/1039_1.m3u8(0.45s), http://124.128.73.58:9901/tsfile/live/0125_1.m3u8?key=txiptv(0.45s)
+2025-11-15 15:13:02,181 - INFO - 频道 '广东卫视' 保留 3 个最快URL
+2025-11-15 15:13:02,181 - INFO - 测试 85 个URL的速度，保留最快的 3 个
+2025-11-15 15:13:19,139 - INFO - 速度最快的 3 个URL: https://hlscdn.liangtv.cn/live/de0f97348eb84f62aa6b7d8cf0430770/dd505d87880c478f901f38560ca4d4e6.m3u8(0.32s), https://hlscdn.liangtv.cn/live/0c4ef3a44b934cacb8b47121dfada66c/d7e04258157b480dae53883cc6f8123b.m3u8(0.35s), http://101.66.199.43:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0(0.40s)
+2025-11-15 15:13:19,140 - INFO - 频道 '广西卫视' 保留 3 个最快URL
+2025-11-15 15:13:19,140 - INFO - 测试 27 个URL的速度，保留最快的 3 个
+2025-11-15 15:13:24,329 - INFO - 速度最快的 3 个URL: http://183.11.239.36:808/hls/17/index.m3u8(0.40s), https://stream1.freetv.fun/8a2a9ccafaf754063ce9d89bdb563b7408b96117d9e868780622f631a35ea400.m3u8(失败), https://stream1.freetv.fun/d9d95afccb2b63cf3413a6d6c328c65150fe664af371f3c6e1ef2cdae2b68c65.m3u8(失败)
+2025-11-15 15:13:24,329 - INFO - 频道 '厦门卫视' 保留 3 个最快URL
+2025-11-15 15:13:24,329 - INFO - 测试 6 个URL的速度，保留最快的 3 个
+2025-11-15 15:13:29,340 - INFO - 速度最快的 3 个URL: http://www.zzlag.top:9087/tsfile/live/1041_1.m3u8?key=txiptv(失败), http://171.108.239.80:8181/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0(失败), http://171.108.239.98:8181/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0(失败)
+2025-11-15 15:13:29,340 - INFO - 频道 '南方卫视' 保留 3 个最快URL
+2025-11-15 15:13:29,340 - INFO - 测试 64 个URL的速度，保留最快的 3 个
+2025-11-15 15:13:36,932 - INFO - 速度最快的 3 个URL: http://j.x.bkpcp.top/jx/GSWS(0.21s), http://183.11.239.36:808/hls/119/index.m3u8(0.40s), http://218.13.170.98:9901/tsfile/live/0141_1.m3u8(0.40s)
+2025-11-15 15:13:36,933 - INFO - 频道 '甘肃卫视' 保留 3 个最快URL
+2025-11-15 15:13:36,933 - INFO - 测试 96 个URL的速度，保留最快的 3 个
+2025-11-15 15:13:53,455 - INFO - 速度最快的 3 个URL: http://j.x.bkpcp.top/jx/GUIZHD(0.23s), http://cssbyd.imwork.net:8082/hls/39/index.m3u8(0.42s), http://58.57.40.22:9901/tsfile/live/1042_1.m3u8(0.45s)
+2025-11-15 15:13:53,456 - INFO - 频道 '贵州卫视' 保留 3 个最快URL
+2025-11-15 15:13:53,456 - INFO - 测试 110 个URL的速度，保留最快的 3 个
+2025-11-15 15:14:11,003 - INFO - 速度最快的 3 个URL: http://58.57.40.22:9901/tsfile/live/1044_1.m3u8(0.45s), http://124.128.73.58:9901/tsfile/live/0117_1.m3u8?key=txiptv(0.46s), http://111.61.236.247:9081/hls/17/index.m3u8(0.56s)
+2025-11-15 15:14:11,003 - INFO - 频道 '河北卫视' 保留 3 个最快URL
+2025-11-15 15:14:11,003 - INFO - 测试 97 个URL的速度，保留最快的 3 个
+2025-11-15 15:14:29,524 - INFO - 速度最快的 3 个URL: http://j.x.bkpcp.top/jx/HENHD(0.40s), http://58.57.40.22:9901/tsfile/live/1048_1.m3u8(0.45s), http://124.128.73.58:9901/tsfile/live/0139_1.m3u8?key=txiptv(0.46s)
+2025-11-15 15:14:29,524 - INFO - 频道 '河南卫视' 保留 3 个最快URL
+2025-11-15 15:14:29,524 - INFO - 测试 111 个URL的速度，保留最快的 3 个
+2025-11-15 15:14:51,761 - INFO - 速度最快的 3 个URL: http://61.136.172.236:9901/tsfile/live/0143_1.m3u8?key=txiptv&playlive=1&authid=0(0.42s), http://58.57.40.22:9901/tsfile/live/1040_1.m3u8(0.45s), http://124.128.73.58:9901/tsfile/live/0143_1.m3u8?key=txiptv(0.46s)
+2025-11-15 15:14:51,762 - INFO - 频道 '黑龙江卫视' 保留 3 个最快URL
+2025-11-15 15:14:51,762 - INFO - 测试 113 个URL的速度，保留最快的 3 个
+2025-11-15 15:15:13,791 - INFO - 速度最快的 3 个URL: http://j.x.bkpcp.top/jx/HUBEIHD(0.21s), http://183.11.239.36:808/hls/46/index.m3u8(0.39s), http://120.76.248.139/live/bfgd/4200000102.m3u8(0.42s)
+2025-11-15 15:15:13,792 - INFO - 频道 '湖北卫视' 保留 3 个最快URL
+2025-11-15 15:15:13,792 - INFO - 测试 103 个URL的速度，保留最快的 3 个
+2025-11-15 15:15:31,747 - INFO - 速度最快的 3 个URL: http://101.66.199.43:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=0&authid=0(0.40s), http://124.128.73.58:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0(0.45s), http://124.128.73.58:9901/tsfile/live/0138_1.m3u8?key=txiptv(0.45s)
+2025-11-15 15:15:31,747 - INFO - 频道 '江西卫视' 保留 3 个最快URL
+2025-11-15 15:15:31,747 - INFO - 测试 86 个URL的速度，保留最快的 3 个
+2025-11-15 15:15:44,615 - INFO - 速度最快的 3 个URL: http://j.x.bkpcp.top/jx/JILHD(0.40s), http://124.128.73.58:9901/tsfile/live/0116_1.m3u8?key=txiptv(0.44s), http://58.57.40.22:9901/tsfile/live/1050_1.m3u8(0.45s)
+2025-11-15 15:15:44,615 - INFO - 频道 '吉林卫视' 保留 3 个最快URL
+2025-11-15 15:15:44,616 - INFO - 测试 57 个URL的速度，保留最快的 3 个
+2025-11-15 15:15:50,483 - INFO - 速度最快的 3 个URL: http://j.x.bkpcp.top/jx/NMGWS(0.40s), http://120.76.248.139/live/bfgd/4200000110.m3u8(0.42s), http://111.61.236.247:9081/hls/48/index.m3u8(1.11s)
+2025-11-15 15:15:50,483 - INFO - 频道 '内蒙古卫视' 保留 3 个最快URL
+2025-11-15 15:15:50,484 - INFO - 测试 101 个URL的速度，保留最快的 3 个
+2025-11-15 15:16:08,224 - INFO - 速度最快的 3 个URL: http://j.x.bkpcp.top/jx/LIAONHD(0.22s), http://101.66.199.43:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=0&authid=0(0.40s), http://61.136.172.236:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0(0.42s)
+2025-11-15 15:16:08,225 - INFO - 频道 '辽宁卫视' 保留 3 个最快URL
+2025-11-15 15:16:08,225 - INFO - 测试 67 个URL的速度，保留最快的 3 个
+2025-11-15 15:16:13,985 - INFO - 速度最快的 3 个URL: http://j.x.bkpcp.top/jx/NXWS(0.23s), http://cssbyd.imwork.net:8082/hls/45/index.m3u8(0.43s), http://111.61.236.247:9081/hls/51/index.m3u8(0.55s)
+2025-11-15 15:16:13,985 - INFO - 频道 '宁夏卫视' 保留 3 个最快URL
+2025-11-15 15:16:13,985 - INFO - 测试 79 个URL的速度，保留最快的 3 个
+2025-11-15 15:16:22,257 - INFO - 速度最快的 3 个URL: http://j.x.bkpcp.top/jx/QHWS(0.40s), http://58.57.40.22:9901/tsfile/live/1057_1.m3u8(0.44s), http://124.128.73.58:9901/tsfile/live/0140_1.m3u8?key=txiptv(0.47s)
+2025-11-15 15:16:22,257 - INFO - 频道 '青海卫视' 保留 3 个最快URL
+2025-11-15 15:16:22,257 - INFO - 测试 99 个URL的速度，保留最快的 3 个
+2025-11-15 15:16:39,784 - INFO - 速度最快的 3 个URL: http://j.x.bkpcp.top/jx/SHANDHD(0.40s), http://120.76.248.139/live/bfgd/4200000099.m3u8(0.43s), http://124.128.73.58:9901/tsfile/live/0107_1.m3u8(0.43s)
+2025-11-15 15:16:39,785 - INFO - 频道 '山东卫视' 保留 3 个最快URL
+2025-11-15 15:16:39,785 - INFO - 测试 118 个URL的速度，保留最快的 3 个
+2025-11-15 15:17:01,218 - INFO - 速度最快的 3 个URL: http://j.x.bkpcp.top/jx/TIANJHD(0.22s), http://112.46.85.60:8009/hls/44/index.m3u8(0.42s), http://124.116.183.146:9901/tsfile/live/0135_1.m3u8(0.45s)
+2025-11-15 15:17:01,218 - INFO - 频道 '天津卫视' 保留 3 个最快URL
+2025-11-15 15:17:01,219 - INFO - 测试 75 个URL的速度，保留最快的 3 个
+2025-11-15 15:17:11,723 - INFO - 速度最快的 3 个URL: http://j.x.bkpcp.top/jx/HAINHD(0.23s), http://183.11.239.36:808/hls/124/index.m3u8(0.39s), http://58.57.40.22:9901/tsfile/live/1000_1.m3u8(0.45s)
+2025-11-15 15:17:11,723 - INFO - 频道 '海南卫视' 保留 3 个最快URL
+2025-11-15 15:17:11,723 - INFO - 测试 75 个URL的速度，保留最快的 3 个
+2025-11-15 15:17:22,954 - INFO - 速度最快的 3 个URL: http://58.57.40.22:9901/tsfile/live/1047_1.m3u8(0.45s), http://124.128.73.58:9901/tsfile/live/0119_1.m3u8?key=txiptv(0.45s), http://101.66.199.43:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0(0.48s)
+2025-11-15 15:17:22,955 - INFO - 频道 '云南卫视' 保留 3 个最快URL
+2025-11-15 15:17:22,955 - INFO - 测试 26 个URL的速度，保留最快的 3 个
+2025-11-15 15:17:32,366 - INFO - 速度最快的 3 个URL: https://k44991.kylintv.tv/live/pxna_iphone.m3u8(0.26s), https://cdn.iptv8k.top/dl/jrys.php?id=19&time=20240926215313&ip=111.229.253.40(0.39s), http://playtv-live.ifeng.com/live/06OLEGEGM4G_audio.m3u8(1.20s)
+2025-11-15 15:17:32,367 - INFO - 频道 '凤凰中文' 保留 3 个最快URL
+2025-11-15 15:17:32,367 - INFO - 测试 35 个URL的速度，保留最快的 3 个
+2025-11-15 15:17:42,389 - INFO - 速度最快的 3 个URL: http://php.jdshipin.com/TVOD/iptv.php?id=fhzx2(0.18s), http://playtv-live.ifeng.com/live/06OLEEWQKN4_audio.m3u8(0.22s), http://61.221.215.25:8800/hls/47/index.m3u8(0.28s)
+2025-11-15 15:17:42,389 - INFO - 频道 '凤凰资讯' 保留 3 个最快URL
+2025-11-15 15:17:42,389 - INFO - 测试 14 个URL的速度，保留最快的 3 个
+2025-11-15 15:17:47,399 - INFO - 速度最快的 3 个URL: http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhhk(0.34s), http://php.jdshipin.com:8880/smt.php?id=hkphoenix_twn(0.47s), http://php.jdshipin.com/TVOD/iptv.php?id=fhhk(0.49s)
+2025-11-15 15:17:47,399 - INFO - 频道 '凤凰香港' 保留 3 个最快URL
+2025-11-15 15:17:47,399 - INFO - 测试 8 个URL的速度，保留最快的 3 个
+2025-11-15 15:17:48,673 - INFO - 速度最快的 3 个URL: http://php.jdshipin.com:8880/smt.php?id=phoenixtv_hd(0.28s), http://php.jdshipin.com/TVOD/iptv.php?id=fhzw(0.34s), http://api.mg.itv888.cn:8080/hls/2f80047f91e/index.m3u8(0.44s)
+2025-11-15 15:17:48,673 - INFO - 频道 '凤凰卫视' 保留 3 个最快URL
+2025-11-15 15:17:48,673 - INFO - 测试 23 个URL的速度，保留最快的 3 个
+2025-11-15 15:17:50,155 - INFO - 速度最快的 3 个URL: http://cctvtxyh5c.liveplay.myqcloud.com/cstv/xianggangweishi_2/index.m3u8(1.18s), https://stream1.freetv.fun/5335c88a9a7d8b74173b491f480d4f94e8d3bd596af54478106aa2399e6c7917.ctv(失败), https://stream1.freetv.fun/c751876ae5ceaa0d82b5cf2badc152342aa92a4b45bf504d12ee45966b2fc644.ctv(失败)
+2025-11-15 15:17:50,155 - INFO - 频道 '香港卫视' 保留 3 个最快URL
+2025-11-15 15:17:50,155 - INFO - 测试 11 个URL的速度，保留最快的 3 个
+2025-11-15 15:17:50,900 - INFO - 速度最快的 3 个URL: http://38.64.72.148/hls/modn/list/4005/playlist.m3u8(0.02s), http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8(0.02s), http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8?$1920x1080(0.03s)
+2025-11-15 15:17:50,900 - INFO - 频道 'TVBS亚洲' 保留 3 个最快URL
+2025-11-15 15:17:50,900 - INFO - 频道 'TVBS新闻' 保留 1 个最快URL
+2025-11-15 15:17:50,900 - INFO - 测试 14 个URL的速度，保留最快的 3 个
+2025-11-15 15:17:55,911 - INFO - 速度最快的 3 个URL: http://113.195.172.192:808/hls/114/index.m3u8(0.39s), https://www.freetv.top/migu/644368714.m3u8?migutoken=2e48d18419793654f347e8ca29e0028ce9f3eaaa7a108b006304178b8f790f34908f8a09bbb8f4b8b8abcf36e2341f1043dde8719cf4927fcd0dcde4667f8b91e68e820314791d9b70452862c9(2.39s), https://live.chinacert.cftest5.cn/mg/?id=644368714(2.56s)
+2025-11-15 15:17:55,911 - INFO - 频道 'CHC动作电影' 保留 3 个最快URL
+2025-11-15 15:17:55,911 - INFO - 测试 8 个URL的速度，保留最快的 3 个
+2025-11-15 15:18:01,103 - INFO - 速度最快的 3 个URL: http://218.15.183.23:9901/tsfile/live/23044_1.m3u8(0.41s), http://120.198.101.106:9901/tsfile/live/1053_1.m3u8?key=txiptv(0.47s), http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=0&authid=0(0.58s)
+2025-11-15 15:18:01,103 - INFO - 频道 'CHC高清电影' 保留 3 个最快URL
+2025-11-15 15:18:01,103 - INFO - 测试 12 个URL的速度，保留最快的 3 个
+2025-11-15 15:18:02,551 - INFO - 速度最快的 3 个URL: http://eastscreen.tv/ooooo.php(0.16s), http://113.195.172.192:808/hls/113/index.m3u8(0.39s), http://61.162.52.6:8088/newlive/live/hls/60/live.m3u8(0.40s)
+2025-11-15 15:18:02,552 - INFO - 频道 'CHC家庭影院' 保留 3 个最快URL
+2025-11-15 15:18:02,552 - INFO - 测试 5 个URL的速度，保留最快的 3 个
+2025-11-15 15:18:07,625 - INFO - 速度最快的 3 个URL: http://[2409:8087:1a0b:df::4002]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225665/index.m3u8(失败), http://[2409:8087:5e00:24::2d]:6610/000000001000/1/1000000004000024282/index.m3u8?channel-id=ystenlive&Contentid=1000000004000024282&livemode=1&stbId=YanG-1989(失败), http://[2409:8087:2001:20:2800:0:df6e:eb18]/wh7f454c46tw2482771376_951312812/ott.mobaibox.com/PLTV/3/224/3221227536/index.m3u8(失败)
+2025-11-15 15:18:07,626 - INFO - 频道 'NewTV惊悚悬疑' 保留 3 个最快URL
+2025-11-15 15:18:07,626 - INFO - 频道 'NewTV动作电影' 保留 1 个最快URL
+2025-11-15 15:18:07,626 - INFO - 测试 13 个URL的速度，保留最快的 3 个
+2025-11-15 15:18:23,114 - INFO - 速度最快的 3 个URL: https://epg.pw/stream/ffcb6572863f0745a7369fbd9d901f1dfd0ab8fab8bad8bebb4e01c90b303c47.m3u8(0.72s), http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226939/1.m3u8(失败), http://[2409:8087:1a01:df::4001]:80/TVOD/88888888/224/3221225681/main.m3u8(失败)
+2025-11-15 15:18:23,114 - INFO - 频道 '黑莓电影' 保留 3 个最快URL
+2025-11-15 15:18:23,114 - INFO - 测试 10 个URL的速度，保留最快的 3 个
+2025-11-15 15:18:28,423 - INFO - 速度最快的 3 个URL: https://smart.pendy.dpdns.org/Smart.php?id=videolandmovie(0.87s), https://stream1.freetv.fun/wei-lai-dian-ying-1.m3u8(失败), https://stream1.freetv.fun/wei-lai-dian-ying-3.m3u8(失败)
+2025-11-15 15:18:28,423 - INFO - 频道 '纬来电影' 保留 3 个最快URL
+2025-11-15 15:18:28,426 - WARNING - 频道未找到: TVBS欢乐 (分类: 港·澳·台)
+2025-11-15 15:18:28,426 - INFO - 频道文件生成成功: live.m3u, live.txt
+2025-11-15 15:18:28,426 - INFO - 频道处理完成
