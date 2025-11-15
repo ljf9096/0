@@ -1,4 +1,4 @@
-name: Update TV Channels
+name: 1.py
 
 on:
   workflow_dispatch:  # 允许手动触发
