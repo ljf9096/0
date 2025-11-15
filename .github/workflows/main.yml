@@ -1,44 +1,45 @@
-name: Update TV Channels
+name: main.py2
 
 on:
-  schedule:
-    - cron: '0 */6 * * *'
-  workflow_dispatch:
+  workflow_dispatch: # 允许手动触发
 
 jobs:
-  build:
+  run_daily_job:
     runs-on: ubuntu-latest
-    
+
     steps:
-    - uses: actions/checkout@v4
-    
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.10'
-    
-    # 更新这一行
-    - name: Cache dependencies
-      uses: actions/cache@v4  # 从 v2 改为 v4
-      with:
-        path: ~/.cache/pip
-        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-        restore-keys: |
-          ${{ runner.os }}-pip-
-    
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests
-    
-    - name: Run script
-      run: |
-        python 1.py
-    
-    - name: Commit and push if changed
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add -A
-        git diff --staged --quiet || git commit -m "Update channels - $(date)"
-        git push
+      # 1️⃣ Checkout 仓库（使用内置 GITHUB_TOKEN）
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 2️⃣ 设置 Python 环境
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      # 3️⃣ 安装依赖
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install opencc-python-reimplemented
+
+      # 4️⃣ 运行 Python 脚本
+      - name: Run Python script
+        run: python 1.py
+
+      # 5️⃣ 提交更改（无改动不会报错）
+      - name: Commit changes
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "github_actions[bot]"
+          git add live.txt live.m3u live_lite.txt live_lite.m3u others.txt
+          git commit -m ":tada: Daily AutoUpdate $(date +'%Y%m%d')" || echo "No changes to commit"
+
+      # 6️⃣ 推送到远程仓库
+      - name: Push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: git push origin main
