@@ -12,7 +12,6 @@ https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/XO-TV/iptv/refs
 https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/XO-TV/iptv/refs/heads/master/output/iptv.txt
 https://ghfast.top/https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/qinvision/hpydy/refs/heads/main/hpydy.txt
 http://47.120.41.246:8899/zb.txt
-http://bxtv.3a.ink/live.txt
 https://3043.kstore.space/bhvip/bhzb.txt
 https://tv.iill.top/m3u/Gather
 https://tv.iill.top/m3u/Live
