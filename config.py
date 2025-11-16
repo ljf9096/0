@@ -1,7 +1,6 @@
 ip_version_priority = "ipv6"
 
 source_urls = [
-https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/adminouyang/231006/refs/heads/main/py/%E4%BC%98%E8%B4%A8%E6%BA%90/output/ipv4/result.txt
 https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/Supprise0901/TVBox_live/refs/heads/main/live.txt
 https://fy.188766.xyz/?ip=&bconly=true&mima=mianfeidehaimaiqian
 https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/alenin-zhang/IPTV/refs/heads/main/lenin.txt
