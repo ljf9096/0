@@ -75,7 +75,6 @@ https://qu.ax/yfFxv.txt
 http://txt.kesug.com/users/HKTV.txt
 http://txt.kesug.com/users/hulanlu.txt
 http://dd.ma/St217ljz
-http://bxtv.3a.ink/live.m3u
 https://iptv.mydiver.eu.org/get.php?username=tg_at1uqlok&password=tbuhfrlv8b67&type=m3u_plus
 http://gm.scvip.net.cn/iptv/iptv.txt
     "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
