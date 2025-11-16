@@ -48,14 +48,6 @@ url_blacklist = [
     "[2409:8087:2001:20:2800:0:df6e:eb27]"
 ]
 
-announcements = [
-    {
-        "entries": [
-            {"name": "更新日期", "url": "logo": "http://175.178.251.183:6689/LR.jpg"},
-            {"name": None, "url": "logo": "http://175.178.251.183:6689/LR.jpg"}
-        ]
-    }
-]
 
 epg_urls = [
     "https://live.fanmingming.com/e.xml",
