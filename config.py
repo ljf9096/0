@@ -1,12 +1,7 @@
 ip_version_priority = "ipv6"
 
 source_urls = [
-    "https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/y2.txt"
-    "https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/y3.txt"
-    "https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/y4.txt"
-    "https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/y5.txt"
-    "https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/y6.txt"
-"https://fy.188766.xyz/?ip=&bconly=true&mima=mianfeidehaimaiqian"
+   "https://fy.188766.xyz/?ip=&bconly=true&mima=mianfeidehaimaiqian"
 "https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/alenin-zhang/IPTV/refs/heads/main/lenin.txt"
 "https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/qingtingjjjjjjj/config-tv/refs/heads/main/live.txt"
 "https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/zzmaze/iptv/main/itvlist.txt"
@@ -15,6 +10,47 @@ source_urls = [
 "https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/XO-TV/iptv/refs/heads/master/output/iptv.txt"
 "https://ghfast.top/https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/qinvision/hpydy/refs/heads/main/hpydy.txt"
 "http://47.120.41.246:8899/zb.txt"
+"https://tv.iill.top/m3u/Gather"
+"https://tv.iill.top/m3u/Live"
+"https://tv.iill.top/m3u/Sport"
+"https://live.freetv.top/huyayqk.m3u"
+"https://live.freetv.top/douyuyqk.m3u"
+"https://live.zhoujie218.top/tv/iptv4.txt"
+"https://tv.850930.xyz/kdsb.txt"
+"https://tv.850930.xyz/pix.m3u"
+"https://live.zbds.org/tv/iptv6.txt"
+"https://live.zbds.org/tv/iptv4.txt"
+"http://tvv.tw/github.com/fafa002/yf2025/blob/main/yiyifafa.txt"
+"https://freetv.fun/test_channels_original_new.txt"
+"https://jihulab.com/-/snippets/5265/raw/main/.txt"
+"https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/cyalias/mytvs-github/refs/heads/main/mytv.txt"
+"https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8"
+"https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u"
+"https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u"
+"https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/refs/heads/main/merged_output.txt"
+"https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/refs/heads/main/others_output.txt"
+"https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/hujingguang/ChinaIPTV/refs/heads/main/cnTV_AutoUpdate.m3u8"
+"https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/jiangnan1224/iptv_ipv4_live/refs/heads/main/live_ipv4.txt"
+"https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt"
+"https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.txt"
+"https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u"
+"https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/xzw832/cmys/refs/heads/main/S_CCTV.txt"
+"https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/xzw832/cmys/refs/heads/main/S_weishi.txt"
+    "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+    "https://raw.githubusercontent.com/yuanzl77/IPTV/main/直播/央视频道.txt",
+    "https://raw.githubusercontent.com/Fairy8o/IPTV/main/PDX-V4.txt",
+    "https://raw.githubusercontent.com/Fairy8o/IPTV/main/PDX-V6.txt",
+    "https://live.zhoujie218.top/tv/iptv6.txt",
+    "https://live.zhoujie218.top/tv/iptv4.txt",
+    "http://ww.weidonglong.com/dsj.txt",
+    "https://raw.githubusercontent.com/qingwen07/awesome-iptv/main/tvbox_live_all.txt",
+    "https://raw.githubusercontent.com/Guovin/TV/gd/output/result.txt",
+    "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/hd.txt",
+    "https://cdn.jsdelivr.net/gh/YueChan/live@main/IPTV.m3u",
+    "https://raw.githubusercontent.com/cymz6/AutoIPTV-Hotel/main/lives.txt",
+    "https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/live.txt",
+    "https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt",
+    "https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt"
 ]
 
 url_blacklist = [
