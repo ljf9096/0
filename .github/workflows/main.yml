@@ -28,7 +28,7 @@ jobs:
     
     - name: Run channel update script
       run: |
-        python 5cxhn.py
+        python 6.py
     
     - name: Commit and push changes
       run: |
