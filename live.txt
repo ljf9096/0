@@ -1,8 +1,3 @@
-公告,#genre#
-请阅读,https://liuliuliu.tv/api/channels/1997/stream
-yuanzl77.github.io,https://liuliuliu.tv/api/channels/233/stream
-更新日期,https://gitlab.com/lr77/IPTV/-/raw/main/%E4%B8%BB%E8%A7%92.mp4
-更新日期: 2025-11-16,https://gitlab.com/lr77/IPTV/-/raw/main/%E8%B5%B7%E9%A3%8E%E4%BA%86.mp4
 央视频道,#genre#
 CCTV1,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/index.m3u8$LR•IPV4•其他『线路1』
 CCTV1,http://58.57.40.22:9901/tsfile/live/0001_1.m3u8$LR•IPV4•其他『线路2』
