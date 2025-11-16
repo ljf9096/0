@@ -1,2 +1,11 @@
-2025-11-16 08:36:53,834 - ERROR - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y2.txthttps://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y3.txthttps://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y4.txthttps://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y5.txthttps://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y6.txt 爬取失败❌, Error: 404 Client Error: Not Found for url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y2.txthttps://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y3.txthttps://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y4.txthttps://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y5.txthttps://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y6.txt
-2025-11-16 08:36:53,836 - INFO - 文件生成完成，更新日期: 2025-11-16
+2025-11-16 08:40:17,886 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y2.txt 获取成功，判断为txt格式
+2025-11-16 08:40:17,888 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y2.txt 爬取成功✅，包含频道分类: 央卫网页, 广东网页, 虎牙网页
+2025-11-16 08:40:18,018 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y3.txt 获取成功，判断为txt格式
+2025-11-16 08:40:18,018 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y3.txt 爬取成功✅，包含频道分类: 央视, 卫视
+2025-11-16 08:40:18,147 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y4.txt 获取成功，判断为txt格式
+2025-11-16 08:40:18,147 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y4.txt 爬取成功✅，包含频道分类: 央视, 卫视
+2025-11-16 08:40:18,284 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y5.txt 获取成功，判断为txt格式
+2025-11-16 08:40:18,284 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y5.txt 爬取成功✅，包含频道分类: 央视频道, 其它频道, 卫视频道
+2025-11-16 08:40:18,385 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y6.txt 获取成功，判断为txt格式
+2025-11-16 08:40:18,385 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y6.txt 爬取成功✅，包含频道分类: 央视频道, 卫视频道
+2025-11-16 08:40:18,389 - INFO - 文件生成完成，更新日期: 2025-11-16
