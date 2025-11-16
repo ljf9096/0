@@ -88,6 +88,7 @@ CCTV15,http://api.kkitv.itv888.cn:8080/hls/hcwu4ianhgw/index.m3u8$LR•IPV4•�
 广西卫视,http://iptv.666230.xyz/iptv/jsyd.php/GXWS$LR•IPV4•其他『线路4』
 厦门卫视,http://113.88.211.3:9898/hls/54/index.m3u8$LR•IPV4•其他『线路1』
 厦门卫视,http://iptv.666230.xyz/iptv/jsyd.php/G_XIAMEN$LR•IPV4•其他『线路2』
+厦门卫视,http://112.6.239.227:8207/hls/17/index.m3u8$LR•IPV4•其他『线路3』
 甘肃卫视,https://hls.gstv.com.cn/skt649/w0w7k2.m3u8$LR•IPV4•其他『线路1』
 甘肃卫视,http://b.tvbox6.icu/tv/ysp.php?id=57$LR•IPV4•其他『线路2』
 甘肃卫视,http://113.88.211.3:9898/hls/61/index.m3u8$LR•IPV4•其他『线路3』
@@ -99,9 +100,11 @@ CCTV15,http://api.kkitv.itv888.cn:8080/hls/hcwu4ianhgw/index.m3u8$LR•IPV4•�
 河北卫视,http://b.tvbox6.icu/tv/ysp.php?id=52$LR•IPV4•其他『线路1』
 河北卫视,http://113.88.211.3:9898/hls/48/index.m3u8$LR•IPV4•其他『线路2』
 河北卫视,http://iptv.666230.xyz/iptv/jsyd.php/G_HEBEI$LR•IPV4•其他『线路3』
+河北卫视,http://112.6.239.227:8207/hls/28/index.m3u8$LR•IPV4•其他『线路4』
 河南卫视,http://b.tvbox6.icu/tv/ysp.php?id=46$LR•IPV4•其他『线路1』
 河南卫视,http://113.88.211.3:9898/hls/45/index.m3u8$LR•IPV4•其他『线路2』
 河南卫视,http://iptv.666230.xyz/iptv/jsyd.php/HENAN$LR•IPV4•其他『线路3』
+河南卫视,http://112.6.239.227:8207/hls/31/index.m3u8$LR•IPV4•其他『线路4』
 黑龙江卫视,https://idclive.hljtv.com:4430/live/hljws_own.m3u8$LR•IPV4•其他『线路1』
 黑龙江卫视,http://api.kkitv.itv888.cn:8080/hls/2a24lcvser/index.m3u8$LR•IPV4•其他『线路2』
 黑龙江卫视,http://b.tvbox6.icu/tv/ysp.php?id=41$LR•IPV4•其他『线路3』
