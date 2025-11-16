@@ -1,4 +1,4 @@
-name: 2.py
+name: main.py
 
 on:
   workflow_dispatch:  # 允许手动触发
@@ -28,7 +28,7 @@ jobs:
     
     - name: Run channel update script
       run: |
-        python 6.py
+        python main.py
     
     - name: Commit and push changes
       run: |
