@@ -1,1 +1,1 @@
-maim.yml中含有requests：发送 HTTP 请求、从网站及API 获取数据、从网络下载文件到本地。demo.txt：模板文件，可修改为需要频道。function.log：抓取后源址有无效结果。config.py：ip_version_priority = "ipv6"：优先使用IPv6源，source_urls = [...]：直播源址，url_blacklist = [...]：黑名单。
+maim.yml中含有requests：发送 HTTP 请求、从网站及API 获取数据、从网络下载文件到本地。demo.txt：模板文件，可修改为需要频道。function.log：抓取后源址有无效结果。config.py：ip_version_priority = "ipv6"：优先使用IPv6源，source_urls = [...]：直播源址，址需双引号，url_blacklist = [...]：黑名单。
