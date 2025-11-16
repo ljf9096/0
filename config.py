@@ -1,12 +1,20 @@
 ip_version_priority = "ipv6"
 
 source_urls = [
-    "https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/y2.txt",
-    "https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/y3.txt",
-    "https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/y4.txt",
-    "https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/y5.txt",
-    "https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/y6.txt",
-
+    "https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/y2.txt"
+    "https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/y3.txt"
+    "https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/y4.txt"
+    "https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/y5.txt"
+    "https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/y6.txt"
+"https://fy.188766.xyz/?ip=&bconly=true&mima=mianfeidehaimaiqian"
+"https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/alenin-zhang/IPTV/refs/heads/main/lenin.txt"
+"https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/qingtingjjjjjjj/config-tv/refs/heads/main/live.txt"
+"https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/zzmaze/iptv/main/itvlist.txt"
+"https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/junge3333/juds6/main/yszb1.txt"
+"https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/XO-TV/iptv/refs/heads/master/output/hz.txt"
+"https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/XO-TV/iptv/refs/heads/master/output/iptv.txt"
+"https://ghfast.top/https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/qinvision/hpydy/refs/heads/main/hpydy.txt"
+"http://47.120.41.246:8899/zb.txt"
 ]
 
 url_blacklist = [
