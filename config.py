@@ -1,11 +1,11 @@
 ip_version_priority = "ipv6"
 
 source_urls = [
-    "TXT": "https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/y2.txt",
-    "TXT": "https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/y3.txt",
-    "TXT": "https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/y4.txt",
-    "TXT": "https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/y5.txt",
-    "TXT": "https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/y6.txt",
+    "https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/y2.txt",
+    "https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/y3.txt",
+    "https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/y4.txt",
+    "https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/y5.txt",
+    "https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/y6.txt",
 
 ]
 
