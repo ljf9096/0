@@ -3,7 +3,7 @@ ip_version_priority = "ipv6"
 source_urls = [
 "https://fy.188766.xyz/?ip=&bconly=true&mima=mianfeidehaimaiqian"
 "https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/alenin-zhang/IPTV/refs/heads/main/lenin.txt"
-https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/qingtingjjjjjjj/config-tv/refs/heads/main/live.txt"
+"https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/qingtingjjjjjjj/config-tv/refs/heads/main/live.txt"
 "https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/zzmaze/iptv/main/itvlist.txt"
 "https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/junge3333/juds6/main/yszb1.txt"
 "https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/XO-TV/iptv/refs/heads/master/output/hz.txt"
