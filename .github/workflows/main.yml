@@ -28,7 +28,7 @@ jobs:
     
     - name: Run channel update script
       run: |
-        python 2.py
+        python 3.py
     
     - name: Commit and push changes
       run: |
