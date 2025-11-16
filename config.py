@@ -61,7 +61,6 @@ https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/yuanzl77/IPTV/r
 https://iptv-org.github.io/iptv/languages/zho.m3u
 https://iptv-org.github.io/iptv/countries/us.m3u
 https://iptv-org.github.io/iptv/countries/tw.m3u
-https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716213337323/live3.txt
 https://fm1077.serv00.net/SmartTV.m3u
 https://live.zbds.top/tv/iptv4.txt
 https://live.zbds.top/tv/iptv6.txt
