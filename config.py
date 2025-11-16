@@ -1,7 +1,6 @@
 ip_version_priority = "ipv6"
 
 source_urls = [
-    "TXT": "https://gitee.com/sy68/tv/raw/tv/zby",
     "TXT": "https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/y2.txt",
     "TXT": "https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/y3.txt",
     "TXT": "https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/y4.txt",
