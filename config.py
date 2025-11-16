@@ -5,7 +5,6 @@ https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/adminouyang/231
 https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/Supprise0901/TVBox_live/refs/heads/main/live.txt
 https://fy.188766.xyz/?ip=&bconly=true&mima=mianfeidehaimaiqian
 https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/alenin-zhang/IPTV/refs/heads/main/lenin.txt
-https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/frxz751113/IPTVzb1/refs/heads/main/%E7%BD%91%E7%BB%9C%E6%94%B6%E9%9B%86.txt
 https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/qingtingjjjjjjj/config-tv/refs/heads/main/live.txt
 https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/zzmaze/iptv/main/itvlist.txt
 https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/junge3333/juds6/main/yszb1.txt
