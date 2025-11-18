@@ -1,15 +1,9 @@
-2025-11-17 03:58:54,573 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y2.txt 获取成功，判断为txt格式
-2025-11-17 03:58:54,574 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y2.txt 爬取成功✅，包含频道分类: 央卫网页, 广东网页, 虎牙网页
-2025-11-17 03:58:54,831 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y3.txt 获取成功，判断为txt格式
-2025-11-17 03:58:54,832 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y3.txt 爬取成功✅，包含频道分类: 央视, 卫视
-2025-11-17 03:58:55,062 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y4.txt 获取成功，判断为txt格式
-2025-11-17 03:58:55,062 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y4.txt 爬取成功✅，包含频道分类: 央视, 卫视
-2025-11-17 03:58:55,275 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y5.txt 获取成功，判断为txt格式
-2025-11-17 03:58:55,276 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y5.txt 爬取成功✅，包含频道分类: 央视频道, 其它频道, 卫视频道
-2025-11-17 03:58:55,508 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y6.txt 获取成功，判断为txt格式
-2025-11-17 03:58:55,508 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y6.txt 爬取成功✅，包含频道分类: 央视频道, 卫视频道
-2025-11-17 03:58:55,704 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y7.txt 获取成功，判断为txt格式
-2025-11-17 03:58:55,704 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y7.txt 爬取成功✅，包含频道分类: 央视频道, 卫视频道
-2025-11-17 03:58:55,933 - ERROR - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y8.txt 爬取失败❌, Error: 404 Client Error: Not Found for url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y8.txt
-2025-11-17 03:58:56,096 - ERROR - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y9.txt 爬取失败❌, Error: 404 Client Error: Not Found for url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y9.txt
-2025-11-17 03:58:56,100 - INFO - 文件生成完成，更新日期: 2025-11-17
+2025-11-18 13:23:48,540 - ERROR - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y2.txt 爬取失败❌, Error: 500 Server Error: Internal Server Error for url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y2.txt
+2025-11-18 13:23:48,623 - ERROR - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y3.txt 爬取失败❌, Error: 500 Server Error: Internal Server Error for url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y3.txt
+2025-11-18 13:23:48,734 - ERROR - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y4.txt 爬取失败❌, Error: 500 Server Error: Internal Server Error for url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y4.txt
+2025-11-18 13:23:48,814 - ERROR - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y5.txt 爬取失败❌, Error: 500 Server Error: Internal Server Error for url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y5.txt
+2025-11-18 13:23:48,950 - ERROR - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y6.txt 爬取失败❌, Error: 500 Server Error: Internal Server Error for url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y6.txt
+2025-11-18 13:23:49,149 - ERROR - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y7.txt 爬取失败❌, Error: 500 Server Error: Internal Server Error for url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y7.txt
+2025-11-18 13:23:49,282 - ERROR - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y8.txt 爬取失败❌, Error: 500 Server Error: Internal Server Error for url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y8.txt
+2025-11-18 13:23:49,488 - ERROR - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y9.txt 爬取失败❌, Error: 500 Server Error: Internal Server Error for url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y9.txt
+2025-11-18 13:23:49,490 - INFO - 文件生成完成，更新日期: 2025-11-18
