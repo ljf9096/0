@@ -8,7 +8,17 @@ source_urls = [
  "https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y6",
  "https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y7",
   "https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y8",
-"https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y9"
+"https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y9",
+ "https://iptv.catvod.com/tv.m3u",
+'https://gitee.com/lwr851/live/raw/master/iptv.m3u",
+"https://bc.188766.xyz/?ip=&mima=mianfeibuhuaqian&json=true",
+"https://gitee.com/zwssina/yunduanyuan/raw/master/SB",
+"https://d.kstore.dev/download/15366/6988.txt",
+"https://gh-proxy.com/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u",
+"https://gitee.com/hw2837/iptv/raw/master/iptv",
+"https://ghproxy.net/https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u",
+"https://ghproxy.net/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
+
 ]
 
 url_blacklist = [
