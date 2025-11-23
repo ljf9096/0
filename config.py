@@ -10,7 +10,7 @@ source_urls = [
   "https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y8",
 "https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y9",
  "https://iptv.catvod.com/tv.m3u",
-'https://gitee.com/lwr851/live/raw/master/iptv.m3u",
+"https://gitee.com/lwr851/live/raw/master/iptv.m3u",
 "https://bc.188766.xyz/?ip=&mima=mianfeibuhuaqian&json=true",
 "https://gitee.com/zwssina/yunduanyuan/raw/master/SB",
 "https://d.kstore.dev/download/15366/6988.txt",
