@@ -1,29 +1,29 @@
-2025-11-23 12:00:08,043 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y2 获取成功，判断为txt格式
-2025-11-23 12:00:08,044 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y2 爬取成功✅，包含频道分类: 央卫网页, 广东网页, 虎牙网页
-2025-11-23 12:00:08,201 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y3 获取成功，判断为txt格式
-2025-11-23 12:00:08,201 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y3 爬取成功✅，包含频道分类: 央视, 卫视
-2025-11-23 12:00:08,322 - ERROR - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y4 爬取失败❌, Error: 404 Client Error: Not Found for url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y4
-2025-11-23 12:00:08,438 - ERROR - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y5 爬取失败❌, Error: 404 Client Error: Not Found for url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y5
-2025-11-23 12:00:08,545 - ERROR - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y6 爬取失败❌, Error: 404 Client Error: Not Found for url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y6
-2025-11-23 12:00:08,670 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y7 获取成功，判断为txt格式
-2025-11-23 12:00:08,670 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y7 爬取成功✅，包含频道分类: 央视频道, 卫视频道
-2025-11-23 12:00:08,796 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y8 获取成功，判断为m3u格式
-2025-11-23 12:00:08,797 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y8 爬取成功✅，包含频道分类: 央视频道, 卫视频道, 超清频道, 其他频道
-2025-11-23 12:00:08,904 - ERROR - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y9 爬取失败❌, Error: 404 Client Error: Not Found for url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y9
-2025-11-23 12:00:08,963 - ERROR - url: https://iptv.catvod.com/tv.m3u 爬取失败❌, Error: 403 Client Error: Forbidden for url: https://iptv.catvod.com/tv.m3u
-2025-11-23 12:00:12,900 - INFO - url: https://gitee.com/lwr851/live/raw/master/iptv.m3u 获取成功，判断为m3u格式
-2025-11-23 12:00:12,901 - INFO - url: https://gitee.com/lwr851/live/raw/master/iptv.m3u 爬取成功✅，包含频道分类: 央视频道, 本地频道, 卫视频道, 港澳频道, 影视频道, 广播电台
-2025-11-23 12:00:13,081 - ERROR - url: https://bc.188766.xyz/?ip=&mima=mianfeibuhuaqian&json=true 爬取失败❌, Error: 403 Client Error: Forbidden for url: https://bc.188766.xyz/?ip=&mima=mianfeibuhuaqian&json=true
-2025-11-23 12:00:19,593 - INFO - url: https://gitee.com/zwssina/yunduanyuan/raw/master/SB 获取成功，判断为txt格式
-2025-11-23 12:00:19,595 - INFO - url: https://gitee.com/zwssina/yunduanyuan/raw/master/SB 爬取成功✅，包含频道分类: 港台douyin测试, 央视卫视高码, 央卫频临, 港台免梯, 风云港台, 广东本地judy, 广东移动内网, 移动央卫, 咪咕央卫, 3a, 轮播, 体育咪咕, 香港测试, 新咪咕, SMT港台
-2025-11-23 12:00:19,997 - INFO - url: https://d.kstore.dev/download/15366/6988.txt 获取成功，判断为txt格式
-2025-11-23 12:00:20,003 - INFO - url: https://d.kstore.dev/download/15366/6988.txt 爬取成功✅，包含频道分类: 央卫频道, 港台频道, 广东频道, 六合开奖
-2025-11-23 12:00:20,623 - INFO - url: https://gh-proxy.com/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u 获取成功，判断为m3u格式
-2025-11-23 12:00:20,624 - INFO - url: https://gh-proxy.com/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u 爬取成功✅，包含频道分类: 央视IPV4, 卫视IPV4, 卫视IPV4" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}, 4K8K频道, 历年春晚
-2025-11-23 12:00:23,859 - INFO - url: https://gitee.com/hw2837/iptv/raw/master/iptv 获取成功，判断为txt格式
-2025-11-23 12:00:23,862 - INFO - url: https://gitee.com/hw2837/iptv/raw/master/iptv 爬取成功✅，包含频道分类: 央视频道-BJ, 卫视频道-BJ, 咪咕频道-BJ, NewTV频道-BJ, 其它频道-BJ, 咪视通, itv体育咪咕, 移动央视V4, 移动卫视V4, 移动咪咕V4, 测试1, 雅安电信IPTV, rrs03-央视频道, rrs03-卫视频道, rrs03-咪咕频道, rrs03-其它频道
-2025-11-23 12:00:24,408 - INFO - url: https://ghproxy.net/https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u 获取成功，判断为m3u格式
-2025-11-23 12:00:24,409 - INFO - url: https://ghproxy.net/https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u 爬取成功✅，包含频道分类: 央视频道, 卫视频道
-2025-11-23 12:00:25,251 - INFO - url: https://ghproxy.net/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt 获取成功，判断为m3u格式
-2025-11-23 12:00:25,251 - INFO - url: https://ghproxy.net/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt 爬取成功✅，包含频道分类: 央视, 体育, 卫视, 地方, 影视, 新闻, 教育, 熊猫, 综艺, 少儿, 纪实
-2025-11-23 12:00:25,263 - INFO - 文件生成完成，更新日期: 2025-11-23
+2025-11-25 11:15:41,922 - INFO - url: http://140.210.9.53:6789/L00001live.txt 获取成功，判断为txt格式
+2025-11-25 11:15:41,924 - INFO - url: http://140.210.9.53:6789/L00001live.txt 爬取成功✅，包含频道分类: 央卫咪咕, 央卫频道, 北京地方, 江苏地方, 浙江地方, 广东地方, 湖南地方, 湖北地方, 江西地方, 四川地方, 云南地方, 贵州地方, 陕西地方, 安徽地方, 福建地方, 河北地方, 河南地方, 黑龙江地方, 吉林地方, 辽宁地方, 山东地方, 山西地方, 甘肃地方, 海南地方, 内蒙古地方, 新疆地方, 西藏地方
+2025-11-25 11:15:42,855 - ERROR - url: http://ok.html-5.me//i/%E6%B1%9F%E8%A5%BF%E7%9C%81%E9%B9%B0%E6%BD%AD%E5%B8%82%E7%94%B5%E4%BF%A1%E7%BB%84%E6%92%AD.txt 爬取失败❌, Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-11-25 11:15:43,359 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y4 获取成功，判断为txt格式
+2025-11-25 11:15:43,360 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y4 爬取成功✅，包含频道分类: 来源, 央卫咪咕, 央卫频道
+2025-11-25 11:15:43,575 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y5 获取成功，判断为txt格式
+2025-11-25 11:15:43,576 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y5 爬取成功✅，包含频道分类: 来源, 央视, 卫视, 其它
+2025-11-25 11:15:43,790 - ERROR - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y6 爬取失败❌, Error: 404 Client Error: Not Found for url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y6
+2025-11-25 11:15:44,000 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y7 获取成功，判断为txt格式
+2025-11-25 11:15:44,001 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y7 爬取成功✅，包含频道分类: 央视频道, 卫视频道
+2025-11-25 11:15:44,219 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y8 获取成功，判断为m3u格式
+2025-11-25 11:15:44,220 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y8 爬取成功✅，包含频道分类: 央视频道, 卫视频道, 超清频道, 其他频道
+2025-11-25 11:15:44,392 - ERROR - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y9 爬取失败❌, Error: 404 Client Error: Not Found for url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y9
+2025-11-25 11:15:44,491 - ERROR - url: https://iptv.catvod.com/tv.m3u 爬取失败❌, Error: 403 Client Error: Forbidden for url: https://iptv.catvod.com/tv.m3u
+2025-11-25 11:15:46,538 - INFO - url: https://gitee.com/lwr851/live/raw/master/iptv.m3u 获取成功，判断为m3u格式
+2025-11-25 11:15:46,539 - INFO - url: https://gitee.com/lwr851/live/raw/master/iptv.m3u 爬取成功✅，包含频道分类: 央视频道, 本地频道, 卫视频道, 港澳频道, 影视频道, 广播电台
+2025-11-25 11:15:46,984 - ERROR - url: https://bc.188766.xyz/?ip=&mima=mianfeibuhuaqian&json=true 爬取失败❌, Error: 403 Client Error: Forbidden for url: https://bc.188766.xyz/?ip=&mima=mianfeibuhuaqian&json=true
+2025-11-25 11:15:49,019 - INFO - url: https://gitee.com/zwssina/yunduanyuan/raw/master/SB 获取成功，判断为txt格式
+2025-11-25 11:15:49,021 - INFO - url: https://gitee.com/zwssina/yunduanyuan/raw/master/SB 爬取成功✅，包含频道分类: 港台douyin测试, 央视卫视高码, 央卫频临, 港台免梯, 风云港台, 广东本地judy, 广东移动内网, 移动央卫, 咪咕央卫, 3a, 轮播, 体育咪咕, 香港测试, 新咪咕, SMT港台
+2025-11-25 11:15:49,369 - INFO - url: https://d.kstore.dev/download/15366/6988.txt 获取成功，判断为txt格式
+2025-11-25 11:15:49,374 - INFO - url: https://d.kstore.dev/download/15366/6988.txt 爬取成功✅，包含频道分类: 央卫频道, 港台频道, 广东频道, 六合开奖
+2025-11-25 11:15:54,579 - INFO - url: https://gh-proxy.com/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u 获取成功，判断为m3u格式
+2025-11-25 11:15:54,580 - INFO - url: https://gh-proxy.com/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u 爬取成功✅，包含频道分类: 央视IPV4, 卫视IPV4, 卫视IPV4" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}, 4K8K频道, 历年春晚
+2025-11-25 11:15:57,745 - INFO - url: https://gitee.com/hw2837/iptv/raw/master/iptv 获取成功，判断为txt格式
+2025-11-25 11:15:57,747 - INFO - url: https://gitee.com/hw2837/iptv/raw/master/iptv 爬取成功✅，包含频道分类: 央视频道-BJ, 卫视频道-BJ, 咪咕频道-BJ, NewTV频道-BJ, 其它频道-BJ, 咪视通, itv体育咪咕, 移动央视V4, 移动卫视V4, 移动咪咕V4, 测试1, 雅安电信IPTV, rrs03-央视频道, rrs03-卫视频道, rrs03-咪咕频道, rrs03-其它频道
+2025-11-25 11:15:58,425 - INFO - url: https://ghproxy.net/https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u 获取成功，判断为m3u格式
+2025-11-25 11:15:58,425 - INFO - url: https://ghproxy.net/https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u 爬取成功✅，包含频道分类: 央视频道, 卫视频道
+2025-11-25 11:15:59,095 - INFO - url: https://ghproxy.net/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt 获取成功，判断为m3u格式
+2025-11-25 11:15:59,095 - INFO - url: https://ghproxy.net/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt 爬取成功✅，包含频道分类: 央视, 体育, 卫视, 地方, 影视, 新闻, 教育, 熊猫, 综艺, 少儿, 纪实
