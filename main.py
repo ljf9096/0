@@ -162,24 +162,16 @@ def filter_henan_unicom_urls(urls, max_urls=4):
 def updateChannelUrlsM3U(channels, template_channels):
     written_urls = set()
 
-    current_date = datetime.now().strftime("%Y-%m-%d")
-    for group in config.announcements:
-        for announcement in group['entries']:
-            if announcement['name'] is None:
-                announcement['name'] = current_date
-
     with open("live.m3u", "w", encoding="utf-8") as f_m3u:
-        f_m3u.write(f"""#EXTM3U x-tvg-url={",".join(f'"{epg_url}"' for epg_url in config.epg_urls)}\n""")
+        # 检查config是否有epg_urls属性，如果没有就使用空列表
+        epg_urls = getattr(config, 'epg_urls', [])
+        if epg_urls:
+            f_m3u.write(f"""#EXTM3U x-tvg-url={",".join(f'"{epg_url}"' for epg_url in epg_urls)}\n""")
+        else:
+            f_m3u.write("#EXTM3U\n")
 
         with open("live.txt", "w", encoding="utf-8") as f_txt:
-            # 跳过公告部分 - 注释掉公告写入代码
-            # for group in config.announcements:
-            #     f_txt.write(f"{group['channel']},#genre#\n")
-            #     for announcement in group['entries']:
-            #         f_m3u.write(f"""#EXTINF:-1 tvg-id="1" tvg-name="{announcement['name']}" tvg-logo="{announcement['logo']}" group-title="{group['channel']}",{announcement['name']}\n""")
-            #         f_m3u.write(f"{announcement['url']}\n")
-            #         f_txt.write(f"{announcement['name']},{announcement['url']}\n")
-
+            # 完全跳过公告部分，直接开始写入频道
             for category, channel_list in template_channels.items():
                 f_txt.write(f"{category},#genre#\n")
                 if category in channels:
@@ -189,7 +181,7 @@ def updateChannelUrlsM3U(channels, template_channels):
                             all_urls = channels[category][channel_name]
                             
                             # 过滤黑名单URL
-                            filtered_urls = [url for url in all_urls if url and url not in written_urls and not any(blacklist in url for blacklist in config.url_blacklist)]
+                            filtered_urls = [url for url in all_urls if url and url not in written_urls and not any(blacklist in url for blacklist in getattr(config, 'url_blacklist', []))]
                             
                             if not filtered_urls:
                                 continue
@@ -204,7 +196,8 @@ def updateChannelUrlsM3U(channels, template_channels):
                             final_urls = final_urls[:8]
                             
                             # 按IP版本排序
-                            sorted_urls = sorted(final_urls, key=lambda url: not is_ipv6(url) if config.ip_version_priority == "ipv6" else is_ipv6(url))
+                            ip_version_priority = getattr(config, 'ip_version_priority', 'ipv4')
+                            sorted_urls = sorted(final_urls, key=lambda url: not is_ipv6(url) if ip_version_priority == "ipv6" else is_ipv6(url))
                             
                             total_urls = len(sorted_urls)
                             for index, url in enumerate(sorted_urls, start=1):
