@@ -124,27 +124,44 @@ def filter_and_sort_urls(urls, channel_name):
     else:
         # 其他频道保持原有逻辑
         all_urls = henan_unicom_urls + other_urls
-        return sorted(all_urls, key=lambda url: not is_ipv6(url) if config.ip_version_priority == "ipv6" else is_ipv6(url))
+        # 确保 ip_version_priority 属性存在
+        ip_priority = getattr(config, 'ip_version_priority', 'ipv4')
+        return sorted(all_urls, key=lambda url: not is_ipv6(url) if ip_priority == "ipv6" else is_ipv6(url))
 
 def updateChannelUrlsM3U(channels, template_channels):
     written_urls = set()
 
+    # 安全地获取配置属性
+    announcements = getattr(config, 'announcements', [])
+    epg_urls = getattr(config, 'epg_urls', [])
+    url_blacklist = getattr(config, 'url_blacklist', [])
+    
     current_date = datetime.now().strftime("%Y-%m-%d")
-    for group in config.announcements:
-        for announcement in group['entries']:
-            if announcement['name'] is None:
+    for group in announcements:
+        for announcement in group.get('entries', []):
+            if announcement.get('name') is None:
                 announcement['name'] = current_date
 
     with open("live.m3u", "w", encoding="utf-8") as f_m3u:
-        f_m3u.write(f"""#EXTM3U x-tvg-url={",".join(f'"{epg_url}"' for epg_url in config.epg_urls)}\n""")
+        # 安全地写入EPG URLs
+        if epg_urls:
+            f_m3u.write(f"""#EXTM3U x-tvg-url={",".join(f'"{epg_url}"' for epg_url in epg_urls)}\n""")
+        else:
+            f_m3u.write("#EXTM3U\n")
 
         with open("live.txt", "w", encoding="utf-8") as f_txt:
-            for group in config.announcements:
-                f_txt.write(f"{group['channel']},#genre#\n")
-                for announcement in group['entries']:
-                    f_m3u.write(f"""#EXTINF:-1 tvg-id="1" tvg-name="{announcement['name']}" tvg-logo="{announcement['logo']}" group-title="{group['channel']}",{announcement['name']}\n""")
-                    f_m3u.write(f"{announcement['url']}\n")
-                    f_txt.write(f"{announcement['name']},{announcement['url']}\n")
+            # 只在有公告时写入公告频道
+            if announcements:
+                for group in announcements:
+                    channel_name = group.get('channel', '公告频道')
+                    f_txt.write(f"{channel_name},#genre#\n")
+                    for announcement in group.get('entries', []):
+                        name = announcement.get('name', '公告')
+                        logo = announcement.get('logo', '')
+                        url = announcement.get('url', '')
+                        f_m3u.write(f"""#EXTINF:-1 tvg-id="1" tvg-name="{name}" tvg-logo="{logo}" group-title="{channel_name}",{name}\n""")
+                        f_m3u.write(f"{url}\n")
+                        f_txt.write(f"{name},{url}\n")
 
             for category, channel_list in template_channels.items():
                 f_txt.write(f"{category},#genre#\n")
@@ -157,7 +174,7 @@ def updateChannelUrlsM3U(channels, template_channels):
                             # 进一步过滤黑名单和重复URL
                             final_urls = []
                             for url in filtered_urls:
-                                if url and url not in written_urls and not any(blacklist in url for blacklist in config.url_blacklist):
+                                if url and url not in written_urls and not any(blacklist in url for blacklist in url_blacklist):
                                     final_urls.append(url)
                                     written_urls.add(url)
 
