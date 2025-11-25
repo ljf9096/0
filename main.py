@@ -7,6 +7,17 @@ import config
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', handlers=[logging.FileHandler("function.log", "w", encoding="utf-8"), logging.StreamHandler()])
 
+# 为配置提供默认值
+def get_config_value(attr_name, default_value):
+    return getattr(config, attr_name, default_value) if hasattr(config, attr_name) else default_value
+
+# 使用默认值获取配置
+announcements = get_config_value('announcements', [])
+epg_urls = get_config_value('epg_urls', [])
+source_urls = get_config_value('source_urls', [])
+ip_version_priority = get_config_value('ip_version_priority', "ipv4")
+url_blacklist = get_config_value('url_blacklist', [])
+
 def parse_template(template_file):
     template_channels = OrderedDict()
     current_category = None
@@ -88,7 +99,6 @@ def match_channels(template_channels, all_channels):
 
 def filter_source_urls(template_file):
     template_channels = parse_template(template_file)
-    source_urls = config.source_urls
 
     all_channels = OrderedDict()
     for url in source_urls:
@@ -124,7 +134,7 @@ def sort_urls_by_speed(urls):
         if is_henan_unicom(url):
             priority += 1000
         # IP版本优先级
-        if config.ip_version_priority == "ipv6":
+        if ip_version_priority == "ipv6":
             if is_ipv6(url):
                 priority += 100
             else:
@@ -167,16 +177,16 @@ def updateChannelUrlsM3U(channels, template_channels):
     written_urls = set()
 
     current_date = datetime.now().strftime("%Y-%m-%d")
-    for group in config.announcements:
+    for group in announcements:
         for announcement in group['entries']:
             if announcement['name'] is None:
                 announcement['name'] = current_date
 
     with open("live.m3u", "w", encoding="utf-8") as f_m3u:
-        f_m3u.write(f"""#EXTM3U x-tvg-url={",".join(f'"{epg_url}"' for epg_url in config.epg_urls)}\n""")
+        f_m3u.write(f"""#EXTM3U x-tvg-url={",".join(f'"{epg_url}"' for epg_url in epg_urls)}\n""")
 
         with open("live.txt", "w", encoding="utf-8") as f_txt:
-            for group in config.announcements:
+            for group in announcements:
                 f_txt.write(f"{group['channel']},#genre#\n")
                 for announcement in group['entries']:
                     f_m3u.write(f"""#EXTINF:-1 tvg-id="1" tvg-name="{announcement['name']}" tvg-logo="{announcement['logo']}" group-title="{group['channel']}",{announcement['name']}\n""")
@@ -194,10 +204,10 @@ def updateChannelUrlsM3U(channels, template_channels):
                                 filtered_urls = filter_cctv_urls(channels[category][channel_name], max_count=4)
                             else:
                                 # 其他频道保持原有逻辑
-                                sorted_urls = sorted(channels[category][channel_name], key=lambda url: not is_ipv6(url) if config.ip_version_priority == "ipv6" else is_ipv6(url))
+                                sorted_urls = sorted(channels[category][channel_name], key=lambda url: not is_ipv6(url) if ip_version_priority == "ipv6" else is_ipv6(url))
                                 filtered_urls = []
                                 for url in sorted_urls:
-                                    if url and url not in written_urls and not any(blacklist in url for blacklist in config.url_blacklist):
+                                    if url and url not in written_urls and not any(blacklist in url for blacklist in url_blacklist):
                                         filtered_urls.append(url)
                                         written_urls.add(url)
 
