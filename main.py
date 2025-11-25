@@ -108,78 +108,105 @@ def is_ipv6(url):
 
 def is_henan_unicom(url):
     """判断是否为河南联通源"""
-    return 'henan' in url.lower() and 'unicom' in url.lower()
+    return 'hna' in url.lower() or 'henan' in url.lower() or '河南' in url
 
-def filter_and_sort_urls(urls, channel_name):
-    """过滤和排序URL，对CCTV频道只保留河南联通最快的前4个源"""
-    # 分离河南联通源和其他源
-    henan_unicom_urls = [url for url in urls if is_henan_unicom(url)]
-    other_urls = [url for url in urls if not is_henan_unicom(url)]
+def sort_urls_by_speed(urls):
+    """
+    根据URL特征进行排序，优先河南联通源
+    排序规则：
+    1. 河南联通源优先
+    2. IPv6优先（如果配置了ipv6优先）
+    3. 其他源
+    """
+    def url_priority(url):
+        priority = 0
+        # 河南联通源最高优先级
+        if is_henan_unicom(url):
+            priority += 1000
+        # IP版本优先级
+        if config.ip_version_priority == "ipv6":
+            if is_ipv6(url):
+                priority += 100
+            else:
+                priority += 50
+        else:
+            if not is_ipv6(url):
+                priority += 100
+            else:
+                priority += 50
+        return priority
     
-    # 对CCTV频道特殊处理
-    if channel_name.lower().startswith('cctv'):
-        # 只取河南联通的前4个源
-        selected_henan_unicom = henan_unicom_urls[:4]
-        return selected_henan_unicom
+    return sorted(urls, key=url_priority, reverse=True)
+
+def filter_cctv_urls(urls, max_count=4):
+    """
+    过滤CCTV频道URL，仅保留河南联通速度最快的前几个源
+    """
+    # 首先按速度排序
+    sorted_urls = sort_urls_by_speed(urls)
+    
+    # 优先选择河南联通源
+    henan_urls = [url for url in sorted_urls if is_henan_unicom(url)]
+    other_urls = [url for url in sorted_urls if not is_henan_unicom(url)]
+    
+    # 如果河南联通源足够，只保留河南联通源
+    if len(henan_urls) >= max_count:
+        return henan_urls[:max_count]
+    # 如果河南联通源不足，用其他源补足
+    elif henan_urls:
+        return henan_urls + other_urls[:max_count - len(henan_urls)]
+    # 如果没有河南联通源，返回其他源
     else:
-        # 其他频道保持原有逻辑
-        all_urls = henan_unicom_urls + other_urls
-        # 确保 ip_version_priority 属性存在
-        ip_priority = getattr(config, 'ip_version_priority', 'ipv4')
-        return sorted(all_urls, key=lambda url: not is_ipv6(url) if ip_priority == "ipv6" else is_ipv6(url))
+        return other_urls[:max_count]
+
+def is_cctv_channel(channel_name):
+    """判断是否为CCTV频道"""
+    return channel_name.lower().startswith('cctv')
 
 def updateChannelUrlsM3U(channels, template_channels):
     written_urls = set()
 
-    # 安全地获取配置属性
-    announcements = getattr(config, 'announcements', [])
-    epg_urls = getattr(config, 'epg_urls', [])
-    url_blacklist = getattr(config, 'url_blacklist', [])
-    
     current_date = datetime.now().strftime("%Y-%m-%d")
-    for group in announcements:
-        for announcement in group.get('entries', []):
-            if announcement.get('name') is None:
+    for group in config.announcements:
+        for announcement in group['entries']:
+            if announcement['name'] is None:
                 announcement['name'] = current_date
 
     with open("live.m3u", "w", encoding="utf-8") as f_m3u:
-        # 安全地写入EPG URLs
-        if epg_urls:
-            f_m3u.write(f"""#EXTM3U x-tvg-url={",".join(f'"{epg_url}"' for epg_url in epg_urls)}\n""")
-        else:
-            f_m3u.write("#EXTM3U\n")
+        f_m3u.write(f"""#EXTM3U x-tvg-url={",".join(f'"{epg_url}"' for epg_url in config.epg_urls)}\n""")
 
         with open("live.txt", "w", encoding="utf-8") as f_txt:
-            # 只在有公告时写入公告频道
-            if announcements:
-                for group in announcements:
-                    channel_name = group.get('channel', '公告频道')
-                    f_txt.write(f"{channel_name},#genre#\n")
-                    for announcement in group.get('entries', []):
-                        name = announcement.get('name', '公告')
-                        logo = announcement.get('logo', '')
-                        url = announcement.get('url', '')
-                        f_m3u.write(f"""#EXTINF:-1 tvg-id="1" tvg-name="{name}" tvg-logo="{logo}" group-title="{channel_name}",{name}\n""")
-                        f_m3u.write(f"{url}\n")
-                        f_txt.write(f"{name},{url}\n")
+            for group in config.announcements:
+                f_txt.write(f"{group['channel']},#genre#\n")
+                for announcement in group['entries']:
+                    f_m3u.write(f"""#EXTINF:-1 tvg-id="1" tvg-name="{announcement['name']}" tvg-logo="{announcement['logo']}" group-title="{group['channel']}",{announcement['name']}\n""")
+                    f_m3u.write(f"{announcement['url']}\n")
+                    f_txt.write(f"{announcement['name']},{announcement['url']}\n")
 
             for category, channel_list in template_channels.items():
                 f_txt.write(f"{category},#genre#\n")
                 if category in channels:
                     for channel_name in channel_list:
                         if channel_name in channels[category]:
-                            # 使用新的过滤和排序函数
-                            filtered_urls = filter_and_sort_urls(channels[category][channel_name], channel_name)
-                            
-                            # 进一步过滤黑名单和重复URL
-                            final_urls = []
-                            for url in filtered_urls:
-                                if url and url not in written_urls and not any(blacklist in url for blacklist in url_blacklist):
-                                    final_urls.append(url)
-                                    written_urls.add(url)
+                            # 对CCTV频道进行特殊处理
+                            if is_cctv_channel(channel_name):
+                                # 仅保留河南联通速度最快的前4个源
+                                filtered_urls = filter_cctv_urls(channels[category][channel_name], max_count=4)
+                            else:
+                                # 其他频道保持原有逻辑
+                                sorted_urls = sorted(channels[category][channel_name], key=lambda url: not is_ipv6(url) if config.ip_version_priority == "ipv6" else is_ipv6(url))
+                                filtered_urls = []
+                                for url in sorted_urls:
+                                    if url and url not in written_urls and not any(blacklist in url for blacklist in config.url_blacklist):
+                                        filtered_urls.append(url)
+                                        written_urls.add(url)
 
-                            total_urls = len(final_urls)
-                            for index, url in enumerate(final_urls, start=1):
+                            total_urls = len(filtered_urls)
+                            for index, url in enumerate(filtered_urls, start=1):
+                                if url in written_urls:
+                                    continue
+                                written_urls.add(url)
+                                
                                 if is_ipv6(url):
                                     url_suffix = f"$LR•IPV6" if total_urls == 1 else f"$LR•IPV6『线路{index}』"
                                 else:
