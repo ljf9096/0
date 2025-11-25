@@ -192,8 +192,8 @@ def updateChannelUrlsM3U(channels, template_channels):
                             # 优先使用河南联通URL，如果没有则使用其他URL
                             final_urls = henan_unicom_urls if henan_unicom_urls else other_urls
                             
-                            # 限制总URL数量，最多保留8个
-                            final_urls = final_urls[:8]
+                            # 限制总URL数量，最多保留4个
+                            final_urls = final_urls[:4]
                             
                             # 按IP版本排序
                             ip_version_priority = getattr(config, 'ip_version_priority', 'ipv4')
