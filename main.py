@@ -4,11 +4,12 @@ import logging
 from collections import OrderedDict
 from datetime import datetime
 import config
+import concurrent.futures
+import time
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', handlers=[logging.FileHandler("function.log", "w", encoding="utf-8"), logging.StreamHandler()])
 
 def parse_template(template_file):
-    """解析模板文件，获取频道结构"""
     template_channels = OrderedDict()
     current_category = None
 
@@ -26,7 +27,6 @@ def parse_template(template_file):
     return template_channels
 
 def fetch_channels(url):
-    """从URL获取频道数据"""
     channels = OrderedDict()
 
     try:
@@ -75,29 +75,7 @@ def fetch_channels(url):
 
     return channels
 
-def filter_henan_sources(channel_urls):
-    """河南联通的优质源，每个运营商最多保留4个"""
-    henan_union_urls = []
-    other_urls = []
-    
-    for url in channel_urls:
-        elif 'ha.10010.cn' in url or 'henan.unicom' in url or '河南联通' in url:
-            henan_union_urls.append(url)
-        else:
-            other_urls.append(url)
-    
-    # 每个运营商最多保留4个最好的源
-    selected_urls = []
-    selected_urls.extend(henan_union_urls[:4])   # 河南联通前4个
-    
-    # 如果河南源不足4个，用其他源补足
-    if len(selected_urls) < 4:
-        selected_urls.extend(other_urls[:4 - len(selected_urls)])
-    
-    return selected_urls[:4]  # 确保最多返回4个源
-
 def match_channels(template_channels, all_channels):
-    """匹配模板频道和在线频道，并筛选优质源"""
     matched_channels = OrderedDict()
 
     for category, channel_list in template_channels.items():
@@ -106,20 +84,11 @@ def match_channels(template_channels, all_channels):
             for online_category, online_channel_list in all_channels.items():
                 for online_channel_name, online_channel_url in online_channel_list:
                     if channel_name == online_channel_name:
-                        if channel_name not in matched_channels[category]:
-                            matched_channels[category][channel_name] = []
-                        matched_channels[category][channel_name].append(online_channel_url)
-
-    # 对每个频道的URL进行筛选，保留最好的4个源
-    for category in matched_channels:
-        for channel_name in matched_channels[category]:
-            urls = matched_channels[category][channel_name]
-            matched_channels[category][channel_name] = filter_henan_sources(urls)
+                        matched_channels[category].setdefault(channel_name, []).append(online_channel_url)
 
     return matched_channels
 
 def filter_source_urls(template_file):
-    """过滤源URL，获取匹配的频道"""
     template_channels = parse_template(template_file)
     source_urls = config.source_urls
 
@@ -137,47 +106,126 @@ def filter_source_urls(template_file):
     return matched_channels, template_channels
 
 def is_ipv6(url):
-    """检查是否为IPv6地址"""
     return re.match(r'^http:\/\/\[[0-9a-fA-F:]+\]', url) is not None
 
+def test_speed(url, timeout=3):
+    """测试单个URL的响应速度"""
+    try:
+        start_time = time.time()
+        response = requests.head(url, timeout=timeout, allow_redirects=True)
+        if response.status_code == 200:
+            return time.time() - start_time
+    except:
+        pass
+    return float('inf')  # 返回无穷大表示超时或失败
+
+def filter_henan_unicom_urls(urls, max_urls=4):
+    """筛选河南联通的URL并测试速度，保留最快的几个"""
+    henan_unicom_urls = []
+    other_urls = []
+    
+    # 分离河南联通和其他URL
+    for url in urls:
+        if 'henan' in url.lower() and 'unicom' in url.lower():
+            henan_unicom_urls.append(url)
+        else:
+            other_urls.append(url)
+    
+    # 如果没有河南联通URL，直接返回空列表和其他URL
+    if not henan_unicom_urls:
+        return [], other_urls
+    
+    # 测试河南联通URL的速度
+    logging.info(f"测试 {len(henan_unicom_urls)} 个河南联通URL的速度...")
+    
+    # 使用线程池并行测试速度
+    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+        future_to_url = {executor.submit(test_speed, url): url for url in henan_unicom_urls}
+        speed_results = []
+        
+        for future in concurrent.futures.as_completed(future_to_url):
+            url = future_to_url[future]
+            try:
+                speed = future.result()
+                speed_results.append((url, speed))
+            except Exception as e:
+                speed_results.append((url, float('inf')))
+    
+    # 按速度排序，取最快的max_urls个
+    speed_results.sort(key=lambda x: x[1])
+    fastest_henan_urls = [url for url, speed in speed_results[:max_urls] if speed < float('inf')]
+    
+    logging.info(f"保留最快的 {len(fastest_henan_urls)} 个河南联通URL")
+    
+    return fastest_henan_urls, other_urls
+
 def updateChannelUrlsM3U(channels, template_channels):
-    """更新频道URL并生成M3U和TXT文件"""
     written_urls = set()
+
+    current_date = datetime.now().strftime("%Y-%m-%d")
+    for group in config.announcements:
+        for announcement in group['entries']:
+            if announcement['name'] is None:
+                announcement['name'] = current_date
 
     with open("live.m3u", "w", encoding="utf-8") as f_m3u:
         f_m3u.write(f"""#EXTM3U x-tvg-url={",".join(f'"{epg_url}"' for epg_url in config.epg_urls)}\n""")
 
         with open("live.txt", "w", encoding="utf-8") as f_txt:
-            # 直接写入频道数据，跳过公告部分
+            # 跳过公告部分 - 注释掉公告写入代码
+            # for group in config.announcements:
+            #     f_txt.write(f"{group['channel']},#genre#\n")
+            #     for announcement in group['entries']:
+            #         f_m3u.write(f"""#EXTINF:-1 tvg-id="1" tvg-name="{announcement['name']}" tvg-logo="{announcement['logo']}" group-title="{group['channel']}",{announcement['name']}\n""")
+            #         f_m3u.write(f"{announcement['url']}\n")
+            #         f_txt.write(f"{announcement['name']},{announcement['url']}\n")
+
             for category, channel_list in template_channels.items():
                 f_txt.write(f"{category},#genre#\n")
                 if category in channels:
                     for channel_name in channel_list:
-                        if channel_name in channels[category] and channels[category][channel_name]:
-                            urls = channels[category][channel_name]
-                            filtered_urls = []
+                        if channel_name in channels[category]:
+                            # 获取该频道的所有URL
+                            all_urls = channels[category][channel_name]
                             
-                            # 过滤黑名单URL和重复URL
-                            for url in urls:
-                                if url and url not in written_urls and not any(blacklist in url for blacklist in config.url_blacklist):
-                                    filtered_urls.append(url)
-                                    written_urls.add(url)
+                            # 过滤黑名单URL
+                            filtered_urls = [url for url in all_urls if url and url not in written_urls and not any(blacklist in url for blacklist in config.url_blacklist)]
                             
-                            # 为每个URL添加线路标识
-                            total_urls = len(filtered_urls)
-                            for index, url in enumerate(filtered_urls, start=1):
-                                # 确定运营商类型
-                                if 'ha.10086.cn' in url or 'henan.mobile' in url or '河南移动' in url:
-                                    operator = "移动"
-                                elif 'ha.10010.cn' in url or 'henan.unicom' in url or '河南联通' in url:
-                                    operator = "联通"
-                                else:
-                                    operator = "其他"
+                            if not filtered_urls:
+                                continue
+                                
+                            # 筛选河南联通URL，保留最快的4个
+                            henan_unicom_urls, other_urls = filter_henan_unicom_urls(filtered_urls, max_urls=4)
+                            
+                            # 优先使用河南联通URL，如果没有则使用其他URL
+                            final_urls = henan_unicom_urls if henan_unicom_urls else other_urls
+                            
+                            # 限制总URL数量，最多保留8个
+                            final_urls = final_urls[:8]
+                            
+                            # 按IP版本排序
+                            sorted_urls = sorted(final_urls, key=lambda url: not is_ipv6(url) if config.ip_version_priority == "ipv6" else is_ipv6(url))
+                            
+                            total_urls = len(sorted_urls)
+                            for index, url in enumerate(sorted_urls, start=1):
+                                if url in written_urls:
+                                    continue
+                                    
+                                written_urls.add(url)
+                                
+                                # 判断是否为河南联通
+                                is_henan_unicom = 'henan' in url.lower() and 'unicom' in url.lower()
                                 
                                 if is_ipv6(url):
-                                    url_suffix = f"$LR•IPV6•{operator}" if total_urls == 1 else f"$LR•IPV6•{operator}『线路{index}』"
+                                    if is_henan_unicom:
+                                        url_suffix = f"$LR•河南联通•IPV6" if total_urls == 1 else f"$LR•河南联通•IPV6『线路{index}』"
+                                    else:
+                                        url_suffix = f"$LR•IPV6" if total_urls == 1 else f"$LR•IPV6『线路{index}』"
                                 else:
-                                    url_suffix = f"$LR•IPV4•{operator}" if total_urls == 1 else f"$LR•IPV4•{operator}『线路{index}』"
+                                    if is_henan_unicom:
+                                        url_suffix = f"$LR•河南联通•IPV4" if total_urls == 1 else f"$LR•河南联通•IPV4『线路{index}』"
+                                    else:
+                                        url_suffix = f"$LR•IPV4" if total_urls == 1 else f"$LR•IPV4『线路{index}』"
                                 
                                 if '$' in url:
                                     base_url = url.split('$', 1)[0]
@@ -191,9 +239,6 @@ def updateChannelUrlsM3U(channels, template_channels):
                                 f_txt.write(f"{channel_name},{new_url}\n")
 
             f_txt.write("\n")
-    
-    current_date = datetime.now().strftime("%Y-%m-%d")
-    logging.info(f"文件生成完成，更新日期: {current_date}")
 
 if __name__ == "__main__":
     template_file = "demo.txt"
