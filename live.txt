@@ -181,7 +181,9 @@ CCTV15,http://api.kkitv.itv888.cn:8080/hls/hcwu4ianhgw/index.m3u8$LR•IPV4『�
 凤凰香港,https://hk.188766.xyz/?migutoken=4087e4c220d8904b3557932c9a105995&id=hk_fhhk&type=dy$LR•IPV4『线路2』
 凤凰香港,https://cdn6.101.qzz.io/163189/fhhk$LR•IPV4『线路3』
 凤凰香港,http://cdn6.163189.xyz/163189/fhhk$LR•IPV4『线路4』
-TVBS新闻,http://220.135.64.124:5050/li-4gtv-4gtv072/index.m3u8?proxy=true$LR•IPV4
+香港卫视,http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8$LR•IPV4『线路1』
+TVBS新闻,http://220.135.64.124:5050/li-4gtv-4gtv072/index.m3u8?proxy=true$LR•IPV4『线路1』
+TVBS新闻,http://nmk.ioapk.com:5050/li-4gtv-4gtv072/index.m3u8?proxy=true$LR•IPV4『线路2』
 影视频道,#genre#
 CHC动作电影,http://140.210.9.18:8800/SuanFaZhibo/live4/migu.php?token=cae47b4cceb3dfb1e1d0ff769405d0$LR•IPV4『线路1』
 CHC动作电影,http://pitajvsa.asuscomm.com:51728/udp/238.200.200.61:5540$LR•IPV4『线路2』

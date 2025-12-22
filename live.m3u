@@ -359,8 +359,12 @@ https://hk.188766.xyz/?migutoken=4087e4c220d8904b3557932c9a105995&id=hk_fhhk&typ
 https://cdn6.101.qzz.io/163189/fhhk$LR•IPV4『线路3』
 #EXTINF:-1 tvg-id="4" tvg-name="凤凰香港" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰香港.png" group-title="港·澳·台",凤凰香港
 http://cdn6.163189.xyz/163189/fhhk$LR•IPV4『线路4』
+#EXTINF:-1 tvg-id="1" tvg-name="香港卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/香港卫视.png" group-title="港·澳·台",香港卫视
+http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8$LR•IPV4『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="TVBS新闻" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/TVBS新闻.png" group-title="港·澳·台",TVBS新闻
-http://220.135.64.124:5050/li-4gtv-4gtv072/index.m3u8?proxy=true$LR•IPV4
+http://220.135.64.124:5050/li-4gtv-4gtv072/index.m3u8?proxy=true$LR•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="TVBS新闻" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/TVBS新闻.png" group-title="港·澳·台",TVBS新闻
+http://nmk.ioapk.com:5050/li-4gtv-4gtv072/index.m3u8?proxy=true$LR•IPV4『线路2』
 #EXTINF:-1 tvg-id="1" tvg-name="CHC动作电影" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/CHC动作电影.png" group-title="影视频道",CHC动作电影
 http://140.210.9.18:8800/SuanFaZhibo/live4/migu.php?token=cae47b4cceb3dfb1e1d0ff769405d0$LR•IPV4『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="CHC动作电影" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/CHC动作电影.png" group-title="影视频道",CHC动作电影
