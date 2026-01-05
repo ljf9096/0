@@ -364,7 +364,7 @@ http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8$LR•IPV4『线路1』
 #EXTINF:-1 tvg-id="1" tvg-name="TVBS新闻" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/TVBS新闻.png" group-title="港·澳·台",TVBS新闻
 http://220.135.64.124:5050/li-4gtv-4gtv072/index.m3u8?proxy=true$LR•IPV4『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="TVBS新闻" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/TVBS新闻.png" group-title="港·澳·台",TVBS新闻
-http://nmk.ioapk.com:5050/li-4gtv-4gtv072/index.m3u8?proxy=true$LR•IPV4『线路2』
+p2p://142.54.189.229:2666/64df0c5d000a530d048e75f37b155008.ts$LR•IPV4『线路2』
 #EXTINF:-1 tvg-id="1" tvg-name="CHC动作电影" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/CHC动作电影.png" group-title="影视频道",CHC动作电影
 http://140.210.9.18:8800/SuanFaZhibo/live4/migu.php?token=cae47b4cceb3dfb1e1d0ff769405d0$LR•IPV4『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="CHC动作电影" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/CHC动作电影.png" group-title="影视频道",CHC动作电影
@@ -374,7 +374,9 @@ http://iptv.666230.xyz/iptv/sxg.php/wqCHCdzdyH265_4000$LR•IPV4『线路3』
 #EXTINF:-1 tvg-id="4" tvg-name="CHC动作电影" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/CHC动作电影.png" group-title="影视频道",CHC动作电影
 http://202.168.168.50:5000/tsfile/live/1065_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路4』
 #EXTINF:-1 tvg-id="1" tvg-name="CHC高清电影" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/CHC高清电影.png" group-title="影视频道",CHC高清电影
-http://115.148.202.227:7088/rtp/239.252.219.83:5140$LR•IPV4
+http://115.148.202.227:7088/rtp/239.252.219.83:5140$LR•IPV4『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="CHC高清电影" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/CHC高清电影.png" group-title="影视频道",CHC高清电影
+p2p://142.54.189.229:2666/64df526f0007690e05a02b8862980d8c.ts$LR•IPV4『线路2』
 #EXTINF:-1 tvg-id="1" tvg-name="CHC家庭影院" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/CHC家庭影院.png" group-title="影视频道",CHC家庭影院
 http://140.210.9.18:8800/SuanFaZhibo/live4/migu.php?token=8659e86b4f92870921ff5db9936f28$LR•IPV4『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="CHC家庭影院" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/CHC家庭影院.png" group-title="影视频道",CHC家庭影院
@@ -383,3 +385,5 @@ http://pitajvsa.asuscomm.com:51728/udp/238.200.200.60:5540$LR•IPV4『线路2�
 http://iptv.666230.xyz/iptv/sxg.php/jbtygqCHCjtyyH265_4000$LR•IPV4『线路3』
 #EXTINF:-1 tvg-id="4" tvg-name="CHC家庭影院" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/CHC家庭影院.png" group-title="影视频道",CHC家庭影院
 http://202.168.168.50:5000/tsfile/live/1064_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路4』
+#EXTINF:-1 tvg-id="1" tvg-name="纬来电影" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/纬来电影.png" group-title="影视频道",纬来电影
+p2p://142.54.189.229:2666/64df13210009342a04a8e3556bf668f8.ts$LR•IPV4
