@@ -2,8 +2,6 @@ name: main.py
 
 on:
   workflow_dispatch:  # 允许手动触发
-  schedule:
-    - cron: '0 4 * * 1'
 
 permissions:
   contents: write
