@@ -1,9 +1,11 @@
 name: main.py
 
 on:
+  # 定时触发：北京时间凌晨1点
   schedule:
     - cron: '0 17 * * *'
-   workflow_dispatch:
+  # 手动触发（强烈建议添加，方便测试）
+  workflow_dispatch:
 
 permissions:
   contents: write
