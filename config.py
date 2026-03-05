@@ -17,6 +17,18 @@ source_urls = [
 "https://gh-proxy.com/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u",
 "https://gitee.com/hw2837/iptv/raw/master/iptv",
 "https://ghproxy.net/https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u",
+ "https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/henanyidong.txt",
+"https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt",
+ "https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
+"https://live.lizanyang.top/hn.m3u",
+"https://cdn.jsdelivr.net/gh/xuelong876/kodi@main/yd.m3u", 
+"https://gitee.com/sy68/tv/raw/tv/zby",
+"https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/kakaxi-1/IPTV/main/iptv.txt",
+"https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv4.txt",
+"https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/liulei120/TVCrazy/main/output/itvlist.txt",
+ "http://43.251.226.89:8080/live.txt",
+"https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ioptu/IPTV.txt2m3u.player/main/migu.m3u",
+ "http://175.178.182.213/1/newV6.m3u",
 "https://ghproxy.net/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
 
 ]
