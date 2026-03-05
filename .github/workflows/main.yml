@@ -1,7 +1,12 @@
 name: main.py
 
 on:
-  workflow_dispatch:  # 允许手动触发
+  # 定时触发设置
+  schedule:
+    # 北京时间凌晨1点（UTC时间下午5点）运行
+    - cron: '0 17 * * *'
+   # 允许手动触发，方便测试 (推荐)
+   workflow_dispatch:
 
 permissions:
   contents: write
