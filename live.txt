@@ -189,7 +189,8 @@ CHC动作电影,http://140.210.9.18:8800/SuanFaZhibo/live4/migu.php?token=cae47b
 CHC动作电影,https://gitee.com/yiwu369/yiwu369/k-web/ku9/py/raw/ok/ku/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/wqCHCdzdyH265_4000.m3u8 $LR•IPV4•其他『线路2』
 CHC动作电影,https://gitee.com/yiwu369/yiwu369/k-web/ku9/py/raw/ok/ku/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/wqCHCdzdyH265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $LR•IPV4•其他『线路3』
 CHC动作电影,https://gitee.com/yiwu369/yiwu369/k-web/ku9/py/raw/ok/ku/socks5.py?ip=223.111.182.16:42243&u=http://120.210.193.151:8006/120000001002/XMTdzdy/1.m3u8 $LR•IPV4•其他『线路4』
-CHC高清电影,http://115.148.202.227:7088/rtp/239.252.219.83:5140$LR•IPV4•其他
+CHC高清电影,http://115.148.202.227:7088/rtp/239.252.219.83:5140$LR•IPV4•其他『线路1』
+CHC高清电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•其他『线路2』
 CHC家庭影院,http://140.210.9.18:8800/SuanFaZhibo/live4/migu.php?token=8659e86b4f92870921ff5db9936f28$LR•IPV4•其他『线路1』
 CHC家庭影院,https://gitee.com/yiwu369/yiwu369/k-web/ku9/py/raw/ok/ku/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/jbtygqCHCjtyyH265_4000.m3u8 $LR•IPV4•其他『线路2』
 CHC家庭影院,https://gitee.com/yiwu369/yiwu369/k-web/ku9/py/raw/ok/ku/socks5.py?ip=110.184.207.139:55583&u=http://live2.rxip.sc96655.com/live/jbtygqCHCjtyyH265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1 $LR•IPV4•其他『线路3』
