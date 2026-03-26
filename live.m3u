@@ -374,9 +374,7 @@ https://gitee.com/yiwu369/yiwu369/k-web/ku9/py/raw/ok/ku/socks5.py?ip=110.184.20
 #EXTINF:-1 tvg-id="4" tvg-name="CHC动作电影" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/CHC动作电影.png" group-title="影视频道",CHC动作电影
 https://gitee.com/yiwu369/yiwu369/k-web/ku9/py/raw/ok/ku/socks5.py?ip=223.111.182.16:42243&u=http://120.210.193.151:8006/120000001002/XMTdzdy/1.m3u8 $LR•IPV4•其他『线路4』
 #EXTINF:-1 tvg-id="1" tvg-name="CHC高清电影" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/CHC高清电影.png" group-title="影视频道",CHC高清电影
-http://115.148.202.227:7088/rtp/239.252.219.83:5140$LR•IPV4•其他『线路1』
-#EXTINF:-1 tvg-id="2" tvg-name="CHC高清电影" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/CHC高清电影.png" group-title="影视频道",CHC高清电影
-http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4•其他『线路2』
+http://115.148.202.227:7088/rtp/239.252.219.83:5140$LR•IPV4•其他
 #EXTINF:-1 tvg-id="1" tvg-name="CHC家庭影院" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/CHC家庭影院.png" group-title="影视频道",CHC家庭影院
 http://140.210.9.18:8800/SuanFaZhibo/live4/migu.php?token=8659e86b4f92870921ff5db9936f28$LR•IPV4•其他『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="CHC家庭影院" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/CHC家庭影院.png" group-title="影视频道",CHC家庭影院
