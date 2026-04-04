@@ -356,7 +356,9 @@ http://cdn6.163189.xyz/163189/fhhk$LR•IPV4•其他『线路3』
 #EXTINF:-1 tvg-id="4" tvg-name="凤凰香港" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰香港.png" group-title="港·澳·台",凤凰香港
 https://cdn6.101.qzz.io/163189/fhhk$LR•IPV4•其他『线路4』
 #EXTINF:-1 tvg-id="1" tvg-name="凤凰卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰卫视.png" group-title="港·澳·台",凤凰卫视
-http://122.152.202.33/s/81a8a44f/index.m3u8?id=15$LR•IPV4•其他
+http://api.kkhk.itv888.vip:8080/streams/vny1wblsnch/index.m3u8$LR•IPV4•其他『线路1』
+#EXTINF:-1 tvg-id="2" tvg-name="凤凰卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰卫视.png" group-title="港·澳·台",凤凰卫视
+http://122.152.202.33/s/81a8a44f/index.m3u8?id=15$LR•IPV4•其他『线路2』
 #EXTINF:-1 tvg-id="1" tvg-name="香港卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/香港卫视.png" group-title="港·澳·台",香港卫视
 http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8$LR•IPV4•其他『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="香港卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/香港卫视.png" group-title="港·澳·台",香港卫视
