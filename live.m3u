@@ -354,9 +354,9 @@ https://hk.188766.xyz/?migutoken=61a9f8aa1740e6a0af7d9c1aa7c7d9ea&id=fhhk&pp=1$L
 #EXTINF:-1 tvg-id="2" tvg-name="凤凰香港" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰香港.png" group-title="港·澳·台",凤凰香港
 https://hk.188766.xyz/?migutoken=4087e4c220d8904b3557932c9a105995&id=hk_fhhk&type=dy$LR•IPV4•其他『线路2』
 #EXTINF:-1 tvg-id="3" tvg-name="凤凰香港" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰香港.png" group-title="港·澳·台",凤凰香港
-http://play-a.quklive.com/live/aaafhxg.flv$LR•IPV4•其他『线路3』
+http://cdn6.163189.xyz/163189/fhhk$LR•IPV4•其他『线路3』
 #EXTINF:-1 tvg-id="4" tvg-name="凤凰香港" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰香港.png" group-title="港·澳·台",凤凰香港
-http://cdn6.163189.xyz/163189/fhhk$LR•IPV4•其他『线路4』
+http://183.239.108.37:1698/hls/97/index.m3u8$LR•IPV4•其他『线路4』
 #EXTINF:-1 tvg-id="1" tvg-name="凤凰卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰卫视.png" group-title="港·澳·台",凤凰卫视
 http://api.kkhk.itv888.vip:8080/streams/vny1wblsnch/index.m3u8$LR•IPV4•其他『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="凤凰卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰卫视.png" group-title="港·澳·台",凤凰卫视
