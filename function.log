@@ -1,50 +1,50 @@
-2026-04-17 17:49:48,612 - ERROR - url: http://140.210.9.53:6789/L00001live.txt 爬取失败❌, Error: HTTPConnectionPool(host='140.210.9.53', port=6789): Max retries exceeded with url: /L00001live.txt (Caused by ConnectTimeoutError(<HTTPConnection(host='140.210.9.53', port=6789) at 0x7febeb7270d0>, 'Connection to 140.210.9.53 timed out. (connect timeout=None)'))
-2026-04-17 17:49:48,980 - ERROR - url: http://ok.html-5.me//i/%E6%B1%9F%E8%A5%BF%E7%9C%81%E9%B9%B0%E6%BD%AD%E5%B8%82%E7%94%B5%E4%BF%A1%E7%BB%84%E6%92%AD.txt 爬取失败❌, Error: 404 Client Error: Not Found for url: http://ok.html-5.me//i/%E6%B1%9F%E8%A5%BF%E7%9C%81%E9%B9%B0%E6%BD%AD%E5%B8%82%E7%94%B5%E4%BF%A1%E7%BB%84%E6%92%AD.txt
-2026-04-17 17:49:49,401 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y4 获取成功，判断为txt格式
-2026-04-17 17:49:49,402 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y4 爬取成功✅，包含频道分类: 来源, 央卫咪咕, 央卫频道
-2026-04-17 17:49:49,605 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y5 获取成功，判断为txt格式
-2026-04-17 17:49:49,605 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y5 爬取成功✅，包含频道分类: 来源, 央视, 卫视, 其它
-2026-04-17 17:49:49,787 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y6 获取成功，判断为txt格式
-2026-04-17 17:49:49,787 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y6 爬取成功✅，包含频道分类: 央视频道, 港台频道, 卫视频道, 其它频道
-2026-04-17 17:49:49,992 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y7 获取成功，判断为txt格式
-2026-04-17 17:49:49,993 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y7 爬取成功✅，包含频道分类: 央视频道, 卫视频道
-2026-04-17 17:49:50,163 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y8 获取成功，判断为m3u格式
-2026-04-17 17:49:50,164 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y8 爬取成功✅，包含频道分类: 央视频道, 卫视频道, 超清频道, 其他频道
-2026-04-17 17:49:50,313 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y9 获取成功，判断为txt格式
-2026-04-17 17:49:50,313 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y9 爬取成功✅，包含频道分类: 央视, 卫视
-2026-04-17 17:49:50,629 - INFO - url: https://iptv.catvod.com/tv.m3u 获取成功，判断为m3u格式
-2026-04-17 17:49:50,629 - INFO - url: https://iptv.catvod.com/tv.m3u 爬取成功✅，包含频道分类: 公告, 卫视, 地方, 央视, 咪视, 提示
-2026-04-17 17:49:54,172 - INFO - url: https://gitee.com/lwr851/live/raw/master/iptv.m3u 获取成功，判断为m3u格式
-2026-04-17 17:49:54,173 - INFO - url: https://gitee.com/lwr851/live/raw/master/iptv.m3u 爬取成功✅，包含频道分类: 央视频道, 本地频道, 卫视频道, 港澳频道, 影视频道, 广播电台
-2026-04-17 17:50:04,190 - ERROR - url: https://bc.188766.xyz/?ip=&mima=mianfeibuhuaqian&json=true 爬取失败❌, Error: HTTPSConnectionPool(host='bc.188766.xyz', port=443): Max retries exceeded with url: /?ip=&mima=mianfeibuhuaqian&json=true (Caused by NameResolutionError("HTTPSConnection(host='bc.188766.xyz', port=443): Failed to resolve 'bc.188766.xyz' ([Errno -3] Temporary failure in name resolution)"))
-2026-04-17 17:50:15,393 - INFO - url: https://gitee.com/zwssina/yunduanyuan/raw/master/SB 获取成功，判断为txt格式
-2026-04-17 17:50:15,395 - INFO - url: https://gitee.com/zwssina/yunduanyuan/raw/master/SB 爬取成功✅，包含频道分类: 港台测试, 央视卫视高码, 央卫频临, 港台免梯, 风云港台, 广东本地judy, 广东移动内网, 移动央卫, 咪咕央卫, 3a, 轮播, 体育咪咕, 香港测试, 新咪咕, SMT港台
-2026-04-17 17:50:15,695 - ERROR - url: https://d.kstore.dev/download/15366/6988.txt 爬取失败❌, Error: 404 Client Error:  for url: https://d.kstore.dev/download/15366/6988.txt
-2026-04-17 17:50:15,984 - INFO - url: https://gh-proxy.com/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u 获取成功，判断为m3u格式
-2026-04-17 17:50:15,985 - INFO - url: https://gh-proxy.com/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u 爬取成功✅，包含频道分类: 央视IPV4" catchup="append" catchup-source="?playbackbegin=${(b)yyyyMMddHHmmss}&playbackend=${(e)yyyyMMddHHmmss}, 央视IPV4, 卫视IPV4, 卫视IPV4" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}, 4K8K频道, 历年春晚
-2026-04-17 17:50:17,893 - INFO - url: https://gitee.com/hw2837/iptv/raw/master/iptv 获取成功，判断为txt格式
-2026-04-17 17:50:17,896 - INFO - url: https://gitee.com/hw2837/iptv/raw/master/iptv 爬取成功✅，包含频道分类: 央视频道, 卫视频道, 咪视通cdn6.bkpcp.top, 咪视通, itv体育咪咕, 移动央视V4, 移动卫视V4, 移动咪咕V4, 测试, rrs03-央视频道, rrs03-卫视频道, rrs03-咪咕频道, rrs03-其它频道, 体育咪咕36.155.98.21, 移动央视-备, 移动卫视-备, 移动咪咕-备, 河北联通-央视, 河北联通-卫视, 广东酒店源-地方
-2026-04-17 17:50:18,330 - INFO - url: https://ghproxy.net/https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u 获取成功，判断为m3u格式
-2026-04-17 17:50:18,330 - INFO - url: https://ghproxy.net/https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u 爬取成功✅，包含频道分类: 央视频道, 卫视频道
-2026-04-17 17:50:19,073 - ERROR - url: https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/henanyidong.txt 爬取失败❌, Error: 404 Client Error: Not Found for url: https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/henanyidong.txt
-2026-04-17 17:50:19,159 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt 获取成功，判断为txt格式
-2026-04-17 17:50:19,162 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt 爬取成功✅，包含频道分类: 🇨🇳河南地方, 🇨🇳IPV4线路, 🇨🇳组播线路, 🇨🇳电影在线, 🇨🇳影音剧场
-2026-04-17 17:50:19,285 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt 获取成功，判断为m3u格式
-2026-04-17 17:50:19,286 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt 爬取成功✅，包含频道分类: 央视频道, 卫视频道, 广东地区, 湖南地区, 浙江地区, 江苏地区, 黑龙江地区, 江西地区, 陕西地区, 云南地区, 福建地区, 河南地区, 甘肃地区, 超清频道
-2026-04-17 17:50:22,770 - INFO - url: https://live.lizanyang.top/hn.m3u 获取成功，判断为m3u格式
-2026-04-17 17:50:22,771 - INFO - url: https://live.lizanyang.top/hn.m3u 爬取成功✅，包含频道分类: 4K超高清, 央视, 港澳频道, 卫视, 河南, 河南地方, 数字综合, 河南广播, CNR•广播, 历年春晚
-2026-04-17 17:50:24,064 - ERROR - url: https://cdn.jsdelivr.net/gh/xuelong876/kodi@main/yd.m3u 爬取失败❌, Error: 404 Client Error: Not Found for url: https://cdn.jsdelivr.net/gh/xuelong876/kodi@main/yd.m3u
-2026-04-17 17:50:26,010 - INFO - url: https://gitee.com/sy68/tv/raw/tv/zby 获取成功，判断为txt格式
-2026-04-17 17:50:26,010 - INFO - url: https://gitee.com/sy68/tv/raw/tv/zby 爬取成功✅，包含频道分类: 央视-移动, 央视-电信, 央视-联通
-2026-04-17 17:50:26,123 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/kakaxi-1/IPTV/main/iptv.txt 获取成功，判断为txt格式
-2026-04-17 17:50:26,127 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/kakaxi-1/IPTV/main/iptv.txt 爬取成功✅，包含频道分类: 更新时间, 央视频道, 卫视频道, 数字频道
-2026-04-17 17:50:26,240 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv4.txt 获取成功，判断为txt格式
-2026-04-17 17:50:26,242 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv4.txt 爬取成功✅，包含频道分类: 更新时间, 央视频道, 卫视频道, 数字频道, 湾湾节点, 影视轮播, 游戏赛事
-2026-04-17 17:50:26,393 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/liulei120/TVCrazy/main/output/itvlist.txt 获取成功，判断为txt格式
-2026-04-17 17:50:26,394 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/liulei120/TVCrazy/main/output/itvlist.txt 爬取成功✅，包含频道分类: 央视频道, 卫视频道, 其他频道
-2026-04-17 17:52:40,643 - ERROR - url: http://43.251.226.89:8080/live.txt 爬取失败❌, Error: HTTPConnectionPool(host='43.251.226.89', port=8080): Max retries exceeded with url: /live.txt (Caused by ConnectTimeoutError(<HTTPConnection(host='43.251.226.89', port=8080) at 0x7febeb724c70>, 'Connection to 43.251.226.89 timed out. (connect timeout=None)'))
-2026-04-17 17:52:40,833 - ERROR - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ioptu/IPTV.txt2m3u.player/main/migu.m3u 爬取失败❌, Error: 404 Client Error: Not Found for url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ioptu/IPTV.txt2m3u.player/main/migu.m3u
-2026-04-17 17:54:55,811 - ERROR - url: http://175.178.182.213/1/newV6.m3u 爬取失败❌, Error: HTTPConnectionPool(host='175.178.182.213', port=80): Max retries exceeded with url: /1/newV6.m3u (Caused by ConnectTimeoutError(<HTTPConnection(host='175.178.182.213', port=80) at 0x7febeb726fe0>, 'Connection to 175.178.182.213 timed out. (connect timeout=None)'))
-2026-04-17 17:54:56,251 - INFO - url: https://ghproxy.net/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt 获取成功，判断为m3u格式
-2026-04-17 17:54:56,252 - INFO - url: https://ghproxy.net/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt 爬取成功✅，包含频道分类: 央视频道, 卫视频道, 广东地区, 湖南地区, 浙江地区, 江苏地区, 黑龙江地区, 江西地区, 陕西地区, 云南地区, 福建地区, 河南地区, 甘肃地区, 超清频道
-2026-04-17 17:54:56,271 - INFO - 文件生成完成，更新日期: 2026-04-17
+2026-04-18 17:36:24,524 - ERROR - url: http://140.210.9.53:6789/L00001live.txt 爬取失败❌, Error: HTTPConnectionPool(host='140.210.9.53', port=6789): Max retries exceeded with url: /L00001live.txt (Caused by ConnectTimeoutError(<HTTPConnection(host='140.210.9.53', port=6789) at 0x7fc1fd1ef0d0>, 'Connection to 140.210.9.53 timed out. (connect timeout=None)'))
+2026-04-18 17:36:25,183 - ERROR - url: http://ok.html-5.me//i/%E6%B1%9F%E8%A5%BF%E7%9C%81%E9%B9%B0%E6%BD%AD%E5%B8%82%E7%94%B5%E4%BF%A1%E7%BB%84%E6%92%AD.txt 爬取失败❌, Error: 404 Client Error: Not Found for url: http://ok.html-5.me//i/%E6%B1%9F%E8%A5%BF%E7%9C%81%E9%B9%B0%E6%BD%AD%E5%B8%82%E7%94%B5%E4%BF%A1%E7%BB%84%E6%92%AD.txt
+2026-04-18 17:36:25,809 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y4 获取成功，判断为txt格式
+2026-04-18 17:36:25,810 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y4 爬取成功✅，包含频道分类: 来源, 央卫咪咕, 央卫频道
+2026-04-18 17:36:26,052 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y5 获取成功，判断为txt格式
+2026-04-18 17:36:26,052 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y5 爬取成功✅，包含频道分类: 来源, 央视, 卫视, 其它
+2026-04-18 17:36:26,291 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y6 获取成功，判断为txt格式
+2026-04-18 17:36:26,291 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y6 爬取成功✅，包含频道分类: 央视频道, 港台频道, 卫视频道, 其它频道
+2026-04-18 17:36:26,531 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y7 获取成功，判断为txt格式
+2026-04-18 17:36:26,531 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y7 爬取成功✅，包含频道分类: 央视频道, 卫视频道
+2026-04-18 17:36:26,790 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y8 获取成功，判断为m3u格式
+2026-04-18 17:36:26,790 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y8 爬取成功✅，包含频道分类: 央视频道, 卫视频道, 超清频道, 其他频道
+2026-04-18 17:36:26,995 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y9 获取成功，判断为txt格式
+2026-04-18 17:36:26,995 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y9 爬取成功✅，包含频道分类: 央视, 卫视
+2026-04-18 17:36:27,110 - INFO - url: https://iptv.catvod.com/tv.m3u 获取成功，判断为m3u格式
+2026-04-18 17:36:27,110 - INFO - url: https://iptv.catvod.com/tv.m3u 爬取成功✅，包含频道分类: 公告, 央视, 咪视, 体育, 其他, 卫视, 提示
+2026-04-18 17:36:29,309 - INFO - url: https://gitee.com/lwr851/live/raw/master/iptv.m3u 获取成功，判断为m3u格式
+2026-04-18 17:36:29,310 - INFO - url: https://gitee.com/lwr851/live/raw/master/iptv.m3u 爬取成功✅，包含频道分类: 央视频道, 本地频道, 卫视频道, 港澳频道, 影视频道, 广播电台
+2026-04-18 17:36:39,327 - ERROR - url: https://bc.188766.xyz/?ip=&mima=mianfeibuhuaqian&json=true 爬取失败❌, Error: HTTPSConnectionPool(host='bc.188766.xyz', port=443): Max retries exceeded with url: /?ip=&mima=mianfeibuhuaqian&json=true (Caused by NameResolutionError("HTTPSConnection(host='bc.188766.xyz', port=443): Failed to resolve 'bc.188766.xyz' ([Errno -3] Temporary failure in name resolution)"))
+2026-04-18 17:36:42,898 - INFO - url: https://gitee.com/zwssina/yunduanyuan/raw/master/SB 获取成功，判断为txt格式
+2026-04-18 17:36:42,901 - INFO - url: https://gitee.com/zwssina/yunduanyuan/raw/master/SB 爬取成功✅，包含频道分类: 港台测试, 央视卫视高码, 央卫频临, 港台免梯, 风云港台, 广东本地judy, 广东移动内网, 移动央卫, 咪咕央卫, 3a, 轮播, 体育咪咕, 香港测试, 新咪咕, SMT港台
+2026-04-18 17:36:43,117 - ERROR - url: https://d.kstore.dev/download/15366/6988.txt 爬取失败❌, Error: 404 Client Error:  for url: https://d.kstore.dev/download/15366/6988.txt
+2026-04-18 17:36:43,551 - INFO - url: https://gh-proxy.com/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u 获取成功，判断为m3u格式
+2026-04-18 17:36:43,551 - INFO - url: https://gh-proxy.com/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u 爬取成功✅，包含频道分类: 央视IPV4" catchup="append" catchup-source="?playbackbegin=${(b)yyyyMMddHHmmss}&playbackend=${(e)yyyyMMddHHmmss}, 央视IPV4, 卫视IPV4, 卫视IPV4" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}, 4K8K频道, 历年春晚
+2026-04-18 17:36:45,030 - INFO - url: https://gitee.com/hw2837/iptv/raw/master/iptv 获取成功，判断为txt格式
+2026-04-18 17:36:45,032 - INFO - url: https://gitee.com/hw2837/iptv/raw/master/iptv 爬取成功✅，包含频道分类: 央视频道, 卫视频道, 咪视通cdn6.bkpcp.top, 咪视通, itv体育咪咕, 移动央视V4, 移动卫视V4, 移动咪咕V4, 测试, rrs03-央视频道, rrs03-卫视频道, rrs03-咪咕频道, rrs03-其它频道, 体育咪咕36.155.98.21, 移动央视-备, 移动卫视-备, 移动咪咕-备, 河北联通-央视, 河北联通-卫视, 广东酒店源-地方
+2026-04-18 17:36:45,658 - INFO - url: https://ghproxy.net/https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u 获取成功，判断为m3u格式
+2026-04-18 17:36:45,658 - INFO - url: https://ghproxy.net/https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u 爬取成功✅，包含频道分类: 央视频道, 卫视频道
+2026-04-18 17:36:46,246 - ERROR - url: https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/henanyidong.txt 爬取失败❌, Error: 404 Client Error: Not Found for url: https://kkgithub.com/extdomains/cdn.jsdelivr.net/gh/ljf9096/ds/y/henanyidong.txt
+2026-04-18 17:36:46,426 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt 获取成功，判断为txt格式
+2026-04-18 17:36:46,428 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt 爬取成功✅，包含频道分类: 🇨🇳河南地方, 🇨🇳IPV4线路, 🇨🇳组播线路, 🇨🇳电影在线, 🇨🇳影音剧场
+2026-04-18 17:36:46,511 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt 获取成功，判断为m3u格式
+2026-04-18 17:36:46,512 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt 爬取成功✅，包含频道分类: 央视频道, 卫视频道, 广东地区, 湖南地区, 浙江地区, 江苏地区, 黑龙江地区, 陕西地区, 云南地区, 福建地区, 河南地区, 甘肃地区, 超清频道
+2026-04-18 17:36:46,923 - INFO - url: https://live.lizanyang.top/hn.m3u 获取成功，判断为m3u格式
+2026-04-18 17:36:46,924 - INFO - url: https://live.lizanyang.top/hn.m3u 爬取成功✅，包含频道分类: 4K超高清, 央视, 港澳频道, 卫视, 河南, 河南地方, 数字综合, 河南广播, CNR•广播, 历年春晚
+2026-04-18 17:36:47,452 - ERROR - url: https://cdn.jsdelivr.net/gh/xuelong876/kodi@main/yd.m3u 爬取失败❌, Error: 404 Client Error: Not Found for url: https://cdn.jsdelivr.net/gh/xuelong876/kodi@main/yd.m3u
+2026-04-18 17:36:50,461 - INFO - url: https://gitee.com/sy68/tv/raw/tv/zby 获取成功，判断为txt格式
+2026-04-18 17:36:50,462 - INFO - url: https://gitee.com/sy68/tv/raw/tv/zby 爬取成功✅，包含频道分类: 央视-移动, 央视-电信, 央视-联通
+2026-04-18 17:36:50,651 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/kakaxi-1/IPTV/main/iptv.txt 获取成功，判断为txt格式
+2026-04-18 17:36:50,655 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/kakaxi-1/IPTV/main/iptv.txt 爬取成功✅，包含频道分类: 更新时间, 央视频道, 卫视频道, 数字频道
+2026-04-18 17:36:50,842 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv4.txt 获取成功，判断为txt格式
+2026-04-18 17:36:50,844 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv4.txt 爬取成功✅，包含频道分类: 更新时间, 央视频道, 卫视频道, 数字频道, 湾湾节点, 影视轮播, 游戏赛事
+2026-04-18 17:36:51,083 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/liulei120/TVCrazy/main/output/itvlist.txt 获取成功，判断为txt格式
+2026-04-18 17:36:51,084 - INFO - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/liulei120/TVCrazy/main/output/itvlist.txt 爬取成功✅，包含频道分类: 央视频道, 卫视频道, 其他频道
+2026-04-18 17:39:04,267 - ERROR - url: http://43.251.226.89:8080/live.txt 爬取失败❌, Error: HTTPConnectionPool(host='43.251.226.89', port=8080): Max retries exceeded with url: /live.txt (Caused by ConnectTimeoutError(<HTTPConnection(host='43.251.226.89', port=8080) at 0x7fc1fd1ece50>, 'Connection to 43.251.226.89 timed out. (connect timeout=None)'))
+2026-04-18 17:39:04,476 - ERROR - url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ioptu/IPTV.txt2m3u.player/main/migu.m3u 爬取失败❌, Error: 404 Client Error: Not Found for url: https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ioptu/IPTV.txt2m3u.player/main/migu.m3u
+2026-04-18 17:41:19,435 - ERROR - url: http://175.178.182.213/1/newV6.m3u 爬取失败❌, Error: HTTPConnectionPool(host='175.178.182.213', port=80): Max retries exceeded with url: /1/newV6.m3u (Caused by ConnectTimeoutError(<HTTPConnection(host='175.178.182.213', port=80) at 0x7fc1fd1ec430>, 'Connection to 175.178.182.213 timed out. (connect timeout=None)'))
+2026-04-18 17:41:24,695 - INFO - url: https://ghproxy.net/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt 获取成功，判断为m3u格式
+2026-04-18 17:41:24,696 - INFO - url: https://ghproxy.net/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt 爬取成功✅，包含频道分类: 央视频道, 卫视频道, 广东地区, 湖南地区, 浙江地区, 江苏地区, 黑龙江地区, 陕西地区, 云南地区, 福建地区, 河南地区, 甘肃地区, 超清频道
+2026-04-18 17:41:24,712 - INFO - 文件生成完成，更新日期: 2026-04-18
