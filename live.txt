@@ -1,56 +1,56 @@
 央视频道,#genre#
-CCTV1,http://43.251.226.110:8880/play/79.m3u8$LR•IPV4•其他『线路1』
-CCTV1,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=CCTV1$LR•IPV4•其他『线路2』
-CCTV1,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227163/index.m3u8$LR•IPV4•其他『线路3』
-CCTV1,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227225/index.m3u8$LR•IPV4•其他『线路4』
-CCTV2,http://43.251.226.110:8880/play/80.m3u8$LR•IPV4•其他『线路1』
-CCTV2,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=CCTV2$LR•IPV4•其他『线路2』
-CCTV2,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227165/index.m3u8$LR•IPV4•其他『线路3』
-CCTV2,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226306/index.m3u8$LR•IPV4•其他『线路4』
-CCTV3,http://43.251.226.110:8880/play/81.m3u8$LR•IPV4•其他『线路1』
-CCTV3,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=CCTV3$LR•IPV4•其他『线路2』
-CCTV3,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226308/index.m3u8$LR•IPV4•其他『线路3』
-CCTV3,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226614/index.m3u8$LR•IPV4•其他『线路4』
-CCTV4,http://43.251.226.110:8880/play/82.m3u8$LR•IPV4•其他『线路1』
-CCTV4,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=CCTV4$LR•IPV4•其他『线路2』
-CCTV4,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227167/index.m3u8$LR•IPV4•其他『线路3』
-CCTV4,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226468/index.m3u8$LR•IPV4•其他『线路4』
-CCTV6,http://43.251.226.110:8880/play/85.m3u8$LR•IPV4•其他『线路1』
-CCTV6,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=CCTV6$LR•IPV4•其他『线路2』
-CCTV6,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226485/index.m3u8$LR•IPV4•其他『线路3』
-CCTV6,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226637/index.m3u8$LR•IPV4•其他『线路4』
-CCTV7,http://43.251.226.110:8880/play/86.m3u8$LR•IPV4•其他『线路1』
-CCTV7,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=CCTV7$LR•IPV4•其他『线路2』
-CCTV7,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227180/index.m3u8$LR•IPV4•其他『线路3』
-CCTV7,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226486/index.m3u8$LR•IPV4•其他『线路4』
-CCTV8,http://43.251.226.110:8880/play/87.m3u8$LR•IPV4•其他『线路1』
-CCTV8,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=CCTV8$LR•IPV4•其他『线路2』
-CCTV8,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226484/index.m3u8$LR•IPV4•其他『线路3』
-CCTV8,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226687/index.m3u8$LR•IPV4•其他『线路4』
-CCTV9,http://43.251.226.110:8880/play/88.m3u8$LR•IPV4•其他『线路1』
-CCTV9,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=CCTV9$LR•IPV4•其他『线路2』
-CCTV9,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227182/index.m3u8$LR•IPV4•其他『线路3』
-CCTV9,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226482/index.m3u8$LR•IPV4•其他『线路4』
-CCTV10,http://43.251.226.110:8880/play/89.m3u8$LR•IPV4•其他『线路1』
-CCTV10,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=CCTV10$LR•IPV4•其他『线路2』
-CCTV10,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227169/index.m3u8$LR•IPV4•其他『线路3』
-CCTV10,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226483/index.m3u8$LR•IPV4•其他『线路4』
-CCTV12,http://43.251.226.110:8880/play/91.m3u8$LR•IPV4•其他『线路1』
-CCTV12,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=CCTV12$LR•IPV4•其他『线路2』
-CCTV12,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227184/index.m3u8$LR•IPV4•其他『线路3』
-CCTV12,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226479/index.m3u8$LR•IPV4•其他『线路4』
-CCTV13,http://43.251.226.110:8880/play/92.m3u8$LR•IPV4•其他『线路1』
-CCTV13,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=CCTV13$LR•IPV4•其他『线路2』
-CCTV13,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227186/index.m3u8$LR•IPV4•其他『线路3』
-CCTV13,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227266/index.m3u8$LR•IPV4•其他『线路4』
-CCTV14,http://43.251.226.110:8880/play/93.m3u8$LR•IPV4•其他『线路1』
-CCTV14,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=CCTV14$LR•IPV4•其他『线路2』
-CCTV14,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227173/index.m3u8$LR•IPV4•其他『线路3』
-CCTV14,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226475/index.m3u8$LR•IPV4•其他『线路4』
-CCTV15,http://43.251.226.110:8880/play/94.m3u8$LR•IPV4•其他『线路1』
-CCTV15,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=CCTV15$LR•IPV4•其他『线路2』
-CCTV15,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227175/index.m3u8$LR•IPV4•其他『线路3』
-CCTV15,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226635/index.m3u8$LR•IPV4•其他『线路4』
+CCTV1,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=CCTV1$LR•IPV4•其他『线路1』
+CCTV1,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227163/index.m3u8$LR•IPV4•其他『线路2』
+CCTV1,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227225/index.m3u8$LR•IPV4•其他『线路3』
+CCTV1,http://api.kkitv.itv888.cn:8080/hls/f5fuln3kthe/index.m3u8$LR•IPV4•其他『线路4』
+CCTV2,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=CCTV2$LR•IPV4•其他『线路1』
+CCTV2,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227165/index.m3u8$LR•IPV4•其他『线路2』
+CCTV2,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226306/index.m3u8$LR•IPV4•其他『线路3』
+CCTV2,http://api.kkitv.itv888.cn:8080/hls/4nlkhc68gfu/index.m3u8$LR•IPV4•其他『线路4』
+CCTV3,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=CCTV3$LR•IPV4•其他『线路1』
+CCTV3,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226308/index.m3u8$LR•IPV4•其他『线路2』
+CCTV3,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226614/index.m3u8$LR•IPV4•其他『线路3』
+CCTV3,http://api.kkitv.itv888.cn:8080/hls/aikp69mli0d/index.m3u8$LR•IPV4•其他『线路4』
+CCTV4,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=CCTV4$LR•IPV4•其他『线路1』
+CCTV4,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227167/index.m3u8$LR•IPV4•其他『线路2』
+CCTV4,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226468/index.m3u8$LR•IPV4•其他『线路3』
+CCTV4,http://api.kkitv.itv888.cn:8080/hls/25uo2rutach/index.m3u8$LR•IPV4•其他『线路4』
+CCTV6,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=CCTV6$LR•IPV4•其他『线路1』
+CCTV6,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226485/index.m3u8$LR•IPV4•其他『线路2』
+CCTV6,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226637/index.m3u8$LR•IPV4•其他『线路3』
+CCTV6,http://api.kkitv.itv888.cn:8080/hls/tp9ajk4od5/index.m3u8$LR•IPV4•其他『线路4』
+CCTV7,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=CCTV7$LR•IPV4•其他『线路1』
+CCTV7,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227180/index.m3u8$LR•IPV4•其他『线路2』
+CCTV7,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226486/index.m3u8$LR•IPV4•其他『线路3』
+CCTV7,http://api.kkitv.itv888.cn:8080/hls/3udggaszi1i/index.m3u8$LR•IPV4•其他『线路4』
+CCTV8,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=CCTV8$LR•IPV4•其他『线路1』
+CCTV8,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226484/index.m3u8$LR•IPV4•其他『线路2』
+CCTV8,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226687/index.m3u8$LR•IPV4•其他『线路3』
+CCTV8,http://api.kkitv.itv888.cn:8080/hls/vseo1nm7qp/index.m3u8$LR•IPV4•其他『线路4』
+CCTV9,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=CCTV9$LR•IPV4•其他『线路1』
+CCTV9,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227182/index.m3u8$LR•IPV4•其他『线路2』
+CCTV9,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226482/index.m3u8$LR•IPV4•其他『线路3』
+CCTV9,http://api.kkitv.itv888.cn:8080/hls/bsmkmf3jrp4/index.m3u8$LR•IPV4•其他『线路4』
+CCTV10,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=CCTV10$LR•IPV4•其他『线路1』
+CCTV10,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227169/index.m3u8$LR•IPV4•其他『线路2』
+CCTV10,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226483/index.m3u8$LR•IPV4•其他『线路3』
+CCTV10,http://api.kkitv.itv888.cn:8080/hls/wd86wxjxn8/index.m3u8$LR•IPV4•其他『线路4』
+CCTV12,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=CCTV12$LR•IPV4•其他『线路1』
+CCTV12,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227184/index.m3u8$LR•IPV4•其他『线路2』
+CCTV12,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226479/index.m3u8$LR•IPV4•其他『线路3』
+CCTV12,http://api.kkitv.itv888.cn:8080/hls/nwfb31kwc3l/index.m3u8$LR•IPV4•其他『线路4』
+CCTV13,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=CCTV13$LR•IPV4•其他『线路1』
+CCTV13,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227186/index.m3u8$LR•IPV4•其他『线路2』
+CCTV13,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227266/index.m3u8$LR•IPV4•其他『线路3』
+CCTV13,http://api.kkitv.itv888.cn:8080/hls/9sxg4yjgot/index.m3u8$LR•IPV4•其他『线路4』
+CCTV14,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=CCTV14$LR•IPV4•其他『线路1』
+CCTV14,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227173/index.m3u8$LR•IPV4•其他『线路2』
+CCTV14,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226475/index.m3u8$LR•IPV4•其他『线路3』
+CCTV14,http://api.kkitv.itv888.cn:8080/hls/dyfpqk8fpzi/index.m3u8$LR•IPV4•其他『线路4』
+CCTV15,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=CCTV15$LR•IPV4•其他『线路1』
+CCTV15,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227175/index.m3u8$LR•IPV4•其他『线路2』
+CCTV15,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226635/index.m3u8$LR•IPV4•其他『线路3』
+CCTV15,http://api.kkitv.itv888.cn:8080/hls/hcwu4ianhgw/index.m3u8$LR•IPV4•其他『线路4』
 卫视频道,#genre#
 湖南卫视,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=湖南卫视$LR•IPV4•其他『线路1』
 湖南卫视,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/hnwsH265_4000.m3u8 $LR•IPV4•其他『线路2』
@@ -61,17 +61,17 @@ CCTV15,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226635/index.m3u
 浙江卫视,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_ZHEJIANG-4K/G_ZHEJIANG-4K/index.m3u8 $LR•IPV4•其他『线路3』
 浙江卫视,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_ZHEJIANG-HQ/G_ZHEJIANG-HQ/index.m3u8 $LR•IPV4•其他『线路4』
 东方卫视,http://140.210.9.18:8800/SuanFaZhibo/live4/migu.php?token=5090360a538dc0ceecc1f0ef14a7de$LR•IPV4•其他『线路1』
-东方卫视,http://43.251.226.110:8880/play/104.m3u8$LR•IPV4•其他『线路2』
-东方卫视,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=东方卫视$LR•IPV4•其他『线路3』
-东方卫视,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/dfwsH265_4000.m3u8 $LR•IPV4•其他『线路4』
-北京卫视,http://43.251.226.110:8880/play/107.m3u8$LR•IPV4•其他『线路1』
-北京卫视,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=北京卫视$LR•IPV4•其他『线路2』
-北京卫视,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/bjwsH265_4000.m3u8 $LR•IPV4•其他『线路3』
-北京卫视,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_BEIJING-4K/G_BEIJING-4K/index.m3u8 $LR•IPV4•其他『线路4』
+东方卫视,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=东方卫视$LR•IPV4•其他『线路2』
+东方卫视,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/dfwsH265_4000.m3u8 $LR•IPV4•其他『线路3』
+东方卫视,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_DONGFANG-4K/G_DONGFANG-4K/index.m3u8 $LR•IPV4•其他『线路4』
+北京卫视,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=北京卫视$LR•IPV4•其他『线路1』
+北京卫视,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/bjwsH265_4000.m3u8 $LR•IPV4•其他『线路2』
+北京卫视,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_BEIJING-4K/G_BEIJING-4K/index.m3u8 $LR•IPV4•其他『线路3』
+北京卫视,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_BEIJING-HQ/G_BEIJING-HQ/index.m3u8 $LR•IPV4•其他『线路4』
 江苏卫视,http://140.210.9.18:8800/SuanFaZhibo/live4/migu.php?token=db14ac66495c07edf34f4a7de721cc$LR•IPV4•其他『线路1』
-江苏卫视,http://43.251.226.110:8880/play/105.m3u8$LR•IPV4•其他『线路2』
-江苏卫视,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=江苏卫视$LR•IPV4•其他『线路3』
-江苏卫视,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/jswsH265_4000.m3u8 $LR•IPV4•其他『线路4』
+江苏卫视,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=江苏卫视$LR•IPV4•其他『线路2』
+江苏卫视,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/jswsH265_4000.m3u8 $LR•IPV4•其他『线路3』
+江苏卫视,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_JIANGSU-4K/G_JIANGSU-4K/index.m3u8 $LR•IPV4•其他『线路4』
 安徽卫视,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=安徽卫视$LR•IPV4•其他『线路1』
 安徽卫视,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/ahwsH265_4000.m3u8 $LR•IPV4•其他『线路2』
 安徽卫视,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_ANHUI-HQ/G_ANHUI-HQ/index.m3u8 $LR•IPV4•其他『线路3』
@@ -93,9 +93,9 @@ CCTV15,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226635/index.m3u
 深圳卫视,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_SHENZHEN-4K/G_SHENZHEN-4K/index.m3u8 $LR•IPV4•其他『线路3』
 深圳卫视,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_SHENZHEN-HQ/G_SHENZHEN-HQ/index.m3u8 $LR•IPV4•其他『线路4』
 广东卫视,http://140.210.9.18:8800/SuanFaZhibo/live4/migu.php?token=c511498dde37293f93db6dc7e5be51$LR•IPV4•其他『线路1』
-广东卫视,http://43.251.226.110:8880/play/106.m3u8$LR•IPV4•其他『线路2』
-广东卫视,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=广东卫视$LR•IPV4•其他『线路3』
-广东卫视,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/gdwsH265_4000.m3u8 $LR•IPV4•其他『线路4』
+广东卫视,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=广东卫视$LR•IPV4•其他『线路2』
+广东卫视,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/gdwsH265_4000.m3u8 $LR•IPV4•其他『线路3』
+广东卫视,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_GUANGDONG-4K/G_GUANGDONG-4K/index.m3u8 $LR•IPV4•其他『线路4』
 广西卫视,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=广西卫视$LR•IPV4•其他『线路1』
 广西卫视,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/gxws_4000.m3u8 $LR•IPV4•其他『线路2』
 广西卫视,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/GXWS/GXWS/index.m3u8 $LR•IPV4•其他『线路3』
@@ -112,10 +112,10 @@ CCTV15,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226635/index.m3u
 贵州卫视,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/gzwsH265_4000.m3u8 $LR•IPV4•其他『线路2』
 贵州卫视,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_GUIZHOU-HQ/G_GUIZHOU-HQ/index.m3u8 $LR•IPV4•其他『线路3』
 贵州卫视,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229758/1.m3u8 $LR•IPV4•其他『线路4』
-河北卫视,http://43.251.226.110:8880/play/109.m3u8$LR•IPV4•其他『线路1』
-河北卫视,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=河北卫视$LR•IPV4•其他『线路2』
-河北卫视,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_HEBEI-HQ/G_HEBEI-HQ/index.m3u8 $LR•IPV4•其他『线路3』
-河北卫视,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229840/1.m3u8 $LR•IPV4•其他『线路4』
+河北卫视,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=河北卫视$LR•IPV4•其他『线路1』
+河北卫视,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_HEBEI-HQ/G_HEBEI-HQ/index.m3u8 $LR•IPV4•其他『线路2』
+河北卫视,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229840/1.m3u8 $LR•IPV4•其他『线路3』
+河北卫视,http://A/ku9/py/socks5.py?ip=45.126.121.84:44401&u=http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236242/index.m3u8 $LR•IPV4•其他『线路4』
 河南卫视,http://140.210.9.18:8800/SuanFaZhibo/live4/migu.php?token=fd2d434ce318c56652c8b19610b5de$LR•IPV4•其他『线路1』
 河南卫视,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=河南卫视$LR•IPV4•其他『线路2』
 河南卫视,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/hnws35_4000.m3u8 $LR•IPV4•其他『线路3』
@@ -125,13 +125,13 @@ CCTV15,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226635/index.m3u
 黑龙江卫视,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_HEILONGJIANG-HQ/G_HEILONGJIANG-HQ/index.m3u8 $LR•IPV4•其他『线路3』
 黑龙江卫视,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229816/1.m3u8 $LR•IPV4•其他『线路4』
 湖北卫视,http://140.210.9.18:8800/SuanFaZhibo/live4/migu.php?token=ba0745243b4ceee8245181b23d1e86$LR•IPV4•其他『线路1』
-湖北卫视,http://43.251.226.110:8880/play/112.m3u8$LR•IPV4•其他『线路2』
-湖北卫视,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=湖北卫视$LR•IPV4•其他『线路3』
-湖北卫视,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/hbwsH265_4000.m3u8 $LR•IPV4•其他『线路4』
+湖北卫视,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=湖北卫视$LR•IPV4•其他『线路2』
+湖北卫视,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/hbwsH265_4000.m3u8 $LR•IPV4•其他『线路3』
+湖北卫视,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_HUBEI-HQ/G_HUBEI-HQ/index.m3u8 $LR•IPV4•其他『线路4』
 江西卫视,http://140.210.9.18:8800/SuanFaZhibo/live4/migu.php?token=a4369705ff66af351eb94ba5ee6890$LR•IPV4•其他『线路1』
-江西卫视,http://43.251.226.110:8880/play/110.m3u8$LR•IPV4•其他『线路2』
-江西卫视,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=江西卫视$LR•IPV4•其他『线路3』
-江西卫视,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/jxwsH265_4000.m3u8 $LR•IPV4•其他『线路4』
+江西卫视,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=江西卫视$LR•IPV4•其他『线路2』
+江西卫视,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/jxwsH265_4000.m3u8 $LR•IPV4•其他『线路3』
+江西卫视,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_JIANGXI-HQ/G_JIANGXI-HQ/index.m3u8 $LR•IPV4•其他『线路4』
 吉林卫视,http://140.210.9.18:8800/SuanFaZhibo/live4/migu.php?token=aedb2778367405234d282aac9087fa$LR•IPV4•其他『线路1』
 吉林卫视,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=吉林卫视$LR•IPV4•其他『线路2』
 吉林卫视,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/jlwsH265_4000.m3u8 $LR•IPV4•其他『线路3』
@@ -140,10 +140,10 @@ CCTV15,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226635/index.m3u
 内蒙古卫视,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/nmgws_4000.m3u8 $LR•IPV4•其他『线路2』
 内蒙古卫视,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_NEIMENGGU/G_NEIMENGGU/index.m3u8 $LR•IPV4•其他『线路3』
 内蒙古卫视,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229704/1.m3u8 $LR•IPV4•其他『线路4』
-辽宁卫视,http://43.251.226.110:8880/play/108.m3u8$LR•IPV4•其他『线路1』
-辽宁卫视,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=辽宁卫视$LR•IPV4•其他『线路2』
-辽宁卫视,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/lnwsHDH264_4000.m3u8 $LR•IPV4•其他『线路3』
-辽宁卫视,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_LIAONING-HQ/G_LIAONING-HQ/index.m3u8 $LR•IPV4•其他『线路4』
+辽宁卫视,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=辽宁卫视$LR•IPV4•其他『线路1』
+辽宁卫视,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/lnwsHDH264_4000.m3u8 $LR•IPV4•其他『线路2』
+辽宁卫视,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_LIAONING-HQ/G_LIAONING-HQ/index.m3u8 $LR•IPV4•其他『线路3』
+辽宁卫视,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/3221229825/1.m3u8 $LR•IPV4•其他『线路4』
 宁夏卫视,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=宁夏卫视$LR•IPV4•其他『线路1』
 宁夏卫视,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/gitv/live1/G_NINGXIA/G_NINGXIA/index.m3u8 $LR•IPV4•其他『线路2』
 宁夏卫视,http://A/ku9/py/socks5.py?ip=118.31.12.0:44095&u=http://111.48.34.138/000000001000PLTV/88888888/224/322122968$LR•IPV4•其他『线路3』
@@ -181,14 +181,13 @@ CCTV15,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226635/index.m3u
 凤凰香港,https://hk.188766.xyz/?migutoken=4087e4c220d8904b3557932c9a105995&id=hk_fhhk&type=dy$LR•IPV4•其他『线路2』
 凤凰香港,http://A/ku9/py/socks5.py?ip=129.211.38.171:51084&u=http://223.110.241.204:6610/cntv/live1/HD-10000k-1080P-fhhongkong5s/HD-10000k-1080P-fhhongkong5s/index.m3u8 $LR•IPV4•其他『线路3』
 凤凰香港,http://115.44.140.170:18180/TV00000000000000000024@HHZT$LR•IPV4•其他『线路4』
-凤凰卫视,http://hls.sohu.blog/gt.php?id=gt12$LR•IPV4•其他『线路1』
+凤凰卫视,http://221.7.175.154:8445/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4•其他『线路1』
 凤凰卫视,http://221.7.175.154:8445/tsfile/live/1020_1.m3u8$LR•IPV4•其他『线路2』
-凤凰卫视,http://221.7.175.154:8445/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4•其他『线路3』
-香港卫视,http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8$LR•IPV4•其他『线路1』
+凤凰卫视,http://122.152.202.33/s/81a8a44f/index.m3u8?id=15$LR•IPV4•其他『线路3』
+香港卫视,https://hkstv.tv/api/m3u8-proxy?url=http%3A%2F%2Fwebcast.hkstv.tv%2Flivestream%2Fmutfysrq%2Fplaylist.m3u8$LR•IPV4•其他『线路1』
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8$LR•IPV4•其他『线路2』
 TVBS亚洲,http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8?zshijd$LR•IPV4•其他
-TVBS新闻,http://jnzq.ohoyee.com:9080/live/xingjiaoge-tvbsxw.m3u8$LR•IPV4•其他『线路1』
-TVBS新闻,http://iptv.4666888.xyz/iptv2A.php?id=43$LR•IPV4•其他『线路2』
+TVBS新闻,http://iptv.4666888.xyz/iptv2A.php?id=43$LR•IPV4•其他
 影视频道,#genre#
 CHC动作电影,http://140.210.9.18:8800/SuanFaZhibo/live4/migu.php?token=cae47b4cceb3dfb1e1d0ff769405d0$LR•IPV4•其他『线路1』
 CHC动作电影,http://A/ku9/py/socks5.py?ip=218.95.39.31:59999&u=http://edge-cache02.live3.omd.sc96655.com/live/wqCHCdzdyH265_4000.m3u8 $LR•IPV4•其他『线路2』
