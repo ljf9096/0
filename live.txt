@@ -79,7 +79,7 @@ CCTV15,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226635/index.m3u
 重庆卫视,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=重庆卫视$LR•IPV4•其他『线路1』
 重庆卫视,http://api.kkitv.itv888.cn:8080/hls/ogh3s6tbw6/index.m3u8$LR•IPV4•其他『线路2』
 重庆卫视,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227220/index.m3u8$LR•IPV4•其他『线路3』
-重庆卫视,http://live2.rxip.sc96655.com/live/cqwsH265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1$LR•IPV4•其他『线路4』
+重庆卫视,https://d1t.alwaysdata.net/mgvt/%E9%87%8D%E5%BA%86%E5%8D%AB%E8%A7%86$LR•IPV4•其他『线路4』
 四川卫视,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=四川卫视$LR•IPV4•其他『线路1』
 四川卫视,http://api.kkitv.itv888.cn:8080/hls/p2npnppn96p/index.m3u8$LR•IPV4•其他『线路2』
 四川卫视,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227197/index.m3u8$LR•IPV4•其他『线路3』
@@ -115,11 +115,11 @@ CCTV15,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226635/index.m3u
 河北卫视,http://43.251.226.110:8880/play/109.m3u8$LR•IPV4•其他『线路1』
 河北卫视,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=河北卫视$LR•IPV4•其他『线路2』
 河北卫视,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227222/index.m3u8$LR•IPV4•其他『线路3』
-河北卫视,http://112.6.239.227:8207/hls/28/index.m3u8$LR•IPV4•其他『线路4』
+河北卫视,https://d1t.alwaysdata.net/mgvt/%E6%B2%B3%E5%8C%97%E5%8D%AB%E8%A7%86$LR•IPV4•其他『线路4』
 河南卫视,http://140.210.9.18:8800/SuanFaZhibo/live4/migu.php?token=fd2d434ce318c56652c8b19610b5de$LR•IPV4•其他『线路1』
 河南卫视,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=河南卫视$LR•IPV4•其他『线路2』
 河南卫视,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227431/index.m3u8$LR•IPV4•其他『线路3』
-河南卫视,https://migu.188766.xyz/?migutoken=54cf038be1d704b56b80dd18cb8c9434&id=%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86%E9%AB%98%E6%B8%85&type=yy$LR•IPV4•其他『线路4』
+河南卫视,https://d1t.alwaysdata.net/mgvt/%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86$LR•IPV4•其他『线路4』
 黑龙江卫视,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=黑龙江卫视$LR•IPV4•其他『线路1』
 黑龙江卫视,http://api.kkitv.itv888.cn:8080/hls/2a24lcvser/index.m3u8$LR•IPV4•其他『线路2』
 黑龙江卫视,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227207/index.m3u8$LR•IPV4•其他『线路3』
@@ -146,7 +146,8 @@ CCTV15,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226635/index.m3u
 辽宁卫视,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227236/index.m3u8$LR•IPV4•其他『线路4』
 宁夏卫视,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=宁夏卫视$LR•IPV4•其他『线路1』
 宁夏卫视,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227187/index.m3u8$LR•IPV4•其他『线路2』
-宁夏卫视,http://112.19.88.97:8899/rtp/239.11.0.57:5140$LR•IPV4•其他『线路3』
+宁夏卫视,https://d1t.alwaysdata.net/mgvt/%E5%AE%81%E5%A4%8F%E5%8D%AB%E8%A7%86$LR•IPV4•其他『线路3』
+宁夏卫视,http://112.19.88.97:8899/rtp/239.11.0.57:5140$LR•IPV4•其他『线路4』
 青海卫视,http://140.210.9.18:8800/SuanFaZhibo/live4/migu.php?token=74542f6eafa3b889a0fb611635ddf3$LR•IPV4•其他『线路1』
 青海卫视,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=青海卫视$LR•IPV4•其他『线路2』
 青海卫视,http://115.148.202.227:7088/rtp/239.252.219.46:5140$LR•IPV4•其他『线路3』
@@ -182,7 +183,7 @@ CCTV15,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226635/index.m3u
 凤凰香港,https://php.jdshipin.com:2096/TVOD/iptv.php?id=fhhk$LR•IPV4•其他『线路4』
 凤凰卫视,http://hls.sohu.blog/gt.php?id=gt12$LR•IPV4•其他『线路1』
 凤凰卫视,http://218.206.193.218:8888/hls/67/index.m3u8$LR•IPV4•其他『线路2』
-凤凰卫视,http://221.7.175.154:8445/tsfile/live/1020_1.m3u8$LR•IPV4•其他『线路3』
+凤凰卫视,http://122.152.202.33/s/81a8a44f/index.m3u8?id=15$LR•IPV4•其他『线路3』
 凤凰卫视,http://221.7.175.154:8445/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4•其他『线路4』
 香港卫视,http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8$LR•IPV4•其他『线路1』
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8$LR•IPV4•其他『线路2』
