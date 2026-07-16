@@ -340,25 +340,25 @@ https://hk.188766.xyz/?migutoken=defeae8f8e58c2a021a89a458239bf74&id=fhzw&pp=1$L
 #EXTINF:-1 tvg-id="2" tvg-name="凤凰中文" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰中文.png" group-title="港·澳·台",凤凰中文
 https://hk.188766.xyz/?migutoken=c6656a0c267a1920e589171b711a708e&id=hk_fhzw&type=dy$LR•IPV4•其他『线路2』
 #EXTINF:-1 tvg-id="3" tvg-name="凤凰中文" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰中文.png" group-title="港·澳·台",凤凰中文
-http://cdhome.haobaitele.com:8800/udp/239.94.2.51:5140$LR•IPV4•其他『线路3』
+http://123.234.2.58:80/qctv.fengshows.cn/live/0701pcc72.m3u8$LR•IPV4•其他『线路3』
 #EXTINF:-1 tvg-id="4" tvg-name="凤凰中文" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰中文.png" group-title="港·澳·台",凤凰中文
-http://171.213.240.67:8880/rtp/239.94.2.51:5140$LR•IPV4•其他『线路4』
+http://cdhome.haobaitele.com:8800/udp/239.94.2.51:5140$LR•IPV4•其他『线路4』
 #EXTINF:-1 tvg-id="1" tvg-name="凤凰资讯" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰资讯.png" group-title="港·澳·台",凤凰资讯
 https://hk.188766.xyz/?migutoken=bf72cecf59877c6e496448ce64459b52&id=fhzx&pp=1$LR•IPV4•其他『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="凤凰资讯" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰资讯.png" group-title="港·澳·台",凤凰资讯
 https://hk.188766.xyz/?migutoken=2eec696bc84ee2f1bf78c7717cacb168&id=hk_fhzx&type=dy$LR•IPV4•其他『线路2』
 #EXTINF:-1 tvg-id="3" tvg-name="凤凰资讯" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰资讯.png" group-title="港·澳·台",凤凰资讯
-http://cdhome.haobaitele.com:8800/udp/239.94.2.50:5140$LR•IPV4•其他『线路3』
+http://123.234.2.58:80/qctv.fengshows.cn/live/0701pin72.m3u8$LR•IPV4•其他『线路3』
 #EXTINF:-1 tvg-id="4" tvg-name="凤凰资讯" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰资讯.png" group-title="港·澳·台",凤凰资讯
-http://171.213.240.67:8880/rtp/239.94.2.49:5140$LR•IPV4•其他『线路4』
+http://cdhome.haobaitele.com:8800/udp/239.94.2.50:5140$LR•IPV4•其他『线路4』
 #EXTINF:-1 tvg-id="1" tvg-name="凤凰香港" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰香港.png" group-title="港·澳·台",凤凰香港
 https://hk.188766.xyz/?migutoken=61a9f8aa1740e6a0af7d9c1aa7c7d9ea&id=fhhk&pp=1$LR•IPV4•其他『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="凤凰香港" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰香港.png" group-title="港·澳·台",凤凰香港
 https://hk.188766.xyz/?migutoken=4087e4c220d8904b3557932c9a105995&id=hk_fhhk&type=dy$LR•IPV4•其他『线路2』
 #EXTINF:-1 tvg-id="3" tvg-name="凤凰香港" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰香港.png" group-title="港·澳·台",凤凰香港
-http://cdhome.haobaitele.com:8800/udp/239.94.2.52:5140$LR•IPV4•其他『线路3』
+http://123.234.2.58:80/qctv.fengshows.cn/live/0701phk72.m3u8$LR•IPV4•其他『线路3』
 #EXTINF:-1 tvg-id="4" tvg-name="凤凰香港" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰香港.png" group-title="港·澳·台",凤凰香港
-http://123.234.2.58:80/qctv.fengshows.cn/live/0701phk72.m3u8$LR•IPV4•其他『线路4』
+http://cdhome.haobaitele.com:8800/udp/239.94.2.52:5140$LR•IPV4•其他『线路4』
 #EXTINF:-1 tvg-id="1" tvg-name="凤凰卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰卫视.png" group-title="港·澳·台",凤凰卫视
 http://218.206.193.218:8888/hls/67/index.m3u8$LR•IPV4•其他『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="凤凰卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰卫视.png" group-title="港·澳·台",凤凰卫视
