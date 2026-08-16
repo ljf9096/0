@@ -104,8 +104,7 @@ CCTV15,http://api.kkitv.itv888.cn:8080/hls/hcwu4ianhgw/index.m3u8$LR•IPV4•�
 厦门卫视,http://112.6.239.227:8207/hls/17/index.m3u8$LR•IPV4•其他『线路2』
 厦门卫视,http://lysj.aylzline.top:8899/rtp/225.1.2.96:10570$LR•IPV4•其他『线路3』
 厦门卫视,http://112.19.88.97:8899/rtp/239.11.0.83:5140$LR•IPV4•其他『线路4』
-南方卫视,http://120.237.39.10:9901/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&down=1$LR•IPV4•其他『线路1』
-南方卫视,http://120.198.95.220:9901/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&down=1$LR•IPV4•其他『线路2』
+南方卫视,http://120.237.39.10:9901/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&down=1$LR•IPV4•其他
 甘肃卫视,http://140.210.9.18:8800/SuanFaZhibo/live7/ysp.php?id=甘肃卫视$LR•IPV4•其他『线路1』
 甘肃卫视,http://go.bkpcp.top/mg/gsws$LR•IPV4•其他『线路2』
 甘肃卫视,http://lysj.aylzline.top:8899/rtp/225.1.2.44:10258$LR•IPV4•其他『线路3』
@@ -184,8 +183,8 @@ CCTV15,http://api.kkitv.itv888.cn:8080/hls/hcwu4ianhgw/index.m3u8$LR•IPV4•�
 凤凰香港,https://cdn6.cc.cd/163189/fhhk$LR•IPV4•其他『线路3』
 凤凰香港,http://123.234.2.58:80/qctv.fengshows.cn/live/0701phk72.m3u8$LR•IPV4•其他『线路4』
 凤凰卫视,http://171.38.148.188:9003/hls/110/index.m3u8$LR•IPV4•其他『线路1』
-凤凰卫视,http://221.7.175.154:8445/tsfile/live/1020_1.m3u8$LR•IPV4•其他『线路2』
-凤凰卫视,http://122.152.202.33/s/81a8a44f/index.m3u8?id=15$LR•IPV4•其他『线路3』
+凤凰卫视,http://218.206.193.218:8888/hls/67/index.m3u8$LR•IPV4•其他『线路2』
+凤凰卫视,http://221.7.175.154:8445/tsfile/live/1020_1.m3u8$LR•IPV4•其他『线路3』
 凤凰卫视,http://221.7.175.154:8445/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4•其他『线路4』
 香港卫视,http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8$LR•IPV4•其他
 TVBS新闻,http://jnzq.ohoyee.com:9080/live/xingjiaoge-tvbsxw.m3u8$LR•IPV4•其他『线路1』
