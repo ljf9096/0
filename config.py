@@ -9,7 +9,7 @@ max_urls_per_channel = 4
 
 # ==================== 有效性检测与测速 ====================
 # 是否启用链接有效性检测和测速（True=开启，False=关闭）
-enable_validation = True
+enable_validation = False
 
 # 单个链接检测超时时间（秒），建议 3~10 秒
 validation_timeout = 5
