@@ -115,10 +115,14 @@ def updateChannelUrlsM3U(channels, template_channels):
             if announcement['name'] is None:
                 announcement['name'] = current_date
 
+    # 获取每个频道最大链接数配置（默认4）
+    max_urls = getattr(config, 'max_urls_per_channel', 4)
+
     with open("live.m3u", "w", encoding="utf-8") as f_m3u:
         f_m3u.write(f"""#EXTM3U x-tvg-url={",".join(f'"{epg_url}"' for epg_url in config.epg_urls)}\n""")
 
         with open("live.txt", "w", encoding="utf-8") as f_txt:
+            # 写入公告
             for group in config.announcements:
                 f_txt.write(f"{group['channel']},#genre#\n")
                 for announcement in group['entries']:
@@ -126,17 +130,22 @@ def updateChannelUrlsM3U(channels, template_channels):
                     f_m3u.write(f"{announcement['url']}\n")
                     f_txt.write(f"{announcement['name']},{announcement['url']}\n")
 
+            # 写入模板频道
             for category, channel_list in template_channels.items():
                 f_txt.write(f"{category},#genre#\n")
                 if category in channels:
                     for channel_name in channel_list:
                         if channel_name in channels[category]:
+                            # 按 IP 版本优先级排序
                             sorted_urls = sorted(channels[category][channel_name], key=lambda url: not is_ipv6(url) if config.ip_version_priority == "ipv6" else is_ipv6(url))
                             filtered_urls = []
                             for url in sorted_urls:
                                 if url and url not in written_urls and not any(blacklist in url for blacklist in config.url_blacklist):
                                     filtered_urls.append(url)
                                     written_urls.add(url)
+
+                            # ★ 只保留前 max_urls 个链接（速度最快、质量最优的前 N 个）
+                            filtered_urls = filtered_urls[:max_urls]
 
                             total_urls = len(filtered_urls)
                             for index, url in enumerate(filtered_urls, start=1):
