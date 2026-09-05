@@ -1,11 +1,20 @@
 # config.py
-# IP版本优先级：ipv6 或 ipv4
+
+# ==================== 基本设置 ====================
+# IP版本优先级：'ipv6' 或 'ipv4'（当未启用测速时，以此作为排序依据；启用测速后，以响应时间为主，此选项仅作为次要排序）
 ip_version_priority = "ipv6"
 
-# 每个频道最多保留的链接数（按优先级排序后取前 N 个）
+# 每个频道最多保留的有效链接数（速度最快的前 N 个）
 max_urls_per_channel = 4
 
-# 需要爬取的直播源列表（支持 .m3u / .txt 格式）
+# ==================== 有效性检测与测速 ====================
+# 是否启用链接有效性检测和测速（True=开启，False=关闭）
+enable_validation = True
+
+# 单个链接检测超时时间（秒），建议 3~10 秒
+validation_timeout = 5
+
+# ==================== 直播源地址列表 ====================
 source_urls = [
     "http://140.210.9.53:6789/L00001live.txt",
     "https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/RJZC-LRJ/RJ/caaf92ae6eb9214499e78c822d00df59dc7d7ddc/RJLIVE_V2.6.8/rj_live.m3u",
@@ -38,7 +47,7 @@ source_urls = [
     "https://ghproxy.net/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
 ]
 
-# URL 黑名单（包含黑名单关键词的链接将被过滤）
+# ==================== URL 黑名单 ====================
 url_blacklist = [
     "epg.pw/stream/",
     "103.40.13.71:12390",
@@ -64,7 +73,7 @@ url_blacklist = [
     "[2409:8087:2001:20:2800:0:df6e:eb27]"
 ]
 
-# EPG 节目指南地址（用于生成 m3u 的 x-tvg-url）
+# ==================== EPG 节目指南地址 ====================
 epg_urls = [
     "https://live.fanmingming.com/e.xml",
     "http://epg.51zmt.top:8000/e.xml",
@@ -74,5 +83,19 @@ epg_urls = [
     "https://epg.pw/xmltv/epg_TW.xml"
 ]
 
-# 公告配置（若不需要公告，保持为空列表即可）
+# ==================== 公告配置 ====================
+# 若不需要公告，保持为空列表；如需启用，请参照注释示例添加
 announcements = []
+# 示例：
+# announcements = [
+#     {
+#         "channel": "重要通知",
+#         "entries": [
+#             {
+#                 "name": "今日更新说明",
+#                 "logo": "https://example.com/logo.png",
+#                 "url": "http://example.com/notice.m3u8"
+#             }
+#         ]
+#     }
+# ]
