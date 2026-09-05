@@ -5,7 +5,7 @@
 ip_version_priority = "ipv6"
 
 # 每个频道最多保留的有效链接数（速度最快的前 N 个）
-max_urls_per_channel = 4
+max_urls_per_channel = 6
 
 # ==================== 有效性检测与测速 ====================
 # 是否启用链接有效性检测和测速（True=开启，False=关闭）
