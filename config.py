@@ -2,11 +2,20 @@
 # IP版本优先级：ipv6 或 ipv4
 ip_version_priority = "ipv6"
 
+# 每个频道最多保留的链接数（按优先级排序后取前 N 个）
+max_urls_per_channel = 4
+
 # 需要爬取的直播源列表（支持 .m3u / .txt 格式）
 source_urls = [
     "http://140.210.9.53:6789/L00001live.txt",
     "https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/RJZC-LRJ/RJ/caaf92ae6eb9214499e78c822d00df59dc7d7ddc/RJLIVE_V2.6.8/rj_live.m3u",
     "http://ok.html-5.me//i/%E6%B1%9F%E8%A5%BF%E7%9C%81%E9%B9%B0%E6%BD%AD%E5%B8%82%E7%94%B5%E4%BF%A1%E7%BB%84%E6%92%AD.txt",
+    "https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y4",
+    "https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y5",
+    "https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y6",
+    "https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y7",
+    "https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y8",
+    "https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ljf9096/ds/main/y/y9",
     "https://iptv.catvod.com/tv.m3u",
     "https://gitee.com/lwr851/live/raw/master/iptv.m3u",
     "https://bc.188766.xyz/?ip=&mima=mianfeibuhuaqian&json=true",
@@ -66,18 +75,4 @@ epg_urls = [
 ]
 
 # 公告配置（若不需要公告，保持为空列表即可）
-# 格式：每个元素是一个字典，包含 "channel"（分组名）和 "entries"（公告条目列表）
-# 每个条目包含 "name"（显示名称，可为 None 自动替换为日期）、"logo"（图标 URL）、"url"（流地址）
-announcements = []   # 默认无公告，如需启用请参照下方示例取消注释
-# announcements = [
-#     {
-#         "channel": "重要通知",
-#         "entries": [
-#             {
-#                 "name": "今日更新说明",
-#                 "logo": "https://example.com/logo.png",
-#                 "url": "http://example.com/notice.m3u8"
-#             }
-#         ]
-#     }
-# ]
+announcements = []
