@@ -28,7 +28,6 @@ source_urls = [
 "https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/liulei120/TVCrazy/main/output/itvlist.txt",
  "http://43.251.226.89:8080/live.txt",
 "https://proxy.lalifeier.eu.org/https://raw.githubusercontent.com/ioptu/IPTV.txt2m3u.player/main/migu.m3u",
- "http://175.178.182.213/1/newV6.m3u",
 "https://ghproxy.net/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
 
 ]
