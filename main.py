@@ -2,6 +2,7 @@ import re
 import requests
 import logging
 import time
+import shutil  # 新增
 from collections import OrderedDict
 from datetime import datetime
 import config
@@ -106,7 +107,6 @@ def validate_and_measure(url, timeout=5):
     返回 (is_valid, response_time)
     """
     if not url.startswith(('http://', 'https://')):
-        # 非HTTP协议默认视为无效（无法用requests检测）
         return False, None
 
     headers = {
@@ -114,22 +114,18 @@ def validate_and_measure(url, timeout=5):
     }
     try:
         start = time.time()
-        # 使用stream=True只获取头部，不下载完整内容（节省带宽）
         r = requests.get(url, timeout=timeout, stream=True, headers=headers, allow_redirects=True)
         elapsed = time.time() - start
 
         if r.status_code != 200:
             return False, None
 
-        # 尝试读取前512字节，检查是否为错误页面（包含404/error等）
         try:
             chunk = r.raw.read(512)
         except:
             chunk = b''
-        # 如果内容为空，视为无效
         if not chunk:
             return False, None
-        # 检查是否包含常见错误关键词
         lower_chunk = chunk.lower()
         if b'404' in lower_chunk or b'error' in lower_chunk or b'not found' in lower_chunk:
             return False, None
@@ -150,10 +146,17 @@ def updateChannelUrlsM3U(channels, template_channels):
     enable_validation = getattr(config, 'enable_validation', True)
     validation_timeout = getattr(config, 'validation_timeout', 5)
 
-    with open("live.m3u", "w", encoding="utf-8") as f_m3u:
+    # 生成时间戳（用于副本文件名）
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+    # 定义固定文件名
+    m3u_file = "live.m3u"
+    txt_file = "live.txt"
+
+    with open(m3u_file, "w", encoding="utf-8") as f_m3u:
         f_m3u.write(f"""#EXTM3U x-tvg-url={",".join(f'"{epg_url}"' for epg_url in config.epg_urls)}\n""")
 
-        with open("live.txt", "w", encoding="utf-8") as f_txt:
+        with open(txt_file, "w", encoding="utf-8") as f_txt:
             # 写入公告
             for group in config.announcements:
                 f_txt.write(f"{group['channel']},#genre#\n")
@@ -172,11 +175,8 @@ def updateChannelUrlsM3U(channels, template_channels):
                     if channel_name not in channels[category]:
                         continue
 
-                    # 获取该频道的所有候选链接（去重、黑名单过滤）
                     raw_urls = channels[category][channel_name]
-                    # 去重（基于url去重）
                     unique_urls = list(OrderedDict.fromkeys(raw_urls))
-                    # 过滤黑名单
                     filtered_urls = []
                     for url in unique_urls:
                         if url and url not in written_urls:
@@ -187,7 +187,6 @@ def updateChannelUrlsM3U(channels, template_channels):
                     if not filtered_urls:
                         continue
 
-                    # ---- 有效性检测与测速 ----
                     valid_urls = []
                     if enable_validation:
                         logging.info(f"正在检测频道 '{channel_name}' 的 {len(filtered_urls)} 个链接...")
@@ -197,27 +196,20 @@ def updateChannelUrlsM3U(channels, template_channels):
                                 valid_urls.append((url, resp_time))
                             else:
                                 logging.debug(f"无效链接: {url}")
-                        # 按响应时间升序排序（速度最快在前）
                         valid_urls.sort(key=lambda x: x[1])
-                        # 提取url列表
                         sorted_urls = [url for url, _ in valid_urls]
                     else:
-                        # 不验证，沿用之前的IP版本优先级排序
                         sorted_urls = sorted(filtered_urls,
                                              key=lambda u: not is_ipv6(u) if config.ip_version_priority == "ipv6" else is_ipv6(u))
 
-                    # 只取前 max_urls 个
                     final_urls = sorted_urls[:max_urls]
                     total_urls = len(final_urls)
 
-                    # 写入文件
                     for index, url in enumerate(final_urls, start=1):
-                        # 确定IP类型后缀
                         if is_ipv6(url):
                             suffix = f"$LR•IPV6" if total_urls == 1 else f"$LR•IPV6『线路{index}』"
                         else:
                             suffix = f"$LR•IPV4" if total_urls == 1 else f"$LR•IPV4『线路{index}』"
-                        # 去除原URL可能已有的$后缀
                         base_url = url.split('$', 1)[0] if '$' in url else url
                         new_url = f"{base_url}{suffix}"
 
@@ -226,6 +218,13 @@ def updateChannelUrlsM3U(channels, template_channels):
                         f_txt.write(f"{channel_name},{new_url}\n")
 
             f_txt.write("\n")
+
+    # 复制一份带时间戳的副本
+    m3u_copy = f"live_{timestamp}.m3u"
+    txt_copy = f"live_{timestamp}.txt"
+    shutil.copy2(m3u_file, m3u_copy)
+    shutil.copy2(txt_file, txt_copy)
+    logging.info(f"已生成时间戳副本: {m3u_copy}, {txt_copy}")
 
 if __name__ == "__main__":
     template_file = "demo.txt"
