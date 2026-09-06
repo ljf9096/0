@@ -285,8 +285,7 @@ CHC动作电影,http://222.90.21.30:9901/hls/59/index.m3u8$LR•IPV4『线路3�
 CHC动作电影,http://140.210.9.18:8800/SuanFaZhibo/live4/migu.php?token=cae47b4cceb3dfb1e1d0ff769405d0$LR•IPV4『线路4』
 CHC动作电影,http://115.148.202.227:7088/rtp/239.252.219.85:5140$LR•IPV4『线路5』
 CHC动作电影,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227479/index.m3u8$LR•IPV4『线路6』
-CHC高清电影,http://115.148.202.227:7088/rtp/239.252.219.83:5140$LR•IPV4『线路1』
-CHC高清电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4『线路2』
+CHC高清电影,http://115.148.202.227:7088/rtp/239.252.219.83:5140$LR•IPV4
 CHC家庭影院,http://120.48.113.49:6006/644368373$LR•IPV4『线路1』
 CHC家庭影院,http://140.210.9.18:8800/SuanFaZhibo/live4/migu.php?token=8659e86b4f92870921ff5db9936f28$LR•IPV4『线路2』
 CHC家庭影院,http://115.148.202.227:7088/rtp/239.252.219.84:5140$LR•IPV4『线路3』
