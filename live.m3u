@@ -196,13 +196,13 @@ http://204.12.221.218:8181/3m1080p/bjws.m3u8$LR•IPV4『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="北京卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/北京卫视.png" group-title="卫视频道",北京卫视
 http://bztv.tvbus.cc:8081/cdnlive/bjws.m3u8$LR•IPV4『线路2』
 #EXTINF:-1 tvg-id="3" tvg-name="北京卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/北京卫视.png" group-title="卫视频道",北京卫视
-http://45.192.97.170:8880/play/29.m3u8$LR•IPV4『线路3』
+http://120.48.113.49:6006/630287636$LR•IPV4『线路3』
 #EXTINF:-1 tvg-id="4" tvg-name="北京卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/北京卫视.png" group-title="卫视频道",北京卫视
-http://120.48.113.49:6006/630287636$LR•IPV4『线路4』
+http://go.bkpcp.top/mg/bjws$LR•IPV4『线路4』
 #EXTINF:-1 tvg-id="5" tvg-name="北京卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/北京卫视.png" group-title="卫视频道",北京卫视
-http://go.bkpcp.top/mg/bjws$LR•IPV4『线路5』
+http://m.061899.xyz/mg/bjws$LR•IPV4『线路5』
 #EXTINF:-1 tvg-id="6" tvg-name="北京卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/北京卫视.png" group-title="卫视频道",北京卫视
-http://m.061899.xyz/mg/bjws$LR•IPV4『线路6』
+http://j.s.bkpcp.top/jj/bjws$LR•IPV4『线路6』
 #EXTINF:-1 tvg-id="1" tvg-name="江苏卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/江苏卫视.png" group-title="卫视频道",江苏卫视
 http://204.12.221.218:8181/3m1080p/jsws.m3u8$LR•IPV4『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="江苏卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/江苏卫视.png" group-title="卫视频道",江苏卫视
@@ -340,13 +340,13 @@ http://204.12.221.218:8181/3m1080p/hews.m3u8$LR•IPV4『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="河北卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/河北卫视.png" group-title="卫视频道",河北卫视
 http://bztv.tvbus.cc:8081/cdnlive/hews.m3u8$LR•IPV4『线路2』
 #EXTINF:-1 tvg-id="3" tvg-name="河北卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/河北卫视.png" group-title="卫视频道",河北卫视
-http://45.192.97.170:8880/play/31.m3u8$LR•IPV4『线路3』
+http://120.48.113.49:6006/962042070$LR•IPV4『线路3』
 #EXTINF:-1 tvg-id="4" tvg-name="河北卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/河北卫视.png" group-title="卫视频道",河北卫视
-http://120.48.113.49:6006/962042070$LR•IPV4『线路4』
+http://m.061899.xyz/mg/hbws$LR•IPV4『线路4』
 #EXTINF:-1 tvg-id="5" tvg-name="河北卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/河北卫视.png" group-title="卫视频道",河北卫视
-http://m.061899.xyz/mg/hbws$LR•IPV4『线路5』
+http://t.061899.xyz/tl/tl.php?id=hbws$LR•IPV4『线路5』
 #EXTINF:-1 tvg-id="6" tvg-name="河北卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/河北卫视.png" group-title="卫视频道",河北卫视
-http://t.061899.xyz/tl/tl.php?id=hbws$LR•IPV4『线路6』
+http://120.238.84.45:9901/tsfile/live/1064_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路6』
 #EXTINF:-1 tvg-id="1" tvg-name="河南卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/河南卫视.png" group-title="卫视频道",河南卫视
 http://204.12.221.218:8181/3m1080p/haws.m3u8$LR•IPV4『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="河南卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/河南卫视.png" group-title="卫视频道",河南卫视
@@ -376,25 +376,25 @@ http://204.12.221.218:8181/3m1080p/hbws.m3u8$LR•IPV4『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="湖北卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/湖北卫视.png" group-title="卫视频道",湖北卫视
 http://bztv.tvbus.cc:8081/cdnlive/hbws.m3u8$LR•IPV4『线路2』
 #EXTINF:-1 tvg-id="3" tvg-name="湖北卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/湖北卫视.png" group-title="卫视频道",湖北卫视
-http://45.192.97.170:8880/play/34.m3u8$LR•IPV4『线路3』
+http://120.48.113.49:6006/947472496$LR•IPV4『线路3』
 #EXTINF:-1 tvg-id="4" tvg-name="湖北卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/湖北卫视.png" group-title="卫视频道",湖北卫视
-http://120.48.113.49:6006/947472496$LR•IPV4『线路4』
+http://go.bkpcp.top/mg/hubws$LR•IPV4『线路4』
 #EXTINF:-1 tvg-id="5" tvg-name="湖北卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/湖北卫视.png" group-title="卫视频道",湖北卫视
-http://go.bkpcp.top/mg/hubws$LR•IPV4『线路5』
+http://m.061899.xyz/mg/hubws$LR•IPV4『线路5』
 #EXTINF:-1 tvg-id="6" tvg-name="湖北卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/湖北卫视.png" group-title="卫视频道",湖北卫视
-http://m.061899.xyz/mg/hubws$LR•IPV4『线路6』
+http://j.s.bkpcp.top/jj/hubws$LR•IPV4『线路6』
 #EXTINF:-1 tvg-id="1" tvg-name="江西卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/江西卫视.png" group-title="卫视频道",江西卫视
 http://204.12.221.218:8181/3m1080p/jxws.m3u8$LR•IPV4『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="江西卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/江西卫视.png" group-title="卫视频道",江西卫视
 http://bztv.tvbus.cc:8081/cdnlive/jxws.m3u8$LR•IPV4『线路2』
 #EXTINF:-1 tvg-id="3" tvg-name="江西卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/江西卫视.png" group-title="卫视频道",江西卫视
-http://45.192.97.170:8880/play/32.m3u8$LR•IPV4『线路3』
+http://120.48.113.49:6006/783847495$LR•IPV4『线路3』
 #EXTINF:-1 tvg-id="4" tvg-name="江西卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/江西卫视.png" group-title="卫视频道",江西卫视
-http://120.48.113.49:6006/783847495$LR•IPV4『线路4』
+http://go.bkpcp.top/mg/jxws$LR•IPV4『线路4』
 #EXTINF:-1 tvg-id="5" tvg-name="江西卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/江西卫视.png" group-title="卫视频道",江西卫视
-http://go.bkpcp.top/mg/jxws$LR•IPV4『线路5』
+http://m.061899.xyz/mg/jxws$LR•IPV4『线路5』
 #EXTINF:-1 tvg-id="6" tvg-name="江西卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/江西卫视.png" group-title="卫视频道",江西卫视
-http://m.061899.xyz/mg/jxws$LR•IPV4『线路6』
+http://j.s.bkpcp.top/jj/jxws$LR•IPV4『线路6』
 #EXTINF:-1 tvg-id="1" tvg-name="吉林卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/吉林卫视.png" group-title="卫视频道",吉林卫视
 http://204.12.221.218:8181/3m1080p/jlws.m3u8$LR•IPV4『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="吉林卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/吉林卫视.png" group-title="卫视频道",吉林卫视
@@ -424,13 +424,13 @@ http://204.12.221.218:8181/3m1080p/lnws.m3u8$LR•IPV4『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="辽宁卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/辽宁卫视.png" group-title="卫视频道",辽宁卫视
 http://bztv.tvbus.cc:8081/cdnlive/lnws.m3u8$LR•IPV4『线路2』
 #EXTINF:-1 tvg-id="3" tvg-name="辽宁卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/辽宁卫视.png" group-title="卫视频道",辽宁卫视
-http://45.192.97.170:8880/play/30.m3u8$LR•IPV4『线路3』
+http://120.48.113.49:6006/630291707$LR•IPV4『线路3』
 #EXTINF:-1 tvg-id="4" tvg-name="辽宁卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/辽宁卫视.png" group-title="卫视频道",辽宁卫视
-http://120.48.113.49:6006/630291707$LR•IPV4『线路4』
+http://t.061899.xyz/tl/tl.php?id=lnws$LR•IPV4『线路4』
 #EXTINF:-1 tvg-id="5" tvg-name="辽宁卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/辽宁卫视.png" group-title="卫视频道",辽宁卫视
-http://t.061899.xyz/tl/tl.php?id=lnws$LR•IPV4『线路5』
+http://120.238.84.45:9901/tsfile/live/1056_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路5』
 #EXTINF:-1 tvg-id="6" tvg-name="辽宁卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/辽宁卫视.png" group-title="卫视频道",辽宁卫视
-http://120.238.84.45:9901/tsfile/live/1056_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路6』
+http://222.90.21.30:9901/hls/38/index.m3u8$LR•IPV4『线路6』
 #EXTINF:-1 tvg-id="1" tvg-name="宁夏卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/宁夏卫视.png" group-title="卫视频道",宁夏卫视
 http://204.12.221.218:8181/3m1080p/nxws.m3u8$LR•IPV4『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="宁夏卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/宁夏卫视.png" group-title="卫视频道",宁夏卫视
@@ -508,13 +508,13 @@ https://hk.188766.xyz/?migutoken=defeae8f8e58c2a021a89a458239bf74&id=fhzw&pp=1$L
 #EXTINF:-1 tvg-id="2" tvg-name="凤凰中文" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰中文.png" group-title="港·澳·台",凤凰中文
 https://hk.188766.xyz/?migutoken=c6656a0c267a1920e589171b711a708e&id=hk_fhzw&type=dy$LR•IPV4『线路2』
 #EXTINF:-1 tvg-id="3" tvg-name="凤凰中文" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰中文.png" group-title="港·澳·台",凤凰中文
-http://giwon.ddns.net:5555/udp/239.94.2.51:5140$LR•IPV4『线路3』
+http://jellyfin.eversouthhangzhou.com.cn:8188/rtp/233.50.202.35:5140$LR•IPV4『线路3』
 #EXTINF:-1 tvg-id="4" tvg-name="凤凰中文" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰中文.png" group-title="港·澳·台",凤凰中文
-http://45.192.97.170:8880/play/70.m3u8$LR•IPV4『线路4』
+http://giwon.ddns.net:5555/udp/239.94.2.51:5140$LR•IPV4『线路4』
 #EXTINF:-1 tvg-id="5" tvg-name="凤凰中文" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰中文.png" group-title="港·澳·台",凤凰中文
-http://bobohome.ignorelist.com:20247/fengshows?id=2.m3u8$LR•IPV4『线路5』
+http://45.192.97.170:8880/play/67.m3u8$LR•IPV4『线路5』
 #EXTINF:-1 tvg-id="6" tvg-name="凤凰中文" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰中文.png" group-title="港·澳·台",凤凰中文
-http://live2.rxip.sc96655.com/live/test1_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1$LR•IPV4『线路6』
+http://bobohome.ignorelist.com:20247/fengshows?id=2.m3u8$LR•IPV4『线路6』
 #EXTINF:-1 tvg-id="1" tvg-name="凤凰资讯" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰资讯.png" group-title="港·澳·台",凤凰资讯
 http://222.90.21.30:9901/hls/58/index.m3u8$LR•IPV4『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="凤凰资讯" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰资讯.png" group-title="港·澳·台",凤凰资讯
@@ -522,17 +522,17 @@ https://hk.188766.xyz/?migutoken=bf72cecf59877c6e496448ce64459b52&id=fhzx&pp=1$L
 #EXTINF:-1 tvg-id="3" tvg-name="凤凰资讯" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰资讯.png" group-title="港·澳·台",凤凰资讯
 https://hk.188766.xyz/?migutoken=2eec696bc84ee2f1bf78c7717cacb168&id=hk_fhzx&type=dy$LR•IPV4『线路3』
 #EXTINF:-1 tvg-id="4" tvg-name="凤凰资讯" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰资讯.png" group-title="港·澳·台",凤凰资讯
-http://giwon.ddns.net:5555/udp/239.94.2.50:5140$LR•IPV4『线路4』
+http://jellyfin.eversouthhangzhou.com.cn:8188/rtp/233.50.202.36:5140$LR•IPV4『线路4』
 #EXTINF:-1 tvg-id="5" tvg-name="凤凰资讯" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰资讯.png" group-title="港·澳·台",凤凰资讯
-http://45.192.97.170:8880/play/71.m3u8$LR•IPV4『线路5』
+http://giwon.ddns.net:5555/udp/239.94.2.50:5140$LR•IPV4『线路5』
 #EXTINF:-1 tvg-id="6" tvg-name="凤凰资讯" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰资讯.png" group-title="港·澳·台",凤凰资讯
-http://bobohome.ignorelist.com:20247/fengshows?id=1.m3u8$LR•IPV4『线路6』
+http://45.192.97.170:8880/play/66.m3u8$LR•IPV4『线路6』
 #EXTINF:-1 tvg-id="1" tvg-name="凤凰香港" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰香港.png" group-title="港·澳·台",凤凰香港
 https://hk.188766.xyz/?migutoken=61a9f8aa1740e6a0af7d9c1aa7c7d9ea&id=fhhk&pp=1$LR•IPV4『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="凤凰香港" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰香港.png" group-title="港·澳·台",凤凰香港
 https://hk.188766.xyz/?migutoken=4087e4c220d8904b3557932c9a105995&id=hk_fhhk&type=dy$LR•IPV4『线路2』
 #EXTINF:-1 tvg-id="3" tvg-name="凤凰香港" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰香港.png" group-title="港·澳·台",凤凰香港
-http://45.192.97.170:8880/play/72.m3u8$LR•IPV4『线路3』
+http://45.192.97.170:8880/play/68.m3u8$LR•IPV4『线路3』
 #EXTINF:-1 tvg-id="4" tvg-name="凤凰香港" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰香港.png" group-title="港·澳·台",凤凰香港
 http://bobohome.ignorelist.com:20247/fengshows?id=3.m3u8$LR•IPV4『线路4』
 #EXTINF:-1 tvg-id="5" tvg-name="凤凰香港" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/凤凰香港.png" group-title="港·澳·台",凤凰香港
@@ -549,6 +549,8 @@ http://45.192.97.170:8880/play/69.m3u8$LR•IPV4『线路1』
 http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8$LR•IPV4『线路2』
 #EXTINF:-1 tvg-id="3" tvg-name="香港卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/香港卫视.png" group-title="港·澳·台",香港卫视
 http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8$LR•IPV4『线路3』
+#EXTINF:-1 tvg-id="4" tvg-name="香港卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/香港卫视.png" group-title="港·澳·台",香港卫视
+https://hkstv.tv/api/m3u8-proxy?url=http%3A%2F%2Fwebcast.hkstv.tv%2Flivestream%2Fmutfysrq%2Fplaylist.m3u8$LR•IPV4『线路4』
 #EXTINF:-1 tvg-id="1" tvg-name="TVBS新闻" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/TVBS新闻.png" group-title="港·澳·台",TVBS新闻
 https://d2jc41c1shgcol.cloudfront.net/live/tvbsnewsqt/playlist.m3u8$LR•IPV4『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="TVBS新闻" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/TVBS新闻.png" group-title="港·澳·台",TVBS新闻
