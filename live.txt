@@ -276,7 +276,6 @@ CCTV15,http://t.061899.xyz/tl/tl.php?id=cctv15$LR•IPV4『线路6』
 香港卫视,http://45.192.97.170:8880/play/69.m3u8$LR•IPV4『线路1』
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8$LR•IPV4『线路2』
 香港卫视,http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8$LR•IPV4『线路3』
-香港卫视,https://hkstv.tv/api/m3u8-proxy?url=http%3A%2F%2Fwebcast.hkstv.tv%2Flivestream%2Fmutfysrq%2Fplaylist.m3u8$LR•IPV4『线路4』
 TVBS新闻,https://d2jc41c1shgcol.cloudfront.net/live/tvbsnewsqt/playlist.m3u8$LR•IPV4『线路1』
 TVBS新闻,http://iptv.4666888.xyz/iptv2A.php?id=43$LR•IPV4『线路2』
 影视频道,#genre#
