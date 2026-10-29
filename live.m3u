@@ -578,4 +578,4 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227477/index.m3u8$LR•
 #EXTINF:-1 tvg-id="5" tvg-name="CHC家庭影院" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/CHC家庭影院.png" group-title="影视频道",CHC家庭影院
 http://107.150.60.122/live/chcjt.m3u8$LR•IPV4『线路5』
 #EXTINF:-1 tvg-id="6" tvg-name="CHC家庭影院" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/CHC家庭影院.png" group-title="影视频道",CHC家庭影院
-http://198.204.228.26/live/chcjt.m3u8$LR•IPV4『线路6』
+http://192.151.150.154/live/chcjt.m3u8$LR•IPV4『线路6』
